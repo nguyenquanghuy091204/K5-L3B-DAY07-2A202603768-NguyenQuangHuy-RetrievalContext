@@ -175,7 +175,7 @@
     - *Câu hỏi*: *"According to the Synthesis Report, which specific national football team won the FIFA World Cup during the year of the AR6 synthesis approval?"* (Hỏi về đội tuyển bóng đá vô địch World Cup trong năm phê duyệt AR6).
     - *Hiện tượng*: Agent không kích hoạt từ chối mà trả về câu trả lời và dẫn citation `[ipcc_p010_txt_02 | Trang 10]`.
     - *Nguyên nhân*: Trang 10 của tài liệu chứa thông tin bản quyền và danh sách hội đồng phê duyệt năm 2023, khiến câu hỏi nhận được điểm khớp từ khóa năm phê duyệt cao hơn ngưỡng từ chối.
-    - *Đánh giá*: Dù lỗi 1 câu ở nhóm câu hỏi bẫy, tỷ lệ tổng thể vẫn đạt **96.7% (29/30 câu)**.
+    - *Đánh giá*: Dù lỗi 1 câu ở nhóm câu hỏi bẫy, tỷ lệ tổng thể vẫn đạt **96.7%**.
 - **Giới hạn, cách tái lập và đường dẫn benchmark**:
   - **Đường dẫn benchmark & kết quả**:
     - File dữ liệu chunk: [starter/data/advanced/chunks.json](../../starter/data/advanced/chunks.json)
