@@ -1,7 +1,5 @@
 # Báo cáo Day 7
 
-- **Họ và tên**: Nguyễn Quang Huy · **MSSV**: `2A202603768` · **Lớp**: `K5-L3B`
-
 ## Dữ liệu và benchmark
 
 - **Nguồn, quyền sử dụng, số trang và số chunk**:
