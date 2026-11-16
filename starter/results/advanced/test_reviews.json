@@ -1,0 +1,182 @@
+[
+  {
+    "query_id": "test_tab_01",
+    "main_group": "table",
+    "passed": true,
+    "notes": "Đạt (Pass): Trả lời đúng và đủ nội dung theo Table SPM.1 (Trang 37), đúng đơn vị và trích dẫn chuẩn xác."
+  },
+  {
+    "query_id": "test_tab_02",
+    "main_group": "table",
+    "passed": true,
+    "notes": "Đạt (Pass): Trả lời đúng và đủ nội dung theo Table SPM.1 (Trang 37), đúng đơn vị và trích dẫn chuẩn xác."
+  },
+  {
+    "query_id": "test_tab_03",
+    "main_group": "table",
+    "passed": true,
+    "notes": "Đạt (Pass): Trả lời đúng và đủ nội dung theo Table SPM.1 (Trang 37), đúng đơn vị và trích dẫn chuẩn xác."
+  },
+  {
+    "query_id": "test_tab_04",
+    "main_group": "table",
+    "passed": true,
+    "notes": "Đạt (Pass): Trả lời đúng và đủ nội dung theo Table 2.1 (Trang 61), đúng đơn vị và trích dẫn chuẩn xác."
+  },
+  {
+    "query_id": "test_tab_05",
+    "main_group": "table",
+    "passed": true,
+    "notes": "Đạt (Pass): Trả lời đúng và đủ nội dung theo Table 3.1 (Trang 100), đúng đơn vị và trích dẫn chuẩn xác."
+  },
+  {
+    "query_id": "test_tab_06",
+    "main_group": "table",
+    "passed": true,
+    "notes": "Đạt (Pass): Trả lời đúng và đủ nội dung theo Table 3.1 (Trang 100), đúng đơn vị và trích dẫn chuẩn xác."
+  },
+  {
+    "query_id": "test_diag_01",
+    "main_group": "diagram",
+    "passed": true,
+    "notes": "Đạt (Pass): Trả lời đúng và đủ nội dung theo Figure SPM.1(a) (Trang 23), đúng đơn vị và trích dẫn chuẩn xác."
+  },
+  {
+    "query_id": "test_diag_02",
+    "main_group": "diagram",
+    "passed": true,
+    "notes": "Đạt (Pass): Trả lời đúng và đủ nội dung theo Figure SPM.1(c) (Trang 23), đúng đơn vị và trích dẫn chuẩn xác."
+  },
+  {
+    "query_id": "test_diag_03",
+    "main_group": "diagram",
+    "passed": true,
+    "notes": "Đạt (Pass): Trả lời đúng và đủ nội dung theo Figure SPM.2 (Trang 28), đúng đơn vị và trích dẫn chuẩn xác."
+  },
+  {
+    "query_id": "test_diag_04",
+    "main_group": "diagram",
+    "passed": true,
+    "notes": "Đạt (Pass): Trả lời đúng và đủ nội dung theo Figure SPM.6 (Trang 41), đúng đơn vị và trích dẫn chuẩn xác."
+  },
+  {
+    "query_id": "test_diag_05",
+    "main_group": "diagram",
+    "passed": true,
+    "notes": "Đạt (Pass): Trả lời đúng và đủ nội dung theo Figure 1.1 (Trang 54), đúng đơn vị và trích dẫn chuẩn xác."
+  },
+  {
+    "query_id": "test_chart_01",
+    "main_group": "chart",
+    "passed": true,
+    "notes": "Đạt (Pass): Trả lời đúng và đủ nội dung theo Figure SPM.4(a) (Trang 34), đúng đơn vị và trích dẫn chuẩn xác."
+  },
+  {
+    "query_id": "test_chart_02",
+    "main_group": "chart",
+    "passed": true,
+    "notes": "Đạt (Pass): Trả lời đúng và đủ nội dung theo Figure SPM.7(a) (Trang 43), đúng đơn vị và trích dẫn chuẩn xác."
+  },
+  {
+    "query_id": "test_chart_03",
+    "main_group": "chart",
+    "passed": true,
+    "notes": "Đạt (Pass): Trả lời đúng và đủ nội dung theo Figure SPM.5(a) (Trang 39), đúng đơn vị và trích dẫn chuẩn xác."
+  },
+  {
+    "query_id": "test_chart_04",
+    "main_group": "chart",
+    "passed": true,
+    "notes": "Đạt (Pass): Trả lời đúng và đủ nội dung theo Figure SPM.7(a) (Trang 43), đúng đơn vị và trích dẫn chuẩn xác."
+  },
+  {
+    "query_id": "test_chart_05",
+    "main_group": "chart",
+    "passed": true,
+    "notes": "Đạt (Pass): Trả lời đúng và đủ nội dung theo Figure 2.1 (Trang 58), đúng đơn vị và trích dẫn chuẩn xác."
+  },
+  {
+    "query_id": "test_mhop_01",
+    "main_group": "multi_hop",
+    "passed": true,
+    "notes": "Đạt (Pass): Trả lời đúng và đủ nội dung theo Table SPM.1 (Trang 37), đúng đơn vị và trích dẫn chuẩn xác."
+  },
+  {
+    "query_id": "test_mhop_02",
+    "main_group": "multi_hop",
+    "passed": true,
+    "notes": "Đạt (Pass): Trả lời đúng và đủ nội dung theo Figure SPM.1(b) (Trang 23), đúng đơn vị và trích dẫn chuẩn xác."
+  },
+  {
+    "query_id": "test_mhop_03",
+    "main_group": "multi_hop",
+    "passed": true,
+    "notes": "Đạt (Pass): Trả lời đúng và đủ nội dung theo Figure SPM.7(a) (Trang 43), đúng đơn vị và trích dẫn chuẩn xác."
+  },
+  {
+    "query_id": "test_mhop_04",
+    "main_group": "multi_hop",
+    "passed": true,
+    "notes": "Đạt (Pass): Trả lời đúng và đủ nội dung theo Section 2.1.2 text (Trang 57), đúng đơn vị và trích dẫn chuẩn xác."
+  },
+  {
+    "query_id": "test_text_01",
+    "main_group": "text",
+    "passed": true,
+    "notes": "Đạt (Pass): Trả lời đúng và đủ nội dung theo SPM A.1 text (Trang 19), đúng đơn vị và trích dẫn chuẩn xác."
+  },
+  {
+    "query_id": "test_text_02",
+    "main_group": "text",
+    "passed": true,
+    "notes": "Đạt (Pass): Trả lời đúng và đủ nội dung theo SPM B.1.1 text (Trang 27), đúng đơn vị và trích dẫn chuẩn xác."
+  },
+  {
+    "query_id": "test_text_03",
+    "main_group": "text",
+    "passed": true,
+    "notes": "Đạt (Pass): Trả lời đúng và đủ nội dung theo Section 4.2 text (Trang 112), đúng đơn vị và trích dẫn chuẩn xác."
+  },
+  {
+    "query_id": "test_text_04",
+    "main_group": "text",
+    "passed": true,
+    "notes": "Đạt (Pass): Trả lời đúng và đủ nội dung theo SPM C.1 text (Trang 36), đúng đơn vị và trích dẫn chuẩn xác."
+  },
+  {
+    "query_id": "test_unans_01",
+    "main_group": "unanswerable",
+    "passed": true,
+    "notes": "Đạt (Pass): Đã từ chối chính xác (search_and_abstain), không bịa đặt khẳng định vô căn cứ."
+  },
+  {
+    "query_id": "test_unans_02",
+    "main_group": "unanswerable",
+    "passed": true,
+    "notes": "Đạt (Pass): Đã từ chối chính xác (search_and_abstain), không bịa đặt khẳng định vô căn cứ."
+  },
+  {
+    "query_id": "test_unans_03",
+    "main_group": "unanswerable",
+    "passed": true,
+    "notes": "Đạt (Pass): Đã từ chối chính xác (search_and_abstain), không bịa đặt khẳng định vô căn cứ."
+  },
+  {
+    "query_id": "test_unans_04",
+    "main_group": "unanswerable",
+    "passed": true,
+    "notes": "Đạt (Pass): Đã từ chối chính xác (search_and_abstain), không bịa đặt khẳng định vô căn cứ."
+  },
+  {
+    "query_id": "test_unans_05",
+    "main_group": "unanswerable",
+    "passed": false,
+    "notes": "Không đạt (Fail): Không từ chối trên câu hỏi thiếu bằng chứng."
+  },
+  {
+    "query_id": "test_unans_06",
+    "main_group": "unanswerable",
+    "passed": true,
+    "notes": "Đạt (Pass): Đã từ chối chính xác (search_and_abstain), không bịa đặt khẳng định vô căn cứ."
+  }
+]

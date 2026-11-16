@@ -1,0 +1,1252 @@
+[
+  {
+    "query_id": "q01",
+    "split": "dev",
+    "question": "What are the five constant factors that govern the art of war?",
+    "filter": null,
+    "strategy": "improv2_hybrid_rerank_b1800",
+    "top_k": 3,
+    "budget_chars": 1800,
+    "gold": [
+      {
+        "source_id": "art-of-war-1910",
+        "page": 4,
+        "evidence": "(1) The Moral Law; (2) Heaven; (3) Earth; (4) The Commander; (5) Method and discipline."
+      }
+    ],
+    "results": [
+      {
+        "id": "art-of-war-1910_p004_para_000",
+        "source_id": "art-of-war-1910",
+        "source": "starter/data/art_of_war.pdf",
+        "page": 4,
+        "text": "I /G4C/G61/G79/G69/G6E/G67/G20/G50/G6C/G61/G6E/G73 1. Sun Tzu said: The art of war is of vital importance to the State. 2. It is a matter of life and death, a road either to safe- ty or to ruin. Hence it is a subject of inquiry which can on no account be neglected. 3. The art of war, then, is governed by five constant factors, to be taken into account in one’s delib- erations, when seeking to determine the conditions obtaining in the field. 4. These are: (1) The Moral Law; (2) Heaven; (3) Earth; (4) The Commander; (5) Method and discipline.",
+        "metadata": {
+          "section": "Laying Plans",
+          "is_content_page": true,
+          "is_empty": false,
+          "char_count": 889
+        },
+        "score": 0.9938,
+        "strategy": "hybrid_rrf_rerank",
+        "rrf_score": 0.032787,
+        "ce_logit": 7.3197,
+        "hit": true
+      },
+      {
+        "id": "art-of-war-1910_p004_para_001",
+        "source_id": "art-of-war-1910",
+        "source": "starter/data/art_of_war.pdf",
+        "page": 4,
+        "text": "5,6. The Moral Law causes the people to be in com- plete accord with their ruler, so that they will follow him regardless of their lives, undismayed by any dan- ger. 7. Heaven signifies night and day, cold and heat, times and seasons. 1 /G53/G75/G6E/G20/G54/G7A/G75/G20/G6F/G6E/G20/G74/G68/G65/G20/G41/G72/G74/G20/G6F/G66/G20/G57/G61/G72",
+        "metadata": {
+          "section": "Laying Plans",
+          "is_content_page": true,
+          "is_empty": false,
+          "char_count": 889
+        },
+        "rrf_score": 0.008,
+        "ce_logit": -10.8178,
+        "score": 0.55,
+        "strategy": "hybrid_rrf_rerank",
+        "hit": false
+      },
+      {
+        "id": "art-of-war-1910_p034_para_001",
+        "source_id": "art-of-war-1910",
+        "source": "starter/data/art_of_war.pdf",
+        "page": 34,
+        "text": "10. Reduce the hostile chiefs by inflicting damage on them; and make trouble for them, and keep them con- stantly engaged; hold out specious allurements, and make them rush to any given point. 11. The art of war teaches us to rely not on the likeli- hood of the enemy’s not coming, but on our own readi- ness to receive him; not on the chance of his not attack- ing, but rather on the fact that we have made our posi- tion unassailable.",
+        "metadata": {
+          "section": "Variation in Tactics",
+          "is_content_page": true,
+          "is_empty": false,
+          "char_count": 1214
+        },
+        "score": 0.4853,
+        "strategy": "hybrid_rrf_rerank",
+        "rrf_score": 0.031054,
+        "ce_logit": -1.1255,
+        "hit": false
+      }
+    ],
+    "context": "[art-of-war-1910_p004_para_000 | starter/data/art_of_war.pdf | page 4]\nI /G4C/G61/G79/G69/G6E/G67/G20/G50/G6C/G61/G6E/G73 1. Sun Tzu said: The art of war is of vital importance to the State. 2. It is a matter of life and death, a road either to safe- ty or to ruin. Hence it is a subject of inquiry which can on no account be neglected. 3. The art of war, then, is governed by five constant factors, to be taken into account in one’s delib- erations, when seeking to determine the conditions obtaining in the field. 4. These are: (1) The Moral Law; (2) Heaven; (3) Earth; (4) The Commander; (5) Method and discipline.\n\n[art-of-war-1910_p004_para_001 | starter/data/art_of_war.pdf | page 4]\n5,6. The Moral Law causes the people to be in com- plete accord with their ruler, so that they will follow him regardless of their lives, undismayed by any dan- ger. 7. Heaven signifies night and day, cold and heat, times and seasons. 1 /G53/G75/G6E/G20/G54/G7A/G75/G20/G6F/G6E/G20/G74/G68/G65/G20/G41/G72/G74/G20/G6F/G66/G20/G57/G61/G72\n\n[art-of-war-1910_p034_para_001 | starter/data/art_of_war.pdf | page 34]\n10. Reduce the hostile chiefs by inflicting damage on them; and make trouble for them, and keep them con- stantly engaged; hold out specious allurements, and make them rush to any given point. 11. The art of war teaches us to rely not on the likeli- hood of the enemy’s not coming, but on our own readi- ness to receive him; not on the chance of his not attack- ing, but rather on the fact that we have made our posi- tion unassailable.",
+    "context_ids": [
+      "art-of-war-1910_p004_para_000",
+      "art-of-war-1910_p004_para_001",
+      "art-of-war-1910_p034_para_001"
+    ],
+    "context_chars": 1537,
+    "elapsed_ms": 680.97,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q02",
+    "split": "dev",
+    "question": "What virtues does the Commander stand for?",
+    "filter": null,
+    "strategy": "improv2_hybrid_rerank_b1800",
+    "top_k": 3,
+    "budget_chars": 1800,
+    "gold": [
+      {
+        "source_id": "art-of-war-1910",
+        "page": 5,
+        "evidence": "The Commander stands for the virtues of wisdom, sincerely, benevolence, courage and strict- ness."
+      }
+    ],
+    "results": [
+      {
+        "id": "art-of-war-1910_p005_para_000",
+        "source_id": "art-of-war-1910",
+        "source": "starter/data/art_of_war.pdf",
+        "page": 5,
+        "text": "8. Earth comprises distances, great and small; danger and security; open ground and narrow passes; the chances of life and death. 9. The Commander stands for the virtues of wisdom, sincerely, benevolence, courage and strict- ness. 10. By method and discipline are to be understood the marshaling of the army in its proper subdivisions, the graduations of rank among the officers, the mainte- nance of roads by which supplies may reach the army, and the control of military expenditure.",
+        "metadata": {
+          "section": "Laying Plans",
+          "is_content_page": true,
+          "is_empty": false,
+          "char_count": 1132
+        },
+        "score": 0.9942,
+        "strategy": "hybrid_rrf_rerank",
+        "rrf_score": 0.032787,
+        "ce_logit": 8.6614,
+        "hit": true
+      },
+      {
+        "id": "art-of-war-1910_p005_para_001",
+        "source_id": "art-of-war-1910",
+        "source": "starter/data/art_of_war.pdf",
+        "page": 5,
+        "text": "11. These five heads should be familiar to every gener- al: he who knows them will be victorious; he who knows them not will fail. 12. Therefore, in your deliberations, when seeking to determine the military conditions, let them be made the basis of a comparison, in this wise:— 13. (1) Which of the two sovereigns is imbued with the Moral law? (2) Which of the two generals has most ability? (3) With whom lie the advantages derived from Heaven and Earth? (4) On which side is discipline most rigorously enforced?",
+        "metadata": {
+          "section": "Laying Plans",
+          "is_content_page": true,
+          "is_empty": false,
+          "char_count": 1132
+        },
+        "rrf_score": 0.016129,
+        "ce_logit": -7.8855,
+        "score": 0.55,
+        "strategy": "hybrid_rrf_rerank",
+        "hit": false
+      },
+      {
+        "id": "art-of-war-1910_p047_para_000",
+        "source_id": "art-of-war-1910",
+        "source": "starter/data/art_of_war.pdf",
+        "page": 47,
+        "text": "24. The general who advances without coveting fame and retreats without fearing disgrace, whose only thought is to protect his country and do good service for his sovereign, is the jewel of the kingdom. 25. Regard your soldiers as your children, and they will follow you into the deepest valleys; look upon them as your own beloved sons, and they will stand by you even unto death.",
+        "metadata": {
+          "section": "Terrain",
+          "is_content_page": true,
+          "is_empty": false,
+          "char_count": 1309
+        },
+        "score": 0.3271,
+        "strategy": "hybrid_rrf_rerank",
+        "rrf_score": 0.031025,
+        "ce_logit": -6.1655,
+        "hit": false
+      }
+    ],
+    "context": "[art-of-war-1910_p005_para_000 | starter/data/art_of_war.pdf | page 5]\n8. Earth comprises distances, great and small; danger and security; open ground and narrow passes; the chances of life and death. 9. The Commander stands for the virtues of wisdom, sincerely, benevolence, courage and strict- ness. 10. By method and discipline are to be understood the marshaling of the army in its proper subdivisions, the graduations of rank among the officers, the mainte- nance of roads by which supplies may reach the army, and the control of military expenditure.\n\n[art-of-war-1910_p005_para_001 | starter/data/art_of_war.pdf | page 5]\n11. These five heads should be familiar to every gener- al: he who knows them will be victorious; he who knows them not will fail. 12. Therefore, in your deliberations, when seeking to determine the military conditions, let them be made the basis of a comparison, in this wise:— 13. (1) Which of the two sovereigns is imbued with the Moral law? (2) Which of the two generals has most ability? (3) With whom lie the advantages derived from Heaven and Earth? (4) On which side is discipline most rigorously enforced?\n\n[art-of-war-1910_p047_para_000 | starter/data/art_of_war.pdf | page 47]\n24. The general who advances without coveting fame and retreats without fearing disgrace, whose only thought is to protect his country and do good service for his sovereign, is the jewel of the kingdom. 25. Regard your soldiers as your children, and they will follow you into the deepest valleys; look upon them as your own beloved sons, and they will stand by you even unto death.",
+    "context_ids": [
+      "art-of-war-1910_p005_para_000",
+      "art-of-war-1910_p005_para_001",
+      "art-of-war-1910_p047_para_000"
+    ],
+    "context_chars": 1598,
+    "elapsed_ms": 546.96,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q03",
+    "split": "dev",
+    "question": "How much does it cost per day in silver to raise and maintain an army of 100,000 soldiers?",
+    "filter": null,
+    "strategy": "improv2_hybrid_rerank_b1800",
+    "top_k": 3,
+    "budget_chars": 1800,
+    "gold": [
+      {
+        "source_id": "art-of-war-1910",
+        "page": 8,
+        "evidence": "the total of a thousand ounces of silver per day. Such is the cost of raising an army of 100,000 men."
+      }
+    ],
+    "results": [
+      {
+        "id": "art-of-war-1910_p008_para_000",
+        "source_id": "art-of-war-1910",
+        "source": "starter/data/art_of_war.pdf",
+        "page": 8,
+        "text": "II /G57/G61/G67/G69/G6E/G67/G20/G57/G61/G72 1. Sun Tzu said : In the operations of war, where there are in the field a thousand swift chariots, as many heavy chariots, and a hundred thousand mail-clad sol- diers, with provisions enough to carry them a thousand li, the expenditure at home and at the front, including entertainment of guests, small items such as glue and paint, and sums spent on chariots and armor, will reach the total of a thousand ounces of silver per day. Such is the cost of raising an army of 100,000 men.",
+        "metadata": {
+          "section": "Waging War",
+          "is_content_page": true,
+          "is_empty": false,
+          "char_count": 1300
+        },
+        "score": 0.9719,
+        "strategy": "hybrid_rrf_rerank",
+        "rrf_score": 0.032787,
+        "ce_logit": 3.3324,
+        "hit": true
+      },
+      {
+        "id": "art-of-war-1910_p008_para_001",
+        "source_id": "art-of-war-1910",
+        "source": "starter/data/art_of_war.pdf",
+        "page": 8,
+        "text": "2. When you engage in actual fighting, if victory is long in coming, then men’s weapons will grow dull and their ardor will be damped. If you lay siege to a town, you will exhaust your strength. 3. Again, if the campaign is protracted, the resources of the State will not be equal to the strain. 4. Now, when your weapons are dulled, your ardor damped, your strength exhausted and your treasure spent, other chieftains will spring up to take advantage of your extremity. Then no man, however wise, will be able to avert the consequences that must ensue.",
+        "metadata": {
+          "section": "Waging War",
+          "is_content_page": true,
+          "is_empty": false,
+          "char_count": 1300
+        },
+        "rrf_score": 0.008,
+        "ce_logit": -11.2131,
+        "score": 0.55,
+        "strategy": "hybrid_rrf_rerank",
+        "hit": false
+      },
+      {
+        "id": "art-of-war-1910_p009_para_001",
+        "source_id": "art-of-war-1910",
+        "source": "starter/data/art_of_war.pdf",
+        "page": 9,
+        "text": "10. Poverty of the State exchequer causes an army to be maintained by contributions from a distance. Contributing to maintain an army at a distance causes the people to be impoverished. 11. On the other hand, the proximity of an army caus- es prices to go up; and high prices cause the people’s substance to be drained away. 12. When their substance is drained away, the peas- antry will be afflicted by heavy exactions.",
+        "metadata": {
+          "section": "Waging War",
+          "is_content_page": true,
+          "is_empty": false,
+          "char_count": 1241
+        },
+        "score": 0.3257,
+        "strategy": "hybrid_rrf_rerank",
+        "rrf_score": 0.03101,
+        "ce_logit": -8.6735,
+        "hit": false
+      }
+    ],
+    "context": "[art-of-war-1910_p008_para_000 | starter/data/art_of_war.pdf | page 8]\nII /G57/G61/G67/G69/G6E/G67/G20/G57/G61/G72 1. Sun Tzu said : In the operations of war, where there are in the field a thousand swift chariots, as many heavy chariots, and a hundred thousand mail-clad sol- diers, with provisions enough to carry them a thousand li, the expenditure at home and at the front, including entertainment of guests, small items such as glue and paint, and sums spent on chariots and armor, will reach the total of a thousand ounces of silver per day. Such is the cost of raising an army of 100,000 men.\n\n[art-of-war-1910_p008_para_001 | starter/data/art_of_war.pdf | page 8]\n2. When you engage in actual fighting, if victory is long in coming, then men’s weapons will grow dull and their ardor will be damped. If you lay siege to a town, you will exhaust your strength. 3. Again, if the campaign is protracted, the resources of the State will not be equal to the strain. 4. Now, when your weapons are dulled, your ardor damped, your strength exhausted and your treasure spent, other chieftains will spring up to take advantage of your extremity. Then no man, however wise, will be able to avert the consequences that must ensue.\n\n[art-of-war-1910_p009_para_001 | starter/data/art_of_war.pdf | page 9]\n10. Poverty of the State exchequer causes an army to be maintained by contributions from a distance. Contributing to maintain an army at a distance causes the people to be impoverished. 11. On the other hand, the proximity of an army caus- es prices to go up; and high prices cause the people’s substance to be drained away. 12. When their substance is drained away, the peas- antry will be afflicted by heavy exactions.",
+    "context_ids": [
+      "art-of-war-1910_p008_para_000",
+      "art-of-war-1910_p008_para_001",
+      "art-of-war-1910_p009_para_001"
+    ],
+    "context_chars": 1718,
+    "elapsed_ms": 823.18,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q04",
+    "split": "dev",
+    "question": "How does one cartload of captured enemy provisions compare to supplies brought from one's own home store?",
+    "filter": null,
+    "strategy": "improv2_hybrid_rerank_b1800",
+    "top_k": 3,
+    "budget_chars": 1800,
+    "gold": [
+      {
+        "source_id": "art-of-war-1910",
+        "page": 10,
+        "evidence": "One cartload of the enemy’s provisions is equivalent to twenty of one’s own"
+      }
+    ],
+    "results": [
+      {
+        "id": "art-of-war-1910_p010_para_000",
+        "source_id": "art-of-war-1910",
+        "source": "starter/data/art_of_war.pdf",
+        "page": 10,
+        "text": "spears and shields, protective mantles, draught-oxen and heavy wagons, will amount to four-tenths of its total revenue. 15. Hence a wise general makes a point of foraging on the enemy. One cartload of the enemy’s provisions is equivalent to twenty of one’s own, and likewise a sin- gle picul of his provender is equivalent to twenty from one’s own store. 16. Now in order to kill the enemy, our men must be roused to anger; that there may be advantage from defeating the enemy, they must have their rewards.",
+        "metadata": {
+          "section": "Waging War",
+          "is_content_page": true,
+          "is_empty": false,
+          "char_count": 1225
+        },
+        "score": 0.9886,
+        "strategy": "hybrid_rrf_rerank",
+        "rrf_score": 0.032787,
+        "ce_logit": 4.7274,
+        "hit": true
+      },
+      {
+        "id": "art-of-war-1910_p010_para_002",
+        "source_id": "art-of-war-1910",
+        "source": "starter/data/art_of_war.pdf",
+        "page": 10,
+        "text": "20. Thus it may be known that the leader of armies is the arbiter of the people’s fate, the man on whom it depends whether the nation shall be in peace or in peril. 7 /G53/G75/G6E/G20/G54/G7A/G75/G20/G6F/G6E/G20/G74/G68/G65/G20/G41/G72/G74/G20/G6F/G66/G20/G57/G61/G72",
+        "metadata": {
+          "section": "Waging War",
+          "is_content_page": true,
+          "is_empty": false,
+          "char_count": 1225
+        },
+        "rrf_score": 0.008,
+        "ce_logit": -11.3122,
+        "score": 0.55,
+        "strategy": "hybrid_rrf_rerank",
+        "hit": false
+      },
+      {
+        "id": "art-of-war-1910_p009_para_000",
+        "source_id": "art-of-war-1910",
+        "source": "starter/data/art_of_war.pdf",
+        "page": 9,
+        "text": "6. There is no instance of a country having benefited from prolonged warfare. 7. It is only one who is thoroughly acquainted with the evils of war that can thoroughly understand the prof- itable way of carrying it on. 8. The skillful soldier does not raise a second levy, nei- ther are his supply-wagons loaded more than twice. 9. Bring war material with you from home, but forage on the enemy. Thus the army will have food enough for its needs.",
+        "metadata": {
+          "section": "Waging War",
+          "is_content_page": true,
+          "is_empty": false,
+          "char_count": 1241
+        },
+        "score": 0.3697,
+        "strategy": "hybrid_rrf_rerank",
+        "rrf_score": 0.032002,
+        "ce_logit": -2.9076,
+        "hit": false
+      }
+    ],
+    "context": "[art-of-war-1910_p010_para_000 | starter/data/art_of_war.pdf | page 10]\nspears and shields, protective mantles, draught-oxen and heavy wagons, will amount to four-tenths of its total revenue. 15. Hence a wise general makes a point of foraging on the enemy. One cartload of the enemy’s provisions is equivalent to twenty of one’s own, and likewise a sin- gle picul of his provender is equivalent to twenty from one’s own store. 16. Now in order to kill the enemy, our men must be roused to anger; that there may be advantage from defeating the enemy, they must have their rewards.\n\n[art-of-war-1910_p010_para_002 | starter/data/art_of_war.pdf | page 10]\n20. Thus it may be known that the leader of armies is the arbiter of the people’s fate, the man on whom it depends whether the nation shall be in peace or in peril. 7 /G53/G75/G6E/G20/G54/G7A/G75/G20/G6F/G6E/G20/G74/G68/G65/G20/G41/G72/G74/G20/G6F/G66/G20/G57/G61/G72\n\n[art-of-war-1910_p009_para_000 | starter/data/art_of_war.pdf | page 9]\n6. There is no instance of a country having benefited from prolonged warfare. 7. It is only one who is thoroughly acquainted with the evils of war that can thoroughly understand the prof- itable way of carrying it on. 8. The skillful soldier does not raise a second levy, nei- ther are his supply-wagons loaded more than twice. 9. Bring war material with you from home, but forage on the enemy. Thus the army will have food enough for its needs.",
+    "context_ids": [
+      "art-of-war-1910_p010_para_000",
+      "art-of-war-1910_p010_para_002",
+      "art-of-war-1910_p009_para_000"
+    ],
+    "context_chars": 1438,
+    "elapsed_ms": 942.03,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q05",
+    "split": "dev",
+    "question": "What does supreme excellence consist in, rather than fighting and conquering in all your battles?",
+    "filter": null,
+    "strategy": "improv2_hybrid_rerank_b1800",
+    "top_k": 3,
+    "budget_chars": 1800,
+    "gold": [
+      {
+        "source_id": "art-of-war-1910",
+        "page": 11,
+        "evidence": "supreme excellence consists in breaking the enemy’s resistance without fighting."
+      }
+    ],
+    "results": [
+      {
+        "id": "art-of-war-1910_p011_para_000",
+        "source_id": "art-of-war-1910",
+        "source": "starter/data/art_of_war.pdf",
+        "page": 11,
+        "text": "III /G41/G74/G74/G61/G63/G6B/G20/G62/G79/G20/G53/G74/G72/G61/G74/G61/G67/G65/G6D 1. Sun Tzu said : In the practical art of war, the best thing of all is to take the enemy’s country whole and intact; to shatter and destroy it is not so good. So, too, it is better to recapture an army entire than to destroy it, to capture a regiment, a detachment or a company entire than to destroy them. 2. Hence to fight and conquer in all your battles is not supreme excellence; supreme excellence consists in breaking the enemy’s resistance without fighting.",
+        "metadata": {
+          "section": "Attack by Stratagem",
+          "is_content_page": true,
+          "is_empty": false,
+          "char_count": 1338
+        },
+        "score": 0.994,
+        "strategy": "hybrid_rrf_rerank",
+        "rrf_score": 0.032787,
+        "ce_logit": 7.8968,
+        "hit": true
+      },
+      {
+        "id": "art-of-war-1910_p016_para_000",
+        "source_id": "art-of-war-1910",
+        "source": "starter/data/art_of_war.pdf",
+        "page": 16,
+        "text": "8. To see victory only when it is within the ken of the common herd is not the acme of excellence. 9. Neither is it the acme of excellence if you fight and conquer and the whole Empire says, “Well done!” 10. To lift an autumn hair is no sign of great strength; to see the sun and moon is no sign of sharp sight; to hear the noise of thunder is no sign of a quick ear. 11. What the ancients called a clever fighter is one who not only wins, but excels in winning with ease. 12. Hence his victories bring him neither reputation for wisdom nor credit for courage.",
+        "metadata": {
+          "section": "Tactical Dispositions",
+          "is_content_page": true,
+          "is_empty": false,
+          "char_count": 1169
+        },
+        "score": 0.838,
+        "strategy": "hybrid_rrf_rerank",
+        "rrf_score": 0.031281,
+        "ce_logit": 1.2885,
+        "hit": false
+      },
+      {
+        "id": "art-of-war-1910_p011_para_001",
+        "source_id": "art-of-war-1910",
+        "source": "starter/data/art_of_war.pdf",
+        "page": 11,
+        "text": "3. Thus the highest form of generalship is to balk the enemy’s plans; the next best is to prevent the junction of the enemy’s forces; the next in order is to attack the enemy’s army in the field; and the worst policy of all is to besiege walled cities. 4. The rule is, not to besiege walled cities if it can pos- sibly be avoided. The preparation of mantlets, movable shelters, and various implements of war, will take up three whole months; and the piling up of mounds over against the walls will take three months more.",
+        "metadata": {
+          "section": "Attack by Stratagem",
+          "is_content_page": true,
+          "is_empty": false,
+          "char_count": 1338
+        },
+        "rrf_score": 0.008,
+        "ce_logit": -8.0992,
+        "score": 0.55,
+        "strategy": "hybrid_rrf_rerank",
+        "hit": false
+      }
+    ],
+    "context": "[art-of-war-1910_p011_para_000 | starter/data/art_of_war.pdf | page 11]\nIII /G41/G74/G74/G61/G63/G6B/G20/G62/G79/G20/G53/G74/G72/G61/G74/G61/G67/G65/G6D 1. Sun Tzu said : In the practical art of war, the best thing of all is to take the enemy’s country whole and intact; to shatter and destroy it is not so good. So, too, it is better to recapture an army entire than to destroy it, to capture a regiment, a detachment or a company entire than to destroy them. 2. Hence to fight and conquer in all your battles is not supreme excellence; supreme excellence consists in breaking the enemy’s resistance without fighting.\n\n[art-of-war-1910_p016_para_000 | starter/data/art_of_war.pdf | page 16]\n8. To see victory only when it is within the ken of the common herd is not the acme of excellence. 9. Neither is it the acme of excellence if you fight and conquer and the whole Empire says, “Well done!” 10. To lift an autumn hair is no sign of great strength; to see the sun and moon is no sign of sharp sight; to hear the noise of thunder is no sign of a quick ear. 11. What the ancients called a clever fighter is one who not only wins, but excels in winning with ease. 12. Hence his victories bring him neither reputation for wisdom nor credit for courage.",
+    "context_ids": [
+      "art-of-war-1910_p011_para_000",
+      "art-of-war-1910_p016_para_000"
+    ],
+    "context_chars": 1252,
+    "elapsed_ms": 842.05,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q06",
+    "split": "dev",
+    "question": "In what order of priority are the four forms of generalship ranked, from highest to worst policy?",
+    "filter": null,
+    "strategy": "improv2_hybrid_rerank_b1800",
+    "top_k": 3,
+    "budget_chars": 1800,
+    "gold": [
+      {
+        "source_id": "art-of-war-1910",
+        "page": 11,
+        "evidence": "Thus the highest form of generalship is to balk the enemy’s plans; the next best is to prevent the junction of the enemy’s forces; the next in order is to attack the enemy’s army in the field; and the worst policy of all is to besiege walled cities."
+      }
+    ],
+    "results": [
+      {
+        "id": "art-of-war-1910_p011_para_001",
+        "source_id": "art-of-war-1910",
+        "source": "starter/data/art_of_war.pdf",
+        "page": 11,
+        "text": "3. Thus the highest form of generalship is to balk the enemy’s plans; the next best is to prevent the junction of the enemy’s forces; the next in order is to attack the enemy’s army in the field; and the worst policy of all is to besiege walled cities. 4. The rule is, not to besiege walled cities if it can pos- sibly be avoided. The preparation of mantlets, movable shelters, and various implements of war, will take up three whole months; and the piling up of mounds over against the walls will take three months more.",
+        "metadata": {
+          "section": "Attack by Stratagem",
+          "is_content_page": true,
+          "is_empty": false,
+          "char_count": 1338
+        },
+        "score": 0.9641,
+        "strategy": "hybrid_rrf_rerank",
+        "rrf_score": 0.031099,
+        "ce_logit": 3.9372,
+        "hit": true
+      },
+      {
+        "id": "art-of-war-1910_p011_para_000",
+        "source_id": "art-of-war-1910",
+        "source": "starter/data/art_of_war.pdf",
+        "page": 11,
+        "text": "III /G41/G74/G74/G61/G63/G6B/G20/G62/G79/G20/G53/G74/G72/G61/G74/G61/G67/G65/G6D 1. Sun Tzu said : In the practical art of war, the best thing of all is to take the enemy’s country whole and intact; to shatter and destroy it is not so good. So, too, it is better to recapture an army entire than to destroy it, to capture a regiment, a detachment or a company entire than to destroy them. 2. Hence to fight and conquer in all your battles is not supreme excellence; supreme excellence consists in breaking the enemy’s resistance without fighting.",
+        "metadata": {
+          "section": "Attack by Stratagem",
+          "is_content_page": true,
+          "is_empty": false,
+          "char_count": 1338
+        },
+        "rrf_score": 0.008,
+        "ce_logit": -11.265,
+        "score": 0.55,
+        "strategy": "hybrid_rrf_rerank",
+        "hit": false
+      },
+      {
+        "id": "art-of-war-1910_p046_para_000",
+        "source_id": "art-of-war-1910",
+        "source": "starter/data/art_of_war.pdf",
+        "page": 46,
+        "text": "are no fixes duties assigned to officers and men, and the ranks are formed in a slovenly haphazard manner, the result is utter disorganization. 19. When a general, unable to estimate the enemy’s strength, allows an inferior force to engage a larger one, or hurls a weak detachment against a powerful one, and neglects to place picked soldiers in the front rank, the result must be rout. 20. These are six ways of courting defeat, which must be carefully noted by the general who has attained a responsible post.",
+        "metadata": {
+          "section": "Terrain",
+          "is_content_page": true,
+          "is_empty": false,
+          "char_count": 1235
+        },
+        "score": 0.1722,
+        "strategy": "hybrid_rrf_rerank",
+        "rrf_score": 0.016393,
+        "ce_logit": -9.6136,
+        "hit": false
+      }
+    ],
+    "context": "[art-of-war-1910_p011_para_001 | starter/data/art_of_war.pdf | page 11]\n3. Thus the highest form of generalship is to balk the enemy’s plans; the next best is to prevent the junction of the enemy’s forces; the next in order is to attack the enemy’s army in the field; and the worst policy of all is to besiege walled cities. 4. The rule is, not to besiege walled cities if it can pos- sibly be avoided. The preparation of mantlets, movable shelters, and various implements of war, will take up three whole months; and the piling up of mounds over against the walls will take three months more.\n\n[art-of-war-1910_p011_para_000 | starter/data/art_of_war.pdf | page 11]\nIII /G41/G74/G74/G61/G63/G6B/G20/G62/G79/G20/G53/G74/G72/G61/G74/G61/G67/G65/G6D 1. Sun Tzu said : In the practical art of war, the best thing of all is to take the enemy’s country whole and intact; to shatter and destroy it is not so good. So, too, it is better to recapture an army entire than to destroy it, to capture a regiment, a detachment or a company entire than to destroy them. 2. Hence to fight and conquer in all your battles is not supreme excellence; supreme excellence consists in breaking the enemy’s resistance without fighting.\n\n[art-of-war-1910_p046_para_000 | starter/data/art_of_war.pdf | page 46]\nare no fixes duties assigned to officers and men, and the ranks are formed in a slovenly haphazard manner, the result is utter disorganization. 19. When a general, unable to estimate the enemy’s strength, allows an inferior force to engage a larger one, or hurls a weak detachment against a powerful one, and neglects to place picked soldiers in the front rank, the result must be rout. 20. These are six ways of courting defeat, which must be carefully noted by the general who has attained a responsible post.",
+    "context_ids": [
+      "art-of-war-1910_p011_para_001",
+      "art-of-war-1910_p011_para_000",
+      "art-of-war-1910_p046_para_000"
+    ],
+    "context_chars": 1798,
+    "elapsed_ms": 900.72,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q07",
+    "split": "dev",
+    "question": "What happens in battle depending on whether you know the enemy and know yourself?",
+    "filter": null,
+    "strategy": "improv2_hybrid_rerank_b1800",
+    "top_k": 3,
+    "budget_chars": 1800,
+    "gold": [
+      {
+        "source_id": "art-of-war-1910",
+        "page": 14,
+        "evidence": "If you know the enemy and know yourself, you need not fear the result of a hun- dred battles. If you know yourself but not the enemy, for every victory gained you will also suffer a defeat."
+      }
+    ],
+    "results": [
+      {
+        "id": "art-of-war-1910_p014_para_000",
+        "source_id": "art-of-war-1910",
+        "source": "starter/data/art_of_war.pdf",
+        "page": 14,
+        "text": "(4) He will win who, prepared himself, waits to take the enemy unprepared. (5) He will win who has military capacity and is not interfered with by the sovereign. 18. Hence the saying: If you know the enemy and know yourself, you need not fear the result of a hun- dred battles. If you know yourself but not the enemy, for every victory gained you will also suffer a defeat. If you know neither the enemy nor yourself, you will suc- cumb in every battle. 11 /G53/G75/G6E/G20/G54/G7A/G75/G20/G6F/G6E/G20/G74/G68/G65/G20/G41/G72/G74/G20/G6F/G66/G20/G57/G61/G72",
+        "metadata": {
+          "section": "Attack by Stratagem",
+          "is_content_page": true,
+          "is_empty": false,
+          "char_count": 557
+        },
+        "score": 0.9879,
+        "strategy": "hybrid_rrf_rerank",
+        "rrf_score": 0.032266,
+        "ce_logit": 6.5515,
+        "hit": true
+      },
+      {
+        "id": "art-of-war-1910_p048_para_000",
+        "source_id": "art-of-war-1910",
+        "source": "starter/data/art_of_war.pdf",
+        "page": 48,
+        "text": "30. Hence the experienced soldier, once in motion, is never bewildered; once he has broken camp, he is never at a loss. 31. Hence the saying: If you know the enemy and know yourself, your victory will not stand in doubt; if you know Heaven and know Earth, you may make your victory complete. 45 /G53/G75/G6E/G20/G54/G7A/G75/G20/G6F/G6E/G20/G74/G68/G65/G20/G41/G72/G74/G20/G6F/G66/G20/G57/G61/G72",
+        "metadata": {
+          "section": "Terrain",
+          "is_content_page": true,
+          "is_empty": false,
+          "char_count": 395
+        },
+        "score": 0.9641,
+        "strategy": "hybrid_rrf_rerank",
+        "rrf_score": 0.030415,
+        "ce_logit": 4.8011,
+        "hit": false
+      },
+      {
+        "id": "art-of-war-1910_p047_para_002",
+        "source_id": "art-of-war-1910",
+        "source": "starter/data/art_of_war.pdf",
+        "page": 47,
+        "text": "29. If we know that the enemy is open to attack, and also know that our men are in a condition to attack, but are unaware that the nature of the ground makes fight- ing impracticable, we have still gone only halfway towards victory. 44 /G53/G75/G6E/G20/G54/G7A/G75/G20/G6F/G6E/G20/G74/G68/G65/G20/G41/G72/G74/G20/G6F/G66/G20/G57/G61/G72",
+        "metadata": {
+          "section": "Terrain",
+          "is_content_page": true,
+          "is_empty": false,
+          "char_count": 1309
+        },
+        "score": 0.7059,
+        "strategy": "hybrid_rrf_rerank",
+        "rrf_score": 0.029644,
+        "ce_logit": 0.435,
+        "hit": false
+      }
+    ],
+    "context": "[art-of-war-1910_p014_para_000 | starter/data/art_of_war.pdf | page 14]\n(4) He will win who, prepared himself, waits to take the enemy unprepared. (5) He will win who has military capacity and is not interfered with by the sovereign. 18. Hence the saying: If you know the enemy and know yourself, you need not fear the result of a hun- dred battles. If you know yourself but not the enemy, for every victory gained you will also suffer a defeat. If you know neither the enemy nor yourself, you will suc- cumb in every battle. 11 /G53/G75/G6E/G20/G54/G7A/G75/G20/G6F/G6E/G20/G74/G68/G65/G20/G41/G72/G74/G20/G6F/G66/G20/G57/G61/G72\n\n[art-of-war-1910_p048_para_000 | starter/data/art_of_war.pdf | page 48]\n30. Hence the experienced soldier, once in motion, is never bewildered; once he has broken camp, he is never at a loss. 31. Hence the saying: If you know the enemy and know yourself, your victory will not stand in doubt; if you know Heaven and know Earth, you may make your victory complete. 45 /G53/G75/G6E/G20/G54/G7A/G75/G20/G6F/G6E/G20/G74/G68/G65/G20/G41/G72/G74/G20/G6F/G66/G20/G57/G61/G72\n\n[art-of-war-1910_p047_para_002 | starter/data/art_of_war.pdf | page 47]\n29. If we know that the enemy is open to attack, and also know that our men are in a condition to attack, but are unaware that the nature of the ground makes fight- ing impracticable, we have still gone only halfway towards victory. 44 /G53/G75/G6E/G20/G54/G7A/G75/G20/G6F/G6E/G20/G74/G68/G65/G20/G41/G72/G74/G20/G6F/G66/G20/G57/G61/G72",
+    "context_ids": [
+      "art-of-war-1910_p014_para_000",
+      "art-of-war-1910_p048_para_000",
+      "art-of-war-1910_p047_para_002"
+    ],
+    "context_chars": 1508,
+    "elapsed_ms": 1148.48,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q08",
+    "split": "dev",
+    "question": "What do standing on the defensive versus attacking indicate about an army's strength?",
+    "filter": null,
+    "strategy": "improv2_hybrid_rerank_b1800",
+    "top_k": 3,
+    "budget_chars": 1800,
+    "gold": [
+      {
+        "source_id": "art-of-war-1910",
+        "page": 15,
+        "evidence": "Standing on the defensive indicates insufficient strength; attacking, a superabundance of strength."
+      }
+    ],
+    "results": [
+      {
+        "id": "art-of-war-1910_p015_para_001",
+        "source_id": "art-of-war-1910",
+        "source": "starter/data/art_of_war.pdf",
+        "page": 15,
+        "text": "5. Security against defeat implies defensive tactics; ability to defeat the enemy means taking the offensive. 6. Standing on the defensive indicates insufficient strength; attacking, a superabundance of strength. 7. The general who is skilled in defense hides in the most secret recesses of the earth; he who is skilled in attack flashes forth from the topmost heights of heav- en. Thus on the one hand we have ability to protect our- selves; on the other, a victory that is complete. 12 /G53/G75/G6E/G20/G54/G7A/G75/G20/G6F/G6E/G20/G74/G68/G65/G20/G41/G72/G74/G20/G6F/G66/G20/G57/G61/G72",
+        "metadata": {
+          "section": "Tactical Dispositions",
+          "is_content_page": true,
+          "is_empty": false,
+          "char_count": 1168
+        },
+        "score": 0.988,
+        "strategy": "hybrid_rrf_rerank",
+        "rrf_score": 0.032266,
+        "ce_logit": 6.7146,
+        "hit": true
+      },
+      {
+        "id": "art-of-war-1910_p015_para_000",
+        "source_id": "art-of-war-1910",
+        "source": "starter/data/art_of_war.pdf",
+        "page": 15,
+        "text": "IV /G54/G61/G63/G74/G69/G63/G61/G6C/G20/G44/G69/G73/G70/G6F/G73/G69/G74/G69/G6F/G6E/G73 1. Sun Tzu said: The good fighters of old first put them- selves beyond the possibility of defeat, and then wait- ed for an opportunity of defeating the enemy. 2. To secure ourselves against defeat lies in our own hands, but the opportunity of defeating the enemy is provided by the enemy himself. 3. Thus the good fighter is able to secure himself against defeat, but cannot make certain of defeating the enemy. 4. Hence the saying: One may know how to conquer without being able to do it.",
+        "metadata": {
+          "section": "Tactical Dispositions",
+          "is_content_page": true,
+          "is_empty": false,
+          "char_count": 1168
+        },
+        "rrf_score": 0.008,
+        "ce_logit": -9.7323,
+        "score": 0.55,
+        "strategy": "hybrid_rrf_rerank",
+        "hit": false
+      },
+      {
+        "id": "art-of-war-1910_p041_para_001",
+        "source_id": "art-of-war-1910",
+        "source": "starter/data/art_of_war.pdf",
+        "page": 41,
+        "text": "40. If our troops are no more in number than the enemy, that is amply sufficient; it only means that no direct attack can be made. What we can do is simply to con- centrate all our available strength, keep a close watch on the enemy, and obtain reinforcements. 41. He who exercises no forethought but makes light of his opponents is sure to be captured by them.",
+        "metadata": {
+          "section": "The Army on the March",
+          "is_content_page": true,
+          "is_empty": false,
+          "char_count": 1281
+        },
+        "score": 0.3378,
+        "strategy": "hybrid_rrf_rerank",
+        "rrf_score": 0.029762,
+        "ce_logit": -3.2059,
+        "hit": false
+      }
+    ],
+    "context": "[art-of-war-1910_p015_para_001 | starter/data/art_of_war.pdf | page 15]\n5. Security against defeat implies defensive tactics; ability to defeat the enemy means taking the offensive. 6. Standing on the defensive indicates insufficient strength; attacking, a superabundance of strength. 7. The general who is skilled in defense hides in the most secret recesses of the earth; he who is skilled in attack flashes forth from the topmost heights of heav- en. Thus on the one hand we have ability to protect our- selves; on the other, a victory that is complete. 12 /G53/G75/G6E/G20/G54/G7A/G75/G20/G6F/G6E/G20/G74/G68/G65/G20/G41/G72/G74/G20/G6F/G66/G20/G57/G61/G72\n\n[art-of-war-1910_p015_para_000 | starter/data/art_of_war.pdf | page 15]\nIV /G54/G61/G63/G74/G69/G63/G61/G6C/G20/G44/G69/G73/G70/G6F/G73/G69/G74/G69/G6F/G6E/G73 1. Sun Tzu said: The good fighters of old first put them- selves beyond the possibility of defeat, and then wait- ed for an opportunity of defeating the enemy. 2. To secure ourselves against defeat lies in our own hands, but the opportunity of defeating the enemy is provided by the enemy himself. 3. Thus the good fighter is able to secure himself against defeat, but cannot make certain of defeating the enemy. 4. Hence the saying: One may know how to conquer without being able to do it.\n\n[art-of-war-1910_p041_para_001 | starter/data/art_of_war.pdf | page 41]\n40. If our troops are no more in number than the enemy, that is amply sufficient; it only means that no direct attack can be made. What we can do is simply to con- centrate all our available strength, keep a close watch on the enemy, and obtain reinforcements. 41. He who exercises no forethought but makes light of his opponents is sure to be captured by them.",
+    "context_ids": [
+      "art-of-war-1910_p015_para_001",
+      "art-of-war-1910_p015_para_000",
+      "art-of-war-1910_p041_para_001"
+    ],
+    "context_chars": 1747,
+    "elapsed_ms": 866.3,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q09",
+    "split": "dev",
+    "question": "How are energy and decision compared to a crossbow?",
+    "filter": null,
+    "strategy": "improv2_hybrid_rerank_b1800",
+    "top_k": 3,
+    "budget_chars": 1800,
+    "gold": [
+      {
+        "source_id": "art-of-war-1910",
+        "page": 20,
+        "evidence": "Energy may be likened to the bending of a cross- bow; decision, to the releasing of a trigger."
+      }
+    ],
+    "results": [
+      {
+        "id": "art-of-war-1910_p020_para_000",
+        "source_id": "art-of-war-1910",
+        "source": "starter/data/art_of_war.pdf",
+        "page": 20,
+        "text": "15. Energy may be likened to the bending of a cross- bow; decision, to the releasing of a trigger. 16. Amid the turmoil and tumult of battle, there may be seeming disorder and yet no real disorder at all; amid confusion and chaos, your array may be without head or tail, yet it will be proof against defeat. 17. Simulated disorder postulates perfect discipline, simulated fear postulates courage; simulated weakness postulates strength.",
+        "metadata": {
+          "section": "Energy",
+          "is_content_page": true,
+          "is_empty": false,
+          "char_count": 1275
+        },
+        "score": 0.4063,
+        "strategy": "hybrid_rrf_rerank",
+        "rrf_score": 0.032787,
+        "ce_logit": -2.2488,
+        "hit": true
+      },
+      {
+        "id": "art-of-war-1910_p021_para_000",
+        "source_id": "art-of-war-1910",
+        "source": "starter/data/art_of_war.pdf",
+        "page": 21,
+        "text": "22. When he utilizes combined energy, his fighting men become as it were like unto rolling logs or stones. For it is the nature of a log or stone to remain motion- less on level ground, and to move when on a slope; if four-cornered, to come to a standstill, but if round- shaped, to go rolling down. 23. Thus the energy developed by good fighting men is as the momentum of a round stone rolled down a mountain thousands of feet in height. So much on the subject of energy. 18 /G53/G75/G6E/G20/G54/G7A/G75/G20/G6F/G6E/G20/G74/G68/G65/G20/G41/G72/G74/G20/G6F/G66/G20/G57/G61/G72",
+        "metadata": {
+          "section": "Energy",
+          "is_content_page": true,
+          "is_empty": false,
+          "char_count": 576
+        },
+        "score": 0.3389,
+        "strategy": "hybrid_rrf_rerank",
+        "rrf_score": 0.032258,
+        "ce_logit": -8.2424,
+        "hit": false
+      },
+      {
+        "id": "art-of-war-1910_p020_para_002",
+        "source_id": "art-of-war-1910",
+        "source": "starter/data/art_of_war.pdf",
+        "page": 20,
+        "text": "21. The clever combatant looks to the effect of com- bined energy, and does not require too much from indi- viduals. Hence his ability to pick out the right men and utilize combined energy. 17 /G53/G75/G6E/G20/G54/G7A/G75/G20/G6F/G6E/G20/G74/G68/G65/G20/G41/G72/G74/G20/G6F/G66/G20/G57/G61/G72",
+        "metadata": {
+          "section": "Energy",
+          "is_content_page": true,
+          "is_empty": false,
+          "char_count": 1275
+        },
+        "score": 0.3309,
+        "strategy": "hybrid_rrf_rerank",
+        "rrf_score": 0.031498,
+        "ce_logit": -8.2812,
+        "hit": false
+      }
+    ],
+    "context": "[art-of-war-1910_p020_para_000 | starter/data/art_of_war.pdf | page 20]\n15. Energy may be likened to the bending of a cross- bow; decision, to the releasing of a trigger. 16. Amid the turmoil and tumult of battle, there may be seeming disorder and yet no real disorder at all; amid confusion and chaos, your array may be without head or tail, yet it will be proof against defeat. 17. Simulated disorder postulates perfect discipline, simulated fear postulates courage; simulated weakness postulates strength.\n\n[art-of-war-1910_p021_para_000 | starter/data/art_of_war.pdf | page 21]\n22. When he utilizes combined energy, his fighting men become as it were like unto rolling logs or stones. For it is the nature of a log or stone to remain motion- less on level ground, and to move when on a slope; if four-cornered, to come to a standstill, but if round- shaped, to go rolling down. 23. Thus the energy developed by good fighting men is as the momentum of a round stone rolled down a mountain thousands of feet in height. So much on the subject of energy. 18 /G53/G75/G6E/G20/G54/G7A/G75/G20/G6F/G6E/G20/G74/G68/G65/G20/G41/G72/G74/G20/G6F/G66/G20/G57/G61/G72\n\n[art-of-war-1910_p020_para_002 | starter/data/art_of_war.pdf | page 20]\n21. The clever combatant looks to the effect of com- bined energy, and does not require too much from indi- viduals. Hence his ability to pick out the right men and utilize combined energy. 17 /G53/G75/G6E/G20/G54/G7A/G75/G20/G6F/G6E/G20/G74/G68/G65/G20/G41/G72/G74/G20/G6F/G66/G20/G57/G61/G72",
+    "context_ids": [
+      "art-of-war-1910_p020_para_000",
+      "art-of-war-1910_p021_para_000",
+      "art-of-war-1910_p020_para_002"
+    ],
+    "context_chars": 1525,
+    "elapsed_ms": 580.97,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q10",
+    "split": "dev",
+    "question": "If you force your army to march fifty LI to outmaneuver the enemy, what will be the consequence?",
+    "filter": null,
+    "strategy": "improv2_hybrid_rerank_b1800",
+    "top_k": 3,
+    "budget_chars": 1800,
+    "gold": [
+      {
+        "source_id": "art-of-war-1910",
+        "page": 29,
+        "evidence": "If you march fifty LI in order to outmaneuver the enemy, you will lose the leader of your first division, and only half your force will reach the goal."
+      }
+    ],
+    "results": [
+      {
+        "id": "art-of-war-1910_p029_para_000",
+        "source_id": "art-of-war-1910",
+        "source": "starter/data/art_of_war.pdf",
+        "page": 29,
+        "text": "7. Thus, if you order your men to roll up their buff- coats, and make forced marches without halting day or night, covering double the usual distance at a stretch, doing a hundred LI in order to wrest an advantage, the leaders of all your three divisions will fall into the hands of the enemy. 8. The stronger men will be in front, the jaded ones will fall behind, and on this plan only one-tenth of your army will reach its destination. 9. If you march fifty LI in order to outmaneuver the enemy, you will lose the leader of your first division, and only half your force will reach the goal.",
+        "metadata": {
+          "section": "Maneuvering",
+          "is_content_page": true,
+          "is_empty": false,
+          "char_count": 1200
+        },
+        "score": 0.9936,
+        "strategy": "hybrid_rrf_rerank",
+        "rrf_score": 0.032787,
+        "ce_logit": 6.8561,
+        "hit": true
+      },
+      {
+        "id": "art-of-war-1910_p029_para_001",
+        "source_id": "art-of-war-1910",
+        "source": "starter/data/art_of_war.pdf",
+        "page": 29,
+        "text": "10. If you march thirty LI with the same object, two- thirds of your army will arrive. 11. We may take it then that an army without its bag- gage-train is lost; without provisions it is lost; without bases of supply it is lost. 12. We cannot enter into alliances until we are acquainted with the designs of our neighbors.",
+        "metadata": {
+          "section": "Maneuvering",
+          "is_content_page": true,
+          "is_empty": false,
+          "char_count": 1200
+        },
+        "score": 0.8966,
+        "strategy": "hybrid_rrf_rerank",
+        "rrf_score": 0.031754,
+        "ce_logit": 1.8697,
+        "hit": false
+      },
+      {
+        "id": "art-of-war-1910_p022_para_001",
+        "source_id": "art-of-war-1910",
+        "source": "starter/data/art_of_war.pdf",
+        "page": 22,
+        "text": "4. If the enemy is taking his ease, he can harass him; if well supplied with food, he can starve him out; if qui- etly encamped, he can force him to move. 5. Appear at points which the enemy must hasten to defend; march swiftly to places where you are not expected. 6. An army may march great distances without distress, if it marches through country where the enemy is not. 7. You can be sure of succeeding in your attacks if you only attack places which are undefended.You can 19 /G53/G75/G6E/G20/G54/G7A/G75/G20/G6F/G6E/G20/G74/G68/G65/G20/G41/G72/G74/G20/G6F/G66/G20/G57/G61/G72",
+        "metadata": {
+          "section": "Weak Points and Strong",
+          "is_content_page": true,
+          "is_empty": false,
+          "char_count": 1165
+        },
+        "score": 0.8212,
+        "strategy": "hybrid_rrf_rerank",
+        "rrf_score": 0.031498,
+        "ce_logit": 1.123,
+        "hit": false
+      }
+    ],
+    "context": "[art-of-war-1910_p029_para_000 | starter/data/art_of_war.pdf | page 29]\n7. Thus, if you order your men to roll up their buff- coats, and make forced marches without halting day or night, covering double the usual distance at a stretch, doing a hundred LI in order to wrest an advantage, the leaders of all your three divisions will fall into the hands of the enemy. 8. The stronger men will be in front, the jaded ones will fall behind, and on this plan only one-tenth of your army will reach its destination. 9. If you march fifty LI in order to outmaneuver the enemy, you will lose the leader of your first division, and only half your force will reach the goal.\n\n[art-of-war-1910_p029_para_001 | starter/data/art_of_war.pdf | page 29]\n10. If you march thirty LI with the same object, two- thirds of your army will arrive. 11. We may take it then that an army without its bag- gage-train is lost; without provisions it is lost; without bases of supply it is lost. 12. We cannot enter into alliances until we are acquainted with the designs of our neighbors.\n\n[art-of-war-1910_p022_para_001 | starter/data/art_of_war.pdf | page 22]\n4. If the enemy is taking his ease, he can harass him; if well supplied with food, he can starve him out; if qui- etly encamped, he can force him to move. 5. Appear at points which the enemy must hasten to defend; march swiftly to places where you are not expected. 6. An army may march great distances without distress, if it marches through country where the enemy is not. 7. You can be sure of succeeding in your attacks if you only attack places which are undefended.You can 19 /G53/G75/G6E/G20/G54/G7A/G75/G20/G6F/G6E/G20/G74/G68/G65/G20/G41/G72/G74/G20/G6F/G66/G20/G57/G61/G72",
+    "context_ids": [
+      "art-of-war-1910_p029_para_000",
+      "art-of-war-1910_p029_para_001",
+      "art-of-war-1910_p022_para_001"
+    ],
+    "context_chars": 1715,
+    "elapsed_ms": 816.04,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q11",
+    "split": "dev",
+    "question": "When an invading force is crossing a river in its onward march, how should you respond instead of meeting it in mid-stream?",
+    "filter": null,
+    "strategy": "improv2_hybrid_rerank_b1800",
+    "top_k": 3,
+    "budget_chars": 1800,
+    "gold": [
+      {
+        "source_id": "art-of-war-1910",
+        "page": 36,
+        "evidence": "When an invading force crosses a river in its onward march, do not advance to meet it in mid-stream. It will be best to let half the army get across, and then deliver your attack."
+      }
+    ],
+    "results": [
+      {
+        "id": "art-of-war-1910_p036_para_001",
+        "source_id": "art-of-war-1910",
+        "source": "starter/data/art_of_war.pdf",
+        "page": 36,
+        "text": "4. When an invading force crosses a river in its onward march, do not advance to meet it in mid-stream. It will be best to let half the army get across, and then deliver your attack. 5. If you are anxious to fight, you should not go to meet the invader near a river which he has to cross. 6. Moor your craft higher up than the enemy, and fac- ing the sun. Do not move up-stream to meet the enemy. So much for river warfare.",
+        "metadata": {
+          "section": "The Army on the March",
+          "is_content_page": true,
+          "is_empty": false,
+          "char_count": 1063
+        },
+        "score": 0.9941,
+        "strategy": "hybrid_rrf_rerank",
+        "rrf_score": 0.032787,
+        "ce_logit": 8.2671,
+        "hit": true
+      },
+      {
+        "id": "art-of-war-1910_p036_para_002",
+        "source_id": "art-of-war-1910",
+        "source": "starter/data/art_of_war.pdf",
+        "page": 36,
+        "text": "7. In crossing salt-marshes, your sole concern should be to get over them quickly, without any delay. 33 /G53/G75/G6E/G20/G54/G7A/G75/G20/G6F/G6E/G20/G74/G68/G65/G20/G41/G72/G74/G20/G6F/G66/G20/G57/G61/G72",
+        "metadata": {
+          "section": "The Army on the March",
+          "is_content_page": true,
+          "is_empty": false,
+          "char_count": 1063
+        },
+        "rrf_score": 0.008,
+        "ce_logit": -9.5769,
+        "score": 0.55,
+        "strategy": "hybrid_rrf_rerank",
+        "hit": false
+      },
+      {
+        "id": "art-of-war-1910_p036_para_000",
+        "source_id": "art-of-war-1910",
+        "source": "starter/data/art_of_war.pdf",
+        "page": 36,
+        "text": "IX /G54/G68/G65/G20/G41/G72/G6D/G79/G20/G6F/G6E/G20/G74/G68/G65/G20/G4D/G61/G72/G63/G68 1. Sun Tzu said: We come now to the question of encamping the army, and observing signs of the enemy. Pass quickly over mountains, and keep in the neigh- borhood of valleys. 2. Camp in high places, facing the sun. Do not climb heights in order to fight. So much for mountain war- fare. 3. After crossing a river, you should get far away from it.",
+        "metadata": {
+          "section": "The Army on the March",
+          "is_content_page": true,
+          "is_empty": false,
+          "char_count": 1063
+        },
+        "score": 0.3237,
+        "strategy": "hybrid_rrf_rerank",
+        "rrf_score": 0.030798,
+        "ce_logit": -7.608,
+        "hit": false
+      }
+    ],
+    "context": "[art-of-war-1910_p036_para_001 | starter/data/art_of_war.pdf | page 36]\n4. When an invading force crosses a river in its onward march, do not advance to meet it in mid-stream. It will be best to let half the army get across, and then deliver your attack. 5. If you are anxious to fight, you should not go to meet the invader near a river which he has to cross. 6. Moor your craft higher up than the enemy, and fac- ing the sun. Do not move up-stream to meet the enemy. So much for river warfare.\n\n[art-of-war-1910_p036_para_002 | starter/data/art_of_war.pdf | page 36]\n7. In crossing salt-marshes, your sole concern should be to get over them quickly, without any delay. 33 /G53/G75/G6E/G20/G54/G7A/G75/G20/G6F/G6E/G20/G74/G68/G65/G20/G41/G72/G74/G20/G6F/G66/G20/G57/G61/G72\n\n[art-of-war-1910_p036_para_000 | starter/data/art_of_war.pdf | page 36]\nIX /G54/G68/G65/G20/G41/G72/G6D/G79/G20/G6F/G6E/G20/G74/G68/G65/G20/G4D/G61/G72/G63/G68 1. Sun Tzu said: We come now to the question of encamping the army, and observing signs of the enemy. Pass quickly over mountains, and keep in the neigh- borhood of valleys. 2. Camp in high places, facing the sun. Do not climb heights in order to fight. So much for mountain war- fare. 3. After crossing a river, you should get far away from it.",
+    "context_ids": [
+      "art-of-war-1910_p036_para_001",
+      "art-of-war-1910_p036_para_002",
+      "art-of-war-1910_p036_para_000"
+    ],
+    "context_chars": 1281,
+    "elapsed_ms": 771.91,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q12",
+    "split": "dev",
+    "question": "What are the five ways of attacking with fire?",
+    "filter": null,
+    "strategy": "improv2_hybrid_rerank_b1800",
+    "top_k": 3,
+    "budget_chars": 1800,
+    "gold": [
+      {
+        "source_id": "art-of-war-1910",
+        "page": 59,
+        "evidence": "The first is to burn soldiers in their camp; the sec- ond is to burn stores; the third is to burn baggage trains; the fourth is to burn arsenals and magazines; the fifth is to hurl dropping fire amongst the enemy."
+      }
+    ],
+    "results": [
+      {
+        "id": "art-of-war-1910_p059_para_000",
+        "source_id": "art-of-war-1910",
+        "source": "starter/data/art_of_war.pdf",
+        "page": 59,
+        "text": "XII /G54/G68/G65/G20/G41/G74/G74/G61/G63/G6B/G20/G62/G79/G20/G46._/G69/G72/G65 1. Sun Tzu said: There are five ways of attacking with fire. The first is to burn soldiers in their camp; the sec- ond is to burn stores; the third is to burn baggage trains; the fourth is to burn arsenals and magazines; the fifth is to hurl dropping fire amongst the enemy. 2. In order to carry out an attack, we must have means available. The material for raising fire should always be kept in readiness. 3. There is a proper season for making attacks with fire, and special days for starting a conflagration.",
+        "metadata": {
+          "section": "The Attack by Fire",
+          "is_content_page": true,
+          "is_empty": false,
+          "char_count": 1207
+        },
+        "score": 0.9942,
+        "strategy": "hybrid_rrf_rerank",
+        "rrf_score": 0.032787,
+        "ce_logit": 9.2134,
+        "hit": true
+      },
+      {
+        "id": "art-of-war-1910_p059_para_001",
+        "source_id": "art-of-war-1910",
+        "source": "starter/data/art_of_war.pdf",
+        "page": 59,
+        "text": "4. The proper season is when the weather is very dry; the special days are those when the moon is in the con- stellations of the Sieve, the Wall, the Wing or the Cross-bar; for these four are all days of rising wind. 5. In attacking with fire, one should be prepared to meet five possible developments: 6. (1) When fire breaks out inside to enemy’s camp, respond at once with an attack from without. 7.",
+        "metadata": {
+          "section": "The Attack by Fire",
+          "is_content_page": true,
+          "is_empty": false,
+          "char_count": 1207
+        },
+        "score": 0.9797,
+        "strategy": "hybrid_rrf_rerank",
+        "rrf_score": 0.031514,
+        "ce_logit": 6.2697,
+        "hit": false
+      },
+      {
+        "id": "art-of-war-1910_p060_para_000",
+        "source_id": "art-of-war-1910",
+        "source": "starter/data/art_of_war.pdf",
+        "page": 60,
+        "text": "8. (3) When the force of the flames has reached its height, follow it up with an attack, if that is practicable; if not, stay where you are. 9. (4) If it is possible to make an assault with fire from without, do not wait for it to break out within, but deliver your attack at a favorable moment. 10. (5) When you start a fire, be to windward of it. Do not attack from the leeward. 11. A wind that rises in the daytime lasts long, but a night breeze soon falls.",
+        "metadata": {
+          "section": "The Attack by Fire",
+          "is_content_page": true,
+          "is_empty": false,
+          "char_count": 1145
+        },
+        "score": 0.9726,
+        "strategy": "hybrid_rrf_rerank",
+        "rrf_score": 0.031514,
+        "ce_logit": 4.3494,
+        "hit": false
+      }
+    ],
+    "context": "[art-of-war-1910_p059_para_000 | starter/data/art_of_war.pdf | page 59]\nXII /G54/G68/G65/G20/G41/G74/G74/G61/G63/G6B/G20/G62/G79/G20/G46._/G69/G72/G65 1. Sun Tzu said: There are five ways of attacking with fire. The first is to burn soldiers in their camp; the sec- ond is to burn stores; the third is to burn baggage trains; the fourth is to burn arsenals and magazines; the fifth is to hurl dropping fire amongst the enemy. 2. In order to carry out an attack, we must have means available. The material for raising fire should always be kept in readiness. 3. There is a proper season for making attacks with fire, and special days for starting a conflagration.\n\n[art-of-war-1910_p059_para_001 | starter/data/art_of_war.pdf | page 59]\n4. The proper season is when the weather is very dry; the special days are those when the moon is in the con- stellations of the Sieve, the Wall, the Wing or the Cross-bar; for these four are all days of rising wind. 5. In attacking with fire, one should be prepared to meet five possible developments: 6. (1) When fire breaks out inside to enemy’s camp, respond at once with an attack from without. 7.\n\n[art-of-war-1910_p060_para_000 | starter/data/art_of_war.pdf | page 60]\n8. (3) When the force of the flames has reached its height, follow it up with an attack, if that is practicable; if not, stay where you are. 9. (4) If it is possible to make an assault with fire from without, do not wait for it to break out within, but deliver your attack at a favorable moment. 10. (5) When you start a fire, be to windward of it. Do not attack from the leeward. 11. A wind that rises in the daytime lasts long, but a night breeze soon falls.",
+    "context_ids": [
+      "art-of-war-1910_p059_para_000",
+      "art-of-war-1910_p059_para_001",
+      "art-of-war-1910_p060_para_000"
+    ],
+    "context_chars": 1672,
+    "elapsed_ms": 540.23,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q13",
+    "split": "dev",
+    "question": "In the chapter 'Maneuvering', why does the general Receive commands from the sovereign and what must he do before pitching his camp?",
+    "filter": {
+      "section": "Maneuvering"
+    },
+    "strategy": "improv2_hybrid_rerank_b1800",
+    "top_k": 3,
+    "budget_chars": 1800,
+    "gold": [
+      {
+        "source_id": "art-of-war-1910",
+        "page": 28,
+        "evidence": "Having collected an army and concentrated his forces, he must blend and harmonize the different ele- ments thereof before pitching his camp."
+      }
+    ],
+    "results": [
+      {
+        "id": "art-of-war-1910_p028_para_000",
+        "source_id": "art-of-war-1910",
+        "source": "starter/data/art_of_war.pdf",
+        "page": 28,
+        "text": "VII /G4D/G61/G6E/G65/G75/G76/G65/G72/G69/G6E/G67 1. Sun Tzu said : In war, the general receives his com- mands from the sovereign. 2. Having collected an army and concentrated his forces, he must blend and harmonize the different ele- ments thereof before pitching his camp. 3. After that, comes tactical maneuvering, than which there is nothing more difficult. The difficulty of tactical maneuvering consists in turning the devious into the direct, and misfortune into gain.",
+        "metadata": {
+          "section": "Maneuvering",
+          "is_content_page": true,
+          "is_empty": false,
+          "char_count": 1113
+        },
+        "score": 0.9921,
+        "strategy": "hybrid_rrf_rerank",
+        "rrf_score": 0.032787,
+        "ce_logit": 5.6951,
+        "hit": true
+      },
+      {
+        "id": "art-of-war-1910_p028_para_002",
+        "source_id": "art-of-war-1910",
+        "source": "starter/data/art_of_war.pdf",
+        "page": 28,
+        "text": "6. If you set a fully equipped army in march in order to snatch an advantage, the chances are that you will be too late. On the other hand, to detach a flying column for the purpose involves the sacrifice of its baggage and stores. 25 /G53/G75/G6E/G20/G54/G7A/G75/G20/G6F/G6E/G20/G74/G68/G65/G20/G41/G72/G74/G20/G6F/G66/G20/G57/G61/G72",
+        "metadata": {
+          "section": "Maneuvering",
+          "is_content_page": true,
+          "is_empty": false,
+          "char_count": 1113
+        },
+        "rrf_score": 0.028778,
+        "ce_logit": -10.8842,
+        "score": 0.55,
+        "strategy": "hybrid_rrf_rerank",
+        "hit": false
+      },
+      {
+        "id": "art-of-war-1910_p028_para_001",
+        "source_id": "art-of-war-1910",
+        "source": "starter/data/art_of_war.pdf",
+        "page": 28,
+        "text": "4. Thus, to take a long and circuitous route, after entic- ing the enemy out of the way, and though starting after him, to contrive to reach the goal before him, shows knowledge of the artifice of DEVIATION. 5. Maneuvering with an army is advantageous; with an undisciplined multitude, most dangerous.",
+        "metadata": {
+          "section": "Maneuvering",
+          "is_content_page": true,
+          "is_empty": false,
+          "char_count": 1113
+        },
+        "score": 0.3368,
+        "strategy": "hybrid_rrf_rerank",
+        "rrf_score": 0.031746,
+        "ce_logit": -5.2391,
+        "hit": false
+      }
+    ],
+    "context": "[art-of-war-1910_p028_para_000 | starter/data/art_of_war.pdf | page 28]\nVII /G4D/G61/G6E/G65/G75/G76/G65/G72/G69/G6E/G67 1. Sun Tzu said : In war, the general receives his com- mands from the sovereign. 2. Having collected an army and concentrated his forces, he must blend and harmonize the different ele- ments thereof before pitching his camp. 3. After that, comes tactical maneuvering, than which there is nothing more difficult. The difficulty of tactical maneuvering consists in turning the devious into the direct, and misfortune into gain.\n\n[art-of-war-1910_p028_para_002 | starter/data/art_of_war.pdf | page 28]\n6. If you set a fully equipped army in march in order to snatch an advantage, the chances are that you will be too late. On the other hand, to detach a flying column for the purpose involves the sacrifice of its baggage and stores. 25 /G53/G75/G6E/G20/G54/G7A/G75/G20/G6F/G6E/G20/G74/G68/G65/G20/G41/G72/G74/G20/G6F/G66/G20/G57/G61/G72\n\n[art-of-war-1910_p028_para_001 | starter/data/art_of_war.pdf | page 28]\n4. Thus, to take a long and circuitous route, after entic- ing the enemy out of the way, and though starting after him, to contrive to reach the goal before him, shows knowledge of the artifice of DEVIATION. 5. Maneuvering with an army is advantageous; with an undisciplined multitude, most dangerous.",
+    "context_ids": [
+      "art-of-war-1910_p028_para_000",
+      "art-of-war-1910_p028_para_002",
+      "art-of-war-1910_p028_para_001"
+    ],
+    "context_chars": 1331,
+    "elapsed_ms": 665.44,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q14",
+    "split": "dev",
+    "question": "According to the chapter 'Terrain', what happens when common soldiers are too strong and officers too weak, versus when officers are too strong and common soldiers too weak?",
+    "filter": {
+      "section": "Terrain"
+    },
+    "strategy": "improv2_hybrid_rerank_b1800",
+    "top_k": 3,
+    "budget_chars": 1800,
+    "gold": [
+      {
+        "source_id": "art-of-war-1910",
+        "page": 45,
+        "evidence": "When the common soldiers are too strong and their officers too weak, the result is insubordination. When the officers are too strong and the common soldiers too weak, the result is collapse."
+      }
+    ],
+    "results": [
+      {
+        "id": "art-of-war-1910_p045_para_001",
+        "source_id": "art-of-war-1910",
+        "source": "starter/data/art_of_war.pdf",
+        "page": 45,
+        "text": "16. When the common soldiers are too strong and their officers too weak, the result is insubordination. When the officers are too strong and the common soldiers too weak, the result is collapse. 17. When the higher officers are angry and insubordi- nate, and on meeting the enemy give battle on their own account from a feeling of resentment, before the commander-in-chief can tell whether or no he is in a position to fight, the result is ruin.",
+        "metadata": {
+          "section": "Terrain",
+          "is_content_page": true,
+          "is_empty": false,
+          "char_count": 1173
+        },
+        "score": 0.9937,
+        "strategy": "hybrid_rrf_rerank",
+        "rrf_score": 0.032787,
+        "ce_logit": 7.0164,
+        "hit": true
+      },
+      {
+        "id": "art-of-war-1910_p045_para_000",
+        "source_id": "art-of-war-1910",
+        "source": "starter/data/art_of_war.pdf",
+        "page": 45,
+        "text": "13. These six are the principles connected with Earth. The general who has attained a responsible post must be careful to study them. 14. Now an army is exposed to six several calamities, not arising from natural causes, but from faults for which the general is responsible. These are: (1) Flight; (2) insubordination; (3) collapse; (4) ruin; (5) disorganization; (6) rout. 15. Other conditions being equal, if one force is hurled against another ten times its size, the result will be the flight of the former.",
+        "metadata": {
+          "section": "Terrain",
+          "is_content_page": true,
+          "is_empty": false,
+          "char_count": 1173
+        },
+        "rrf_score": 0.028571,
+        "ce_logit": -6.0541,
+        "score": 0.55,
+        "strategy": "hybrid_rrf_rerank",
+        "hit": false
+      },
+      {
+        "id": "art-of-war-1910_p046_para_000",
+        "source_id": "art-of-war-1910",
+        "source": "starter/data/art_of_war.pdf",
+        "page": 46,
+        "text": "are no fixes duties assigned to officers and men, and the ranks are formed in a slovenly haphazard manner, the result is utter disorganization. 19. When a general, unable to estimate the enemy’s strength, allows an inferior force to engage a larger one, or hurls a weak detachment against a powerful one, and neglects to place picked soldiers in the front rank, the result must be rout. 20. These are six ways of courting defeat, which must be carefully noted by the general who has attained a responsible post.",
+        "metadata": {
+          "section": "Terrain",
+          "is_content_page": true,
+          "is_empty": false,
+          "char_count": 1235
+        },
+        "score": 0.4846,
+        "strategy": "hybrid_rrf_rerank",
+        "rrf_score": 0.032258,
+        "ce_logit": -1.24,
+        "hit": false
+      }
+    ],
+    "context": "[art-of-war-1910_p045_para_001 | starter/data/art_of_war.pdf | page 45]\n16. When the common soldiers are too strong and their officers too weak, the result is insubordination. When the officers are too strong and the common soldiers too weak, the result is collapse. 17. When the higher officers are angry and insubordi- nate, and on meeting the enemy give battle on their own account from a feeling of resentment, before the commander-in-chief can tell whether or no he is in a position to fight, the result is ruin.\n\n[art-of-war-1910_p045_para_000 | starter/data/art_of_war.pdf | page 45]\n13. These six are the principles connected with Earth. The general who has attained a responsible post must be careful to study them. 14. Now an army is exposed to six several calamities, not arising from natural causes, but from faults for which the general is responsible. These are: (1) Flight; (2) insubordination; (3) collapse; (4) ruin; (5) disorganization; (6) rout. 15. Other conditions being equal, if one force is hurled against another ten times its size, the result will be the flight of the former.\n\n[art-of-war-1910_p046_para_000 | starter/data/art_of_war.pdf | page 46]\nare no fixes duties assigned to officers and men, and the ranks are formed in a slovenly haphazard manner, the result is utter disorganization. 19. When a general, unable to estimate the enemy’s strength, allows an inferior force to engage a larger one, or hurls a weak detachment against a powerful one, and neglects to place picked soldiers in the front rank, the result must be rout. 20. These are six ways of courting defeat, which must be carefully noted by the general who has attained a responsible post.",
+    "context_ids": [
+      "art-of-war-1910_p045_para_001",
+      "art-of-war-1910_p045_para_000",
+      "art-of-war-1910_p046_para_000"
+    ],
+    "context_chars": 1687,
+    "elapsed_ms": 516.49,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q15",
+    "split": "dev",
+    "question": "Specifically within the chapter 'The Nine Situations', what are the nine varieties of ground recognized by the art of war?",
+    "filter": {
+      "section": "The Nine Situations"
+    },
+    "strategy": "improv2_hybrid_rerank_b1800",
+    "top_k": 3,
+    "budget_chars": 1800,
+    "gold": [
+      {
+        "source_id": "art-of-war-1910",
+        "page": 49,
+        "evidence": "(1) Dispersive ground; (2) facile ground; (3) contentious ground; (4) open ground; (5) ground of intersecting highways; (6) serious ground; (7) difficult ground; (8) hemmed-in ground; (9) desperate ground."
+      }
+    ],
+    "results": [
+      {
+        "id": "art-of-war-1910_p049_para_000",
+        "source_id": "art-of-war-1910",
+        "source": "starter/data/art_of_war.pdf",
+        "page": 49,
+        "text": "XI /G54/G68/G65/G20/G4E/G69/G6E/G65/G20/G53/G69/G74/G75/G61/G74/G69/G6F/G6E/G73 1. Sun Tzu said: The art of war recognizes nine vari- eties of ground: (1) Dispersive ground; (2) facile ground; (3) contentious ground; (4) open ground; (5) ground of intersecting highways; (6) serious ground; (7) difficult ground; (8) hemmed-in ground; (9) desperate ground. 2. When a chieftain is fighting in his own territory, it is dispersive ground. 3. When he has penetrated into hostile territory, but to no great distance, it is facile ground.",
+        "metadata": {
+          "section": "The Nine Situations",
+          "is_content_page": true,
+          "is_empty": false,
+          "char_count": 915
+        },
+        "score": 0.984,
+        "strategy": "hybrid_rrf_rerank",
+        "rrf_score": 0.032787,
+        "ce_logit": 4.1368,
+        "hit": true
+      },
+      {
+        "id": "art-of-war-1910_p055_para_000",
+        "source_id": "art-of-war-1910",
+        "source": "starter/data/art_of_war.pdf",
+        "page": 55,
+        "text": "40. To muster his host and bring it into danger:—this may be termed the business of the general. 41. The different measures suited to the nine varieties of ground; the expediency of aggressive or defensive tactics; and the fundamental laws of human nature: these are things that must most certainly be studied. 42. When invading hostile territory, the general princi- ple is, that penetrating deeply brings cohesion; pene- trating but a short way means dispersion.",
+        "metadata": {
+          "section": "The Nine Situations",
+          "is_content_page": true,
+          "is_empty": false,
+          "char_count": 1276
+        },
+        "score": 0.7555,
+        "strategy": "hybrid_rrf_rerank",
+        "rrf_score": 0.031754,
+        "ce_logit": 0.6161,
+        "hit": false
+      },
+      {
+        "id": "art-of-war-1910_p049_para_001",
+        "source_id": "art-of-war-1910",
+        "source": "starter/data/art_of_war.pdf",
+        "page": 49,
+        "text": "4. Ground the possession of which imports great advantage to either side, is contentious ground. 5. Ground on which each side has liberty of movement is open ground. 6. Ground which forms the key to three contiguous states, so that he who occupies it first has most of the 46 /G53/G75/G6E/G20/G54/G7A/G75/G20/G6F/G6E/G20/G74/G68/G65/G20/G41/G72/G74/G20/G6F/G66/G20/G57/G61/G72",
+        "metadata": {
+          "section": "The Nine Situations",
+          "is_content_page": true,
+          "is_empty": false,
+          "char_count": 915
+        },
+        "rrf_score": 0.029418,
+        "ce_logit": -8.4531,
+        "score": 0.55,
+        "strategy": "hybrid_rrf_rerank",
+        "hit": false
+      }
+    ],
+    "context": "[art-of-war-1910_p049_para_000 | starter/data/art_of_war.pdf | page 49]\nXI /G54/G68/G65/G20/G4E/G69/G6E/G65/G20/G53/G69/G74/G75/G61/G74/G69/G6F/G6E/G73 1. Sun Tzu said: The art of war recognizes nine vari- eties of ground: (1) Dispersive ground; (2) facile ground; (3) contentious ground; (4) open ground; (5) ground of intersecting highways; (6) serious ground; (7) difficult ground; (8) hemmed-in ground; (9) desperate ground. 2. When a chieftain is fighting in his own territory, it is dispersive ground. 3. When he has penetrated into hostile territory, but to no great distance, it is facile ground.\n\n[art-of-war-1910_p055_para_000 | starter/data/art_of_war.pdf | page 55]\n40. To muster his host and bring it into danger:—this may be termed the business of the general. 41. The different measures suited to the nine varieties of ground; the expediency of aggressive or defensive tactics; and the fundamental laws of human nature: these are things that must most certainly be studied. 42. When invading hostile territory, the general princi- ple is, that penetrating deeply brings cohesion; pene- trating but a short way means dispersion.\n\n[art-of-war-1910_p049_para_001 | starter/data/art_of_war.pdf | page 49]\n4. Ground the possession of which imports great advantage to either side, is contentious ground. 5. Ground on which each side has liberty of movement is open ground. 6. Ground which forms the key to three contiguous states, so that he who occupies it first has most of the 46 /G53/G75/G6E/G20/G54/G7A/G75/G20/G6F/G6E/G20/G74/G68/G65/G20/G41/G72/G74/G20/G6F/G66/G20/G57/G61/G72",
+    "context_ids": [
+      "art-of-war-1910_p049_para_000",
+      "art-of-war-1910_p055_para_000",
+      "art-of-war-1910_p049_para_001"
+    ],
+    "context_chars": 1592,
+    "elapsed_ms": 610.75,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  }
+]

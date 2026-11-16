@@ -1,0 +1,128 @@
+[
+  {
+    "query_id": "q01",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "notes": "Complete and accurate (grade 2/2): directly supported by cited gold page evidence covering all required conditions."
+  },
+  {
+    "query_id": "q02",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "notes": "Complete and accurate (grade 2/2): directly supported by cited gold page evidence covering all required conditions."
+  },
+  {
+    "query_id": "q03",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "notes": "Complete and accurate (grade 2/2): directly supported by cited gold page evidence covering all required conditions."
+  },
+  {
+    "query_id": "q04",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "notes": "Complete and accurate (grade 2/2): directly supported by cited gold page evidence covering all required conditions."
+  },
+  {
+    "query_id": "q05",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "notes": "Complete and accurate (grade 2/2): directly supported by cited gold page evidence covering all required conditions."
+  },
+  {
+    "query_id": "q06",
+    "answer_grade": 0,
+    "citation_support": [],
+    "notes": "False abstention on answerable question because required evidence was excluded from context budget."
+  },
+  {
+    "query_id": "q07",
+    "answer_grade": 0,
+    "citation_support": [],
+    "notes": "False abstention on answerable question because required evidence was excluded from context budget."
+  },
+  {
+    "query_id": "q08",
+    "answer_grade": 0,
+    "citation_support": [],
+    "notes": "False abstention on answerable question because required evidence was excluded from context budget."
+  },
+  {
+    "query_id": "q09",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "notes": "Complete and accurate (grade 2/2): directly supported by cited gold page evidence covering all required conditions."
+  },
+  {
+    "query_id": "q10",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "notes": "Complete and accurate (grade 2/2): directly supported by cited gold page evidence covering all required conditions."
+  },
+  {
+    "query_id": "q11",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "notes": "Complete and accurate (grade 2/2): directly supported by cited gold page evidence covering all required conditions."
+  },
+  {
+    "query_id": "q12",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "notes": "Complete and accurate (grade 2/2): directly supported by cited gold page evidence covering all required conditions."
+  },
+  {
+    "query_id": "q13",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "notes": "Complete and accurate (grade 2/2): directly supported by cited gold page evidence covering all required conditions."
+  },
+  {
+    "query_id": "q14",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "notes": "Complete and accurate (grade 2/2): directly supported by cited gold page evidence covering all required conditions."
+  },
+  {
+    "query_id": "q15",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "notes": "Complete and accurate (grade 2/2): directly supported by cited gold page evidence covering all required conditions."
+  },
+  {
+    "query_id": "q21_unans_dev",
+    "citation_support": [],
+    "abstention_correct": true,
+    "notes": "Agent searched corpus and correctly abstained without hallucinating unsupported claims."
+  },
+  {
+    "query_id": "q22_unans_dev",
+    "citation_support": [],
+    "abstention_correct": true,
+    "notes": "Agent searched corpus and correctly abstained without hallucinating unsupported claims."
+  }
+]

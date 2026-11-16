@@ -1,0 +1,418 @@
+[
+  {
+    "query_id": "q16",
+    "split": "test",
+    "question": "What are the three ways in which a ruler can bring misfortune upon his army?",
+    "filter": null,
+    "strategy": "selected_hybrid_rerank_b1800",
+    "top_k": 3,
+    "budget_chars": 1800,
+    "gold": [
+      {
+        "source_id": "art-of-war-1910",
+        "page": 13,
+        "evidence": "12. There are three ways in which a ruler can bring misfortune upon his army:—"
+      }
+    ],
+    "results": [
+      {
+        "id": "art-of-war-1910_p013_para_000",
+        "source_id": "art-of-war-1910",
+        "source": "starter/data/art_of_war.pdf",
+        "page": 13,
+        "text": "12. There are three ways in which a ruler can bring misfortune upon his army:— 13. (1) By commanding the army to advance or to retreat, being ignorant of the fact that it cannot obey. This is called hobbling the army. 14. (2) By attempting to govern an army in the same way as he administers a kingdom, being ignorant of the conditions which obtain in an army. This causes rest- lessness in the soldier’s minds. 15.",
+        "metadata": {
+          "section": "Attack by Stratagem",
+          "is_content_page": true,
+          "is_empty": false,
+          "char_count": 1176
+        },
+        "score": 0.9942,
+        "strategy": "hybrid_rrf_rerank",
+        "rrf_score": 0.032787,
+        "ce_logit": 10.3836,
+        "hit": true
+      },
+      {
+        "id": "art-of-war-1910_p013_para_001",
+        "source_id": "art-of-war-1910",
+        "source": "starter/data/art_of_war.pdf",
+        "page": 13,
+        "text": "(3) By employing the officers of his army without discrimination, through ignorance of the military prin- ciple of adaptation to circumstances. This shakes the confidence of the soldiers. 16. But when the army is restless and distrustful, trou- ble is sure to come from the other feudal princes. This is simply bringing anarchy into the army, and flinging victory away. 17. Thus we may know that there are five essentials for victory: (1) He will win who knows when to fight and when not to fight. (2) He will win who knows how to handle both superior and inferior forces.",
+        "metadata": {
+          "section": "Attack by Stratagem",
+          "is_content_page": true,
+          "is_empty": false,
+          "char_count": 1176
+        },
+        "rrf_score": 0.015873,
+        "ce_logit": -1.854,
+        "score": 0.55,
+        "strategy": "hybrid_rrf_rerank",
+        "hit": false
+      },
+      {
+        "id": "art-of-war-1910_p035_para_000",
+        "source_id": "art-of-war-1910",
+        "source": "starter/data/art_of_war.pdf",
+        "page": 35,
+        "text": "(2) cowardice, which leads to capture; (3) a hasty temper, which can be provoked by insults; (4) a delicacy of honor which is sensitive to shame; (5) over-solicitude for his men, which exposes him to worry and trouble. 13. These are the five besetting sins of a general, ruinous to the conduct of war. 14. When an army is overthrown and its leader slain, the cause will surely be found among these five dan- gerous faults. Let them be a subject of meditation. 32 /G53/G75/G6E/G20/G54/G7A/G75/G20/G6F/G6E/G20/G74/G68/G65/G20/G41/G72/G74/G20/G6F/G66/G20/G57/G61/G72",
+        "metadata": {
+          "section": "Variation in Tactics",
+          "is_content_page": true,
+          "is_empty": false,
+          "char_count": 563
+        },
+        "score": 0.3694,
+        "strategy": "hybrid_rrf_rerank",
+        "rrf_score": 0.030415,
+        "ce_logit": -2.485,
+        "hit": false
+      }
+    ],
+    "context": "[art-of-war-1910_p013_para_000 | starter/data/art_of_war.pdf | page 13]\n12. There are three ways in which a ruler can bring misfortune upon his army:— 13. (1) By commanding the army to advance or to retreat, being ignorant of the fact that it cannot obey. This is called hobbling the army. 14. (2) By attempting to govern an army in the same way as he administers a kingdom, being ignorant of the conditions which obtain in an army. This causes rest- lessness in the soldier’s minds. 15.\n\n[art-of-war-1910_p013_para_001 | starter/data/art_of_war.pdf | page 13]\n(3) By employing the officers of his army without discrimination, through ignorance of the military prin- ciple of adaptation to circumstances. This shakes the confidence of the soldiers. 16. But when the army is restless and distrustful, trou- ble is sure to come from the other feudal princes. This is simply bringing anarchy into the army, and flinging victory away. 17. Thus we may know that there are five essentials for victory: (1) He will win who knows when to fight and when not to fight. (2) He will win who knows how to handle both superior and inferior forces.\n\n[art-of-war-1910_p035_para_000 | starter/data/art_of_war.pdf | page 35]\n(2) cowardice, which leads to capture; (3) a hasty temper, which can be provoked by insults; (4) a delicacy of honor which is sensitive to shame; (5) over-solicitude for his men, which exposes him to worry and trouble. 13. These are the five besetting sins of a general, ruinous to the conduct of war. 14. When an army is overthrown and its leader slain, the cause will surely be found among these five dan- gerous faults. Let them be a subject of meditation. 32 /G53/G75/G6E/G20/G54/G7A/G75/G20/G6F/G6E/G20/G74/G68/G65/G20/G41/G72/G74/G20/G6F/G66/G20/G57/G61/G72",
+    "context_ids": [
+      "art-of-war-1910_p013_para_000",
+      "art-of-war-1910_p013_para_001",
+      "art-of-war-1910_p035_para_000"
+    ],
+    "context_chars": 1770,
+    "elapsed_ms": 593.6,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q17",
+    "split": "test",
+    "question": "How are military tactics similar to the natural flow of water?",
+    "filter": null,
+    "strategy": "selected_hybrid_rerank_b1800",
+    "top_k": 3,
+    "budget_chars": 1800,
+    "gold": [
+      {
+        "source_id": "art-of-war-1910",
+        "page": 26,
+        "evidence": "Military tactics are like unto water; for water in its natural course runs away from high places and hastens downwards."
+      }
+    ],
+    "results": [
+      {
+        "id": "art-of-war-1910_p026_para_001",
+        "source_id": "art-of-war-1910",
+        "source": "starter/data/art_of_war.pdf",
+        "page": 26,
+        "text": "31. Water shapes its course according to the nature of the ground over which it flows; the soldier works out his victory in relation to the foe whom he is facing. 32. Therefore, just as water retains no constant shape, so in warfare there are no constant conditions. 33. He who can modify his tactics in relation to his opponent and thereby succeed in winning, may be called a heaven-born captain. 23 /G53/G75/G6E/G20/G54/G7A/G75/G20/G6F/G6E/G20/G74/G68/G65/G20/G41/G72/G74/G20/G6F/G66/G20/G57/G61/G72",
+        "metadata": {
+          "section": "Weak Points and Strong",
+          "is_content_page": true,
+          "is_empty": false,
+          "char_count": 1087
+        },
+        "score": 0.9364,
+        "strategy": "hybrid_rrf_rerank",
+        "rrf_score": 0.032018,
+        "ce_logit": 2.4889,
+        "hit": false
+      },
+      {
+        "id": "art-of-war-1910_p026_para_000",
+        "source_id": "art-of-war-1910",
+        "source": "starter/data/art_of_war.pdf",
+        "page": 26,
+        "text": "26. How victory may be produced for them out of the enemy’s own tactics—that is what the multitude cannot comprehend. 27. All men can see the tactics whereby I conquer, but what none can see is the strategy out of which victory is evolved. 28. Do not repeat the tactics which have gained you one victory, but let your methods be regulated by the infinite variety of circumstances. 29. Military tactics are like unto water; for water in its natural course runs away from high places and hastens downwards. 30. So in war, the way is to avoid what is strong and to strike at what is weak.",
+        "metadata": {
+          "section": "Weak Points and Strong",
+          "is_content_page": true,
+          "is_empty": false,
+          "char_count": 1087
+        },
+        "score": 0.9036,
+        "strategy": "hybrid_rrf_rerank",
+        "rrf_score": 0.032018,
+        "ce_logit": 1.9271,
+        "hit": true
+      },
+      {
+        "id": "art-of-war-1910_p018_para_002",
+        "source_id": "art-of-war-1910",
+        "source": "starter/data/art_of_war.pdf",
+        "page": 18,
+        "text": "6. Indirect tactics, efficiently applied, are inexhaustible as Heaven and Earth, unending as the flow of rivers and streams; like the sun and moon, they end but to begin anew; like the four seasons, they pass away to return once more. 15 /G53/G75/G6E/G20/G54/G7A/G75/G20/G6F/G6E/G20/G74/G68/G65/G20/G41/G72/G74/G20/G6F/G66/G20/G57/G61/G72",
+        "metadata": {
+          "section": "Energy",
+          "is_content_page": true,
+          "is_empty": false,
+          "char_count": 1103
+        },
+        "score": 0.534,
+        "strategy": "hybrid_rrf_rerank",
+        "rrf_score": 0.031054,
+        "ce_logit": -0.7543,
+        "hit": false
+      }
+    ],
+    "context": "[art-of-war-1910_p026_para_001 | starter/data/art_of_war.pdf | page 26]\n31. Water shapes its course according to the nature of the ground over which it flows; the soldier works out his victory in relation to the foe whom he is facing. 32. Therefore, just as water retains no constant shape, so in warfare there are no constant conditions. 33. He who can modify his tactics in relation to his opponent and thereby succeed in winning, may be called a heaven-born captain. 23 /G53/G75/G6E/G20/G54/G7A/G75/G20/G6F/G6E/G20/G74/G68/G65/G20/G41/G72/G74/G20/G6F/G66/G20/G57/G61/G72\n\n[art-of-war-1910_p026_para_000 | starter/data/art_of_war.pdf | page 26]\n26. How victory may be produced for them out of the enemy’s own tactics—that is what the multitude cannot comprehend. 27. All men can see the tactics whereby I conquer, but what none can see is the strategy out of which victory is evolved. 28. Do not repeat the tactics which have gained you one victory, but let your methods be regulated by the infinite variety of circumstances. 29. Military tactics are like unto water; for water in its natural course runs away from high places and hastens downwards. 30. So in war, the way is to avoid what is strong and to strike at what is weak.\n\n[art-of-war-1910_p018_para_002 | starter/data/art_of_war.pdf | page 18]\n6. Indirect tactics, efficiently applied, are inexhaustible as Heaven and Earth, unending as the flow of rivers and streams; like the sun and moon, they end but to begin anew; like the four seasons, they pass away to return once more. 15 /G53/G75/G6E/G20/G54/G7A/G75/G20/G6F/G6E/G20/G74/G68/G65/G20/G41/G72/G74/G20/G6F/G66/G20/G57/G61/G72",
+    "context_ids": [
+      "art-of-war-1910_p026_para_001",
+      "art-of-war-1910_p026_para_000",
+      "art-of-war-1910_p018_para_002"
+    ],
+    "context_chars": 1644,
+    "elapsed_ms": 438.5,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q18",
+    "split": "test",
+    "question": "What do high columns of dust, low wide-spread dust, and branching dust each indicate about enemy movements?",
+    "filter": null,
+    "strategy": "selected_hybrid_rerank_b1800",
+    "top_k": 3,
+    "budget_chars": 1800,
+    "gold": [
+      {
+        "source_id": "art-of-war-1910",
+        "page": 39,
+        "evidence": "When there is dust rising in a high column, it is the sign of chariots advancing; when the dust is low, but spread over a wide area, it betokens the approach of infantry."
+      }
+    ],
+    "results": [
+      {
+        "id": "art-of-war-1910_p039_para_000",
+        "source_id": "art-of-war-1910",
+        "source": "starter/data/art_of_war.pdf",
+        "page": 39,
+        "text": "22. The rising of birds in their flight is the sign of an ambuscade. Startled beasts indicate that a sudden attack is coming. 23. When there is dust rising in a high column, it is the sign of chariots advancing; when the dust is low, but spread over a wide area, it betokens the approach of infantry. When it branches out in different directions, it shows that parties have been sent to collect firewood. A few clouds of dust moving to and fro signify that the army is encamping.",
+        "metadata": {
+          "section": "The Army on the March",
+          "is_content_page": true,
+          "is_empty": false,
+          "char_count": 1148
+        },
+        "score": 0.9804,
+        "strategy": "hybrid_rrf_rerank",
+        "rrf_score": 0.032787,
+        "ce_logit": 3.8235,
+        "hit": true
+      },
+      {
+        "id": "art-of-war-1910_p039_para_002",
+        "source_id": "art-of-war-1910",
+        "source": "starter/data/art_of_war.pdf",
+        "page": 39,
+        "text": "28. When some are seen advancing and some retreat- ing, it is a lure. 36 /G53/G75/G6E/G20/G54/G7A/G75/G20/G6F/G6E/G20/G74/G68/G65/G20/G41/G72/G74/G20/G6F/G66/G20/G57/G61/G72",
+        "metadata": {
+          "section": "The Army on the March",
+          "is_content_page": true,
+          "is_empty": false,
+          "char_count": 1148
+        },
+        "rrf_score": 0.008,
+        "ce_logit": -9.3675,
+        "score": 0.55,
+        "strategy": "hybrid_rrf_rerank",
+        "hit": false
+      },
+      {
+        "id": "art-of-war-1910_p039_para_001",
+        "source_id": "art-of-war-1910",
+        "source": "starter/data/art_of_war.pdf",
+        "page": 39,
+        "text": "24. Humble words and increased preparations are signs that the enemy is about to advance. Violent language and driving forward as if to the attack are signs that he will retreat. 25. When the light chariots come out first and take up a position on the wings, it is a sign that the enemy is forming for battle. 26. Peace proposals unaccompanied by a sworn covenant indicate a plot. 27. When there is much running about and the soldiers fall into rank, it means that the critical moment has come.",
+        "metadata": {
+          "section": "The Army on the March",
+          "is_content_page": true,
+          "is_empty": false,
+          "char_count": 1148
+        },
+        "score": 0.3245,
+        "strategy": "hybrid_rrf_rerank",
+        "rrf_score": 0.030835,
+        "ce_logit": -6.8486,
+        "hit": false
+      }
+    ],
+    "context": "[art-of-war-1910_p039_para_000 | starter/data/art_of_war.pdf | page 39]\n22. The rising of birds in their flight is the sign of an ambuscade. Startled beasts indicate that a sudden attack is coming. 23. When there is dust rising in a high column, it is the sign of chariots advancing; when the dust is low, but spread over a wide area, it betokens the approach of infantry. When it branches out in different directions, it shows that parties have been sent to collect firewood. A few clouds of dust moving to and fro signify that the army is encamping.\n\n[art-of-war-1910_p039_para_002 | starter/data/art_of_war.pdf | page 39]\n28. When some are seen advancing and some retreat- ing, it is a lure. 36 /G53/G75/G6E/G20/G54/G7A/G75/G20/G6F/G6E/G20/G74/G68/G65/G20/G41/G72/G74/G20/G6F/G66/G20/G57/G61/G72\n\n[art-of-war-1910_p039_para_001 | starter/data/art_of_war.pdf | page 39]\n24. Humble words and increased preparations are signs that the enemy is about to advance. Violent language and driving forward as if to the attack are signs that he will retreat. 25. When the light chariots come out first and take up a position on the wings, it is a sign that the enemy is forming for battle. 26. Peace proposals unaccompanied by a sworn covenant indicate a plot. 27. When there is much running about and the soldiers fall into rank, it means that the critical moment has come.",
+    "context_ids": [
+      "art-of-war-1910_p039_para_000",
+      "art-of-war-1910_p039_para_002",
+      "art-of-war-1910_p039_para_001"
+    ],
+    "context_chars": 1366,
+    "elapsed_ms": 662.92,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q19",
+    "split": "test",
+    "question": "What is the 'shuai-jan' in the Chung mountains and how does it respond when struck?",
+    "filter": null,
+    "strategy": "selected_hybrid_rerank_b1800",
+    "top_k": 3,
+    "budget_chars": 1800,
+    "gold": [
+      {
+        "source_id": "art-of-war-1910",
+        "page": 53,
+        "evidence": "Now the shuai-jan is a snake that is found in the ChUng mountains. Strike at its head, and you will be attacked by its tail; strike at its tail, and you will be attacked by its head; strike at its middle, and you will be attacked by head and tail both."
+      }
+    ],
+    "results": [
+      {
+        "id": "art-of-war-1910_p053_para_001",
+        "source_id": "art-of-war-1910",
+        "source": "starter/data/art_of_war.pdf",
+        "page": 53,
+        "text": "29. The skillful tactician may be likened to the shuai- jan. Now the shuai-jan is a snake that is found in the ChUng mountains. Strike at its head, and you will be attacked by its tail; strike at its tail, and you will be attacked by its head; strike at its middle, and you will be attacked by head and tail both.",
+        "metadata": {
+          "section": "The Nine Situations",
+          "is_content_page": true,
+          "is_empty": false,
+          "char_count": 1288
+        },
+        "score": 0.9929,
+        "strategy": "hybrid_rrf_rerank",
+        "rrf_score": 0.032787,
+        "ce_logit": 6.1748,
+        "hit": true
+      },
+      {
+        "id": "art-of-war-1910_p053_para_000",
+        "source_id": "art-of-war-1910",
+        "source": "starter/data/art_of_war.pdf",
+        "page": 53,
+        "text": "lives are not unduly long, it is not because they are dis- inclined to longevity. 28. On the day they are ordered out to battle, your sol- diers may weep, those sitting up bedewing their gar- ments, and those lying down letting the tears run down their cheeks. But let them once be brought to bay, and they will display the courage of a Chu or a Kuei.",
+        "metadata": {
+          "section": "The Nine Situations",
+          "is_content_page": true,
+          "is_empty": false,
+          "char_count": 1288
+        },
+        "rrf_score": 0.008,
+        "ce_logit": -11.1009,
+        "score": 0.55,
+        "strategy": "hybrid_rrf_rerank",
+        "hit": false
+      },
+      {
+        "id": "art-of-war-1910_p053_para_002",
+        "source_id": "art-of-war-1910",
+        "source": "starter/data/art_of_war.pdf",
+        "page": 53,
+        "text": "30. Asked if an army can be made to imitate the shuai- jan, I should answer, Yes. For the men of Wu and the men of Yueh are enemies; yet if they are crossing a river in the same boat and are caught by a storm, they will come to each other’s assistance just as the left hand helps the right.",
+        "metadata": {
+          "section": "The Nine Situations",
+          "is_content_page": true,
+          "is_empty": false,
+          "char_count": 1288
+        },
+        "score": 0.466,
+        "strategy": "hybrid_rrf_rerank",
+        "rrf_score": 0.032258,
+        "ce_logit": -1.4128,
+        "hit": false
+      }
+    ],
+    "context": "[art-of-war-1910_p053_para_001 | starter/data/art_of_war.pdf | page 53]\n29. The skillful tactician may be likened to the shuai- jan. Now the shuai-jan is a snake that is found in the ChUng mountains. Strike at its head, and you will be attacked by its tail; strike at its tail, and you will be attacked by its head; strike at its middle, and you will be attacked by head and tail both.\n\n[art-of-war-1910_p053_para_000 | starter/data/art_of_war.pdf | page 53]\nlives are not unduly long, it is not because they are dis- inclined to longevity. 28. On the day they are ordered out to battle, your sol- diers may weep, those sitting up bedewing their gar- ments, and those lying down letting the tears run down their cheeks. But let them once be brought to bay, and they will display the courage of a Chu or a Kuei.\n\n[art-of-war-1910_p053_para_002 | starter/data/art_of_war.pdf | page 53]\n30. Asked if an army can be made to imitate the shuai- jan, I should answer, Yes. For the men of Wu and the men of Yueh are enemies; yet if they are crossing a river in the same boat and are caught by a storm, they will come to each other’s assistance just as the left hand helps the right.",
+    "context_ids": [
+      "art-of-war-1910_p053_para_001",
+      "art-of-war-1910_p053_para_000",
+      "art-of-war-1910_p053_para_002"
+    ],
+    "context_chars": 1174,
+    "elapsed_ms": 630.6,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q20",
+    "split": "test",
+    "question": "In the chapter 'The Use of Spies', what are the five classes of spies and how are doomed spies defined?",
+    "filter": {
+      "section": "The Use of Spies"
+    },
+    "strategy": "selected_hybrid_rerank_b1800",
+    "top_k": 3,
+    "budget_chars": 1800,
+    "gold": [
+      {
+        "source_id": "art-of-war-1910",
+        "page": 63,
+        "evidence": "(1) Local spies; (2) inward spies; (3) converted spies; (4) doomed spies; (5) surviving spies."
+      }
+    ],
+    "results": [
+      {
+        "id": "art-of-war-1910_p063_para_000",
+        "source_id": "art-of-war-1910",
+        "source": "starter/data/art_of_war.pdf",
+        "page": 63,
+        "text": "6. Knowledge of the enemy’s dispositions can only be obtained from other men. 7. Hence the use of spies, of whom there are five class- es: (1) Local spies; (2) inward spies; (3) converted spies; (4) doomed spies; (5) surviving spies. 8. When these five kinds of spy are all at work, none can discover the secret system. This is called “divine manipulation of the threads.” It is the sovereign’s most precious faculty. 9. Having local spies means employing the services of the inhabitants of a district. 10. Having inward spies, making use of officials of the enemy.",
+        "metadata": {
+          "section": "The Use of Spies",
+          "is_content_page": true,
+          "is_empty": false,
+          "char_count": 1004
+        },
+        "score": 0.9927,
+        "strategy": "hybrid_rrf_rerank",
+        "rrf_score": 0.032787,
+        "ce_logit": 6.012,
+        "hit": true
+      },
+      {
+        "id": "art-of-war-1910_p063_para_001",
+        "source_id": "art-of-war-1910",
+        "source": "starter/data/art_of_war.pdf",
+        "page": 63,
+        "text": "11. Having converted spies, getting hold of the enemy’s spies and using them for our own purposes. 12. Having doomed spies, doing certain things openly for purposes of deception, and allowing our spies to know of them and report them to the enemy. 13. Surviving spies, finally, are those who bring back news from the enemy’s camp. 60 /G53/G75/G6E/G20/G54/G7A/G75/G20/G6F/G6E/G20/G74/G68/G65/G20/G41/G72/G74/G20/G6F/G66/G20/G57/G61/G72",
+        "metadata": {
+          "section": "The Use of Spies",
+          "is_content_page": true,
+          "is_empty": false,
+          "char_count": 1004
+        },
+        "score": 0.9117,
+        "strategy": "hybrid_rrf_rerank",
+        "rrf_score": 0.032258,
+        "ce_logit": 2.0075,
+        "hit": false
+      },
+      {
+        "id": "art-of-war-1910_p065_para_000",
+        "source_id": "art-of-war-1910",
+        "source": "starter/data/art_of_war.pdf",
+        "page": 65,
+        "text": "22. It is through the information brought by the con- verted spy that we are able to acquire and employ local and inward spies. 23. It is owing to his information, again, that we can cause the doomed spy to carry false tidings to the enemy. 24. Lastly, it is by his information that the surviving spy can be used on appointed occasions. 25. The end and aim of spying in all its five varieties is knowledge of the enemy; and this knowledge can only be derived, in the first instance, from the converted spy. Hence it is essential that the converted spy be treated with the utmost liberality.",
+        "metadata": {
+          "section": "The Use of Spies",
+          "is_content_page": true,
+          "is_empty": false,
+          "char_count": 1141
+        },
+        "score": 0.8735,
+        "strategy": "hybrid_rrf_rerank",
+        "rrf_score": 0.031498,
+        "ce_logit": 1.6218,
+        "hit": false
+      }
+    ],
+    "context": "[art-of-war-1910_p063_para_000 | starter/data/art_of_war.pdf | page 63]\n6. Knowledge of the enemy’s dispositions can only be obtained from other men. 7. Hence the use of spies, of whom there are five class- es: (1) Local spies; (2) inward spies; (3) converted spies; (4) doomed spies; (5) surviving spies. 8. When these five kinds of spy are all at work, none can discover the secret system. This is called “divine manipulation of the threads.” It is the sovereign’s most precious faculty. 9. Having local spies means employing the services of the inhabitants of a district. 10. Having inward spies, making use of officials of the enemy.\n\n[art-of-war-1910_p063_para_001 | starter/data/art_of_war.pdf | page 63]\n11. Having converted spies, getting hold of the enemy’s spies and using them for our own purposes. 12. Having doomed spies, doing certain things openly for purposes of deception, and allowing our spies to know of them and report them to the enemy. 13. Surviving spies, finally, are those who bring back news from the enemy’s camp. 60 /G53/G75/G6E/G20/G54/G7A/G75/G20/G6F/G6E/G20/G74/G68/G65/G20/G41/G72/G74/G20/G6F/G66/G20/G57/G61/G72",
+    "context_ids": [
+      "art-of-war-1910_p063_para_000",
+      "art-of-war-1910_p063_para_001"
+    ],
+    "context_chars": 1145,
+    "elapsed_ms": 540.07,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  }
+]

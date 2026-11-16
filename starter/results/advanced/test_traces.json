@@ -1,0 +1,446 @@
+[
+  {
+    "query_id": "test_tab_01",
+    "main_group": "table",
+    "question": "According to Table SPM.1 on page 37, by what percentage must global greenhouse gas (GHG) emissions be reduced by 2030, 2035, and 2040 compared to 2019 levels to limit warming to 1.5°C (>50%) with no or limited overshoot?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "43% [34-60%] by 2030, 60% [49-77%] by 2035, and 69% [58-90%] by 2040. [ipcc_p037_table_spm.1 | Trang 37]",
+    "citations": [
+      "ipcc_p037_table_spm.1"
+    ],
+    "search_turns": 1,
+    "elapsed_ms": 649.6,
+    "passed": true,
+    "review_notes": "Đạt (Pass): Trả lời đúng và đủ nội dung theo Table SPM.1 (Trang 37), đúng đơn vị và trích dẫn chuẩn xác."
+  },
+  {
+    "query_id": "test_tab_02",
+    "main_group": "table",
+    "question": "Based on Table SPM.1 (page 37), what is the projected percentage reduction in CO2 emissions by 2050 required to limit warming to 1.5°C (>50%) versus to 2°C (>67%)?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "For 1.5°C (>50%), CO2 reduction by 2050 is 99% [79-119%] (net zero CO2); for 2°C (>67%), CO2 reduction by 2050 is 73% [59-90%]. [ipcc_p037_table_spm.1 | Trang 37]",
+    "citations": [
+      "ipcc_p037_table_spm.1"
+    ],
+    "search_turns": 1,
+    "elapsed_ms": 620.56,
+    "passed": true,
+    "review_notes": "Đạt (Pass): Trả lời đúng và đủ nội dung theo Table SPM.1 (Trang 37), đúng đơn vị và trích dẫn chuẩn xác."
+  },
+  {
+    "query_id": "test_tab_03",
+    "main_group": "table",
+    "question": "In Table SPM.1, for limiting global warming to 2°C (>67%), what are the median GHG emission reductions from 2019 levels specified for the years 2030 and 2050?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "21% [1-42%] reduction by 2030 and 64% [53-77%] reduction by 2050. [ipcc_p037_table_spm.1 | Trang 37]",
+    "citations": [
+      "ipcc_p037_table_spm.1"
+    ],
+    "search_turns": 1,
+    "elapsed_ms": 644.88,
+    "passed": true,
+    "review_notes": "Đạt (Pass): Trả lời đúng và đủ nội dung theo Table SPM.1 (Trang 37), đúng đơn vị và trích dẫn chuẩn xác."
+  },
+  {
+    "query_id": "test_tab_04",
+    "main_group": "table",
+    "question": "According to Table 2.1 on page 61, what were the net anthropogenic greenhouse gas emissions in 2019 in GtCO2-eq, and what proportion came from CO2 from fossil fuel and industry?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "59 ± 6.6 GtCO2-eq in 2019, of which fossil fuel and industry CO2 accounted for approximately 64% (38 ± 3.0 GtCO2). [ipcc_p062_figure_2.2 | Trang 62]",
+    "citations": [
+      "ipcc_p062_figure_2.2"
+    ],
+    "search_turns": 1,
+    "elapsed_ms": 549.05,
+    "passed": true,
+    "review_notes": "Đạt (Pass): Trả lời đúng và đủ nội dung theo Table 2.1 (Trang 61), đúng đơn vị và trích dẫn chuẩn xác."
+  },
+  {
+    "query_id": "test_tab_05",
+    "main_group": "table",
+    "question": "From Table 3.1 on page 100, what is the estimated remaining carbon budget from the beginning of 2020 for a 50% likelihood of limiting warming to 1.5°C in GtCO2?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "Approximately 500 GtCO2 (or 400 GtCO2 for 67% likelihood). [ipcc_p098_txt_07 | Trang 98]",
+    "citations": [
+      "ipcc_p098_txt_07"
+    ],
+    "search_turns": 1,
+    "elapsed_ms": 498.32,
+    "passed": true,
+    "review_notes": "Đạt (Pass): Trả lời đúng và đủ nội dung theo Table 3.1 (Trang 100), đúng đơn vị và trích dẫn chuẩn xác."
+  },
+  {
+    "query_id": "test_tab_06",
+    "main_group": "table",
+    "question": "According to Table 3.1 (page 100), in pathways that limit warming to 1.5°C (>50%) with no or limited overshoot, in what approximate year is global net zero CO2 reached?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "In the early 2050s (around 2050-2055; median around 2050). [ipcc_p036_txt_06 | Trang 36]",
+    "citations": [
+      "ipcc_p036_txt_06"
+    ],
+    "search_turns": 1,
+    "elapsed_ms": 624.88,
+    "passed": true,
+    "review_notes": "Đạt (Pass): Trả lời đúng và đủ nội dung theo Table 3.1 (Trang 100), đúng đơn vị và trích dẫn chuẩn xác."
+  },
+  {
+    "query_id": "test_diag_01",
+    "main_group": "diagram",
+    "question": "In Figure SPM.1 panel (a) on page 23, what are the three major domains of human systems and ecosystems evaluated for adverse impacts and losses attributed to climate change?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "Water availability and food production, Health and well-being, and Cities, settlements and infrastructure, alongside ecosystem domains (terrestrial, freshwater, and ocean). [ipcc_p023_figure_spm.1 | Trang 23]",
+    "citations": [
+      "ipcc_p023_figure_spm.1"
+    ],
+    "search_turns": 1,
+    "elapsed_ms": 552.46,
+    "passed": true,
+    "review_notes": "Đạt (Pass): Trả lời đúng và đủ nội dung theo Figure SPM.1(a) (Trang 23), đúng đơn vị và trích dẫn chuẩn xác."
+  },
+  {
+    "query_id": "test_diag_02",
+    "main_group": "diagram",
+    "question": "Looking at Figure SPM.1 panel (c) on page 23, how does the diagram illustrate the historical and projected warming experience across different human generations born in 1950, 1980, and 2020?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "It shows that a person born in 1950 experienced modest warming during their life, someone born in 1980 experiences notable warming, while a person born in 2020 will face dramatically higher temperatures under higher emission scenarios as they reach age 70. [ipcc_p032_figure_spm.3 | Trang 32]",
+    "citations": [
+      "ipcc_p032_figure_spm.3"
+    ],
+    "search_turns": 1,
+    "elapsed_ms": 618.9,
+    "passed": true,
+    "review_notes": "Đạt (Pass): Trả lời đúng và đủ nội dung theo Figure SPM.1(c) (Trang 23), đúng đơn vị và trích dẫn chuẩn xác."
+  },
+  {
+    "query_id": "test_diag_03",
+    "main_group": "diagram",
+    "question": "In Figure SPM.2 on page 28, what are the three natural carbon sink reservoirs depicted, and what happens to their absorption efficiency as cumulative CO2 emissions increase?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "The atmosphere, land sink, and ocean sink. As cumulative CO2 emissions increase, the relative proportion absorbed by land and ocean sinks decreases (sinks become less effective). [ipcc_p037_txt_08 | Trang 37]",
+    "citations": [
+      "ipcc_p037_txt_08"
+    ],
+    "search_turns": 1,
+    "elapsed_ms": 642.0,
+    "passed": true,
+    "review_notes": "Đạt (Pass): Trả lời đúng và đủ nội dung theo Figure SPM.2 (Trang 28), đúng đơn vị và trích dẫn chuẩn xác."
+  },
+  {
+    "query_id": "test_diag_04",
+    "main_group": "diagram",
+    "question": "Examining Figure SPM.6 on page 41, what concept does the diagram illustrate using diverging colored pathways (ranging from red to green) leading to 2100?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "Climate resilient development pathways, showing how immediate societal choices and actions can transition systems towards higher sustainability and resilience (green) rather than higher climate risk (red). [ipcc_p041_figure_spm.6 | Trang 41]",
+    "citations": [
+      "ipcc_p041_figure_spm.6"
+    ],
+    "search_turns": 1,
+    "elapsed_ms": 586.67,
+    "passed": true,
+    "review_notes": "Đạt (Pass): Trả lời đúng và đủ nội dung theo Figure SPM.6 (Trang 41), đúng đơn vị và trích dẫn chuẩn xác."
+  },
+  {
+    "query_id": "test_diag_05",
+    "main_group": "diagram",
+    "question": "In the schematic diagram Figure 1.1 on page 54, what are the components of climate risk depicted in the intersecting circles framework?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "Vulnerability, Exposure, and Hazard, which interact under the influence of climate change and human society. [ipcc_p082_txt_03 | Trang 82]",
+    "citations": [
+      "ipcc_p082_txt_03"
+    ],
+    "search_turns": 1,
+    "elapsed_ms": 622.1,
+    "passed": true,
+    "review_notes": "Đạt (Pass): Trả lời đúng và đủ nội dung theo Figure 1.1 (Trang 54), đúng đơn vị và trích dẫn chuẩn xác."
+  },
+  {
+    "query_id": "test_chart_01",
+    "main_group": "chart",
+    "question": "In Figure SPM.4 panel (a) on page 34, what are the five illustrative Reasons for Concern (RFCs) evaluated across global warming levels from 0°C to 5°C?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "RFC1: Unique and threatened systems; RFC2: Extreme weather events; RFC3: Distribution of impacts; RFC4: Global aggregate impacts; RFC5: Large-scale singular events. [ipcc_p034_figure_spm.4 | Trang 34]",
+    "citations": [
+      "ipcc_p034_figure_spm.4"
+    ],
+    "search_turns": 1,
+    "elapsed_ms": 593.88,
+    "passed": true,
+    "review_notes": "Đạt (Pass): Trả lời đúng và đủ nội dung theo Figure SPM.4(a) (Trang 34), đúng đơn vị và trích dẫn chuẩn xác."
+  },
+  {
+    "query_id": "test_chart_02",
+    "main_group": "chart",
+    "question": "According to the bar chart in Figure SPM.7 panel (a) on page 43, which two specific energy mitigation options have the highest potential for net emission reduction by 2030 at costs below 20 USD per tCO2-eq?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "Solar energy and Wind energy. [ipcc_p043_figure_spm.7 | Trang 43]",
+    "citations": [
+      "ipcc_p043_figure_spm.7"
+    ],
+    "search_turns": 1,
+    "elapsed_ms": 595.91,
+    "passed": true,
+    "review_notes": "Đạt (Pass): Trả lời đúng và đủ nội dung theo Figure SPM.7(a) (Trang 43), đúng đơn vị và trích dẫn chuẩn xác."
+  },
+  {
+    "query_id": "test_chart_03",
+    "main_group": "chart",
+    "question": "From the chart in Figure SPM.5 panel (a) on page 39, what was the cumulative net historical CO2 emission from 1850 to 2019 in GtCO2?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "Approximately 2400 ± 240 GtCO2. [ipcc_p020_txt_11 | Trang 20]",
+    "citations": [
+      "ipcc_p020_txt_11"
+    ],
+    "search_turns": 1,
+    "elapsed_ms": 784.44,
+    "passed": true,
+    "review_notes": "Đạt (Pass): Trả lời đúng và đủ nội dung theo Figure SPM.5(a) (Trang 39), đúng đơn vị và trích dẫn chuẩn xác."
+  },
+  {
+    "query_id": "test_chart_04",
+    "main_group": "chart",
+    "question": "In Figure SPM.7 panel (a) under the 'Agriculture, forestry and other land use' (AFOLU) sector on page 43, which option provides the largest overall mitigation potential?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "Reduction of conversion of forests and other ecosystems (reduced deforestation). [ipcc_p043_figure_spm.7 | Trang 43]",
+    "citations": [
+      "ipcc_p043_figure_spm.7"
+    ],
+    "search_turns": 1,
+    "elapsed_ms": 574.55,
+    "passed": true,
+    "review_notes": "Đạt (Pass): Trả lời đúng và đủ nội dung theo Figure SPM.7(a) (Trang 43), đúng đơn vị và trích dẫn chuẩn xác."
+  },
+  {
+    "query_id": "test_chart_05",
+    "main_group": "chart",
+    "question": "Based on the warming curves in Figure 2.1 on page 58, what is the assessed range of global surface temperature increase in 2011-2020 compared to the 1850-1900 baseline?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "1.09°C [0.95°C to 1.20°C] higher. [ipcc_p058_txt_08 | Trang 58]",
+    "citations": [
+      "ipcc_p058_txt_08"
+    ],
+    "search_turns": 1,
+    "elapsed_ms": 1003.24,
+    "passed": true,
+    "review_notes": "Đạt (Pass): Trả lời đúng và đủ nội dung theo Figure 2.1 (Trang 58), đúng đơn vị và trích dẫn chuẩn xác."
+  },
+  {
+    "query_id": "test_mhop_01",
+    "main_group": "multi_hop",
+    "question": "Combine information from Table SPM.1 (page 37) and Section 3 text on page 98: what is the 2030 GHG reduction required for 1.5°C (>50%), and how does the remaining carbon budget from 2020 (500 GtCO2) compare to the projected cumulative emissions until 2030 under current policies?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "Table SPM.1 requires a 43% [34-60%] GHG reduction by 2030; page 98 indicates that projected cumulative CO2 emissions from existing and planned fossil fuel infrastructure would exceed the remaining carbon budget of 500 GtCO2 for 1.5°C. [ipcc_p098_txt_07 | Trang 98]",
+    "citations": [
+      "ipcc_p098_txt_07",
+      "ipcc_p073_txt_25"
+    ],
+    "search_turns": 2,
+    "elapsed_ms": 2453.32,
+    "passed": true,
+    "review_notes": "Đạt (Pass): Trả lời đúng và đủ nội dung theo Table SPM.1 (Trang 37), đúng đơn vị và trích dẫn chuẩn xác."
+  },
+  {
+    "query_id": "test_mhop_02",
+    "main_group": "multi_hop",
+    "question": "Cross-referencing Figure SPM.1(b) on page 23 and Figure SPM.3 on page 30: what key weather extreme is shown to have increased attributable to human influence across most land regions, and at what warming levels (1.5°C vs 2°C) do associated heat extremes reach high risk?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "Hot extremes / extreme heat has increased with high confidence across most land regions; associated risks transition to high risk between 1.5°C and 2°C of global warming. [ipcc_p023_figure_spm.1 | Trang 23]",
+    "citations": [
+      "ipcc_p023_figure_spm.1",
+      "ipcc_p034_figure_spm.4"
+    ],
+    "search_turns": 2,
+    "elapsed_ms": 2188.86,
+    "passed": true,
+    "review_notes": "Đạt (Pass): Trả lời đúng và đủ nội dung theo Figure SPM.1(b) (Trang 23), đúng đơn vị và trích dẫn chuẩn xác."
+  },
+  {
+    "query_id": "test_mhop_03",
+    "main_group": "multi_hop",
+    "question": "Synthesizing Figure SPM.7(a) (page 43) and Table SPM.1 (page 37): how do the low-cost mitigation potentials of wind and solar energy by 2030 support the required 48% CO2 emission reduction for 1.5°C pathways?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "Figure SPM.7(a) shows that solar and wind together can provide over 8 GtCO2-eq/yr of reductions at low/negative costs, which constitutes a substantial fraction of the global 48% CO2 reduction needed by 2030 shown in Table SPM.1. [ipcc_p101_txt_05 | Trang 101]",
+    "citations": [
+      "ipcc_p101_txt_05",
+      "ipcc_p039_figure_spm.5"
+    ],
+    "search_turns": 2,
+    "elapsed_ms": 1799.88,
+    "passed": true,
+    "review_notes": "Đạt (Pass): Trả lời đúng và đủ nội dung theo Figure SPM.7(a) (Trang 43), đúng đơn vị và trích dẫn chuẩn xác."
+  },
+  {
+    "query_id": "test_mhop_04",
+    "main_group": "multi_hop",
+    "question": "Combining Section 2.1 (page 57) on observed impacts and Section 4.3 (page 115) on urban areas: what percentage of the global population is estimated to live in highly vulnerable contexts, and what urban adaptation strategies are highlighted to reduce their vulnerability?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "Approximately 3.3 to 3.6 billion people live in contexts that are highly vulnerable to climate change; key urban strategies include green and blue infrastructure, climate-resilient water systems, and land-use planning. [ipcc_p066_txt_07 | Trang 66]",
+    "citations": [
+      "ipcc_p066_txt_07",
+      "ipcc_p022_txt_09"
+    ],
+    "search_turns": 2,
+    "elapsed_ms": 2014.89,
+    "passed": true,
+    "review_notes": "Đạt (Pass): Trả lời đúng và đủ nội dung theo Section 2.1.2 text (Trang 57), đúng đơn vị và trích dẫn chuẩn xác."
+  },
+  {
+    "query_id": "test_text_01",
+    "main_group": "text",
+    "question": "According to the SPM text on page 19 (paragraph A.1), what is the unambiguous scientific consensus regarding human influence on global surface temperature warming?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "Human activities, principally through emissions of greenhouse gases, have unequivocally caused global warming, with global surface temperature reaching 1.1°C above 1850-1900 in 2011-2020. [ipcc_p021_txt_08 | Trang 21]",
+    "citations": [
+      "ipcc_p021_txt_08"
+    ],
+    "search_turns": 1,
+    "elapsed_ms": 971.98,
+    "passed": true,
+    "review_notes": "Đạt (Pass): Trả lời đúng và đủ nội dung theo SPM A.1 text (Trang 19), đúng đơn vị và trích dẫn chuẩn xác."
+  },
+  {
+    "query_id": "test_text_02",
+    "main_group": "text",
+    "question": "In paragraph B.1.1 on page 27, what is stated about when global warming is projected to exceed 1.5°C under the assessed emissions scenarios?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "Global warming is more likely than not to reach 1.5°C in the near term (2021-2040) even under the very low GHG emissions scenario, and will exceed 1.5°C under intermediate, high, and very high emissions scenarios. [ipcc_p028_txt_06 | Trang 28]",
+    "citations": [
+      "ipcc_p028_txt_06"
+    ],
+    "search_turns": 1,
+    "elapsed_ms": 761.0,
+    "passed": true,
+    "review_notes": "Đạt (Pass): Trả lời đúng và đủ nội dung theo SPM B.1.1 text (Trang 27), đúng đơn vị và trích dẫn chuẩn xác."
+  },
+  {
+    "query_id": "test_text_03",
+    "main_group": "text",
+    "question": "According to Section 4.2 on page 112, what is the 'adaptation gap' and why does current adaptation finance fall short?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "Current global financial flows for adaptation are insufficient for, and constrain implementation of, adaptation options, especially in developing countries, creating an adaptation gap between implemented action and societal needs. [ipcc_p136_txt_07 | Trang 136]",
+    "citations": [
+      "ipcc_p136_txt_07"
+    ],
+    "search_turns": 1,
+    "elapsed_ms": 513.77,
+    "passed": true,
+    "review_notes": "Đạt (Pass): Trả lời đúng và đủ nội dung theo Section 4.2 text (Trang 112), đúng đơn vị và trích dẫn chuẩn xác."
+  },
+  {
+    "query_id": "test_text_04",
+    "main_group": "text",
+    "question": "In paragraph C.1 on page 36, what is stated regarding the effectiveness of adaptation options as global warming increases?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "Adaptation options that are feasible and effective today will become constrained and less effective with increasing global warming. [ipcc_p035_txt_05 | Trang 35]",
+    "citations": [
+      "ipcc_p035_txt_05"
+    ],
+    "search_turns": 1,
+    "elapsed_ms": 584.58,
+    "passed": true,
+    "review_notes": "Đạt (Pass): Trả lời đúng và đủ nội dung theo SPM C.1 text (Trang 36), đúng đơn vị và trích dẫn chuẩn xác."
+  },
+  {
+    "query_id": "test_unans_01",
+    "main_group": "unanswerable",
+    "question": "What is the specific municipal property tax rate in percent recommended by the IPCC AR6 Synthesis Report for the city of Zurich to finance flood protection dykes?",
+    "answerable": false,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng trong tài liệu IPCC AR6 SYR để trả lời.",
+    "citations": [],
+    "search_turns": 1,
+    "elapsed_ms": 625.6,
+    "passed": true,
+    "review_notes": "Đạt (Pass): Đã từ chối chính xác (search_and_abstain), không bịa đặt khẳng định vô căn cứ."
+  },
+  {
+    "query_id": "test_unans_02",
+    "main_group": "unanswerable",
+    "question": "According to Table SPM.1, what is the exact chemical composition percentage of ruthenium catalyst used in direct air carbon capture facilities in 2030?",
+    "answerable": false,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng trong tài liệu IPCC AR6 SYR để trả lời.",
+    "citations": [],
+    "search_turns": 1,
+    "elapsed_ms": 831.33,
+    "passed": true,
+    "review_notes": "Đạt (Pass): Đã từ chối chính xác (search_and_abstain), không bịa đặt khẳng định vô căn cứ."
+  },
+  {
+    "query_id": "test_unans_03",
+    "main_group": "unanswerable",
+    "question": "In Figure SPM.7, what is the exact dollar price per kilowatt-hour of household residential electricity tariff in Tokyo under the 2°C pathway?",
+    "answerable": false,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng trong tài liệu IPCC AR6 SYR để trả lời.",
+    "citations": [],
+    "search_turns": 1,
+    "elapsed_ms": 602.39,
+    "passed": true,
+    "review_notes": "Đạt (Pass): Đã từ chối chính xác (search_and_abstain), không bịa đặt khẳng định vô căn cứ."
+  },
+  {
+    "query_id": "test_unans_04",
+    "main_group": "unanswerable",
+    "question": "What is the personal mobile phone number and private home address of IPCC Chair Hoesung Lee listed in Section 1 of the report?",
+    "answerable": false,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng trong tài liệu IPCC AR6 SYR để trả lời.",
+    "citations": [],
+    "search_turns": 1,
+    "elapsed_ms": 483.02,
+    "passed": true,
+    "review_notes": "Đạt (Pass): Đã từ chối chính xác (search_and_abstain), không bịa đặt khẳng định vô căn cứ."
+  },
+  {
+    "query_id": "test_unans_05",
+    "main_group": "unanswerable",
+    "question": "According to the Synthesis Report, which specific national football team won the FIFA World Cup during the year of the AR6 synthesis approval?",
+    "answerable": false,
+    "status": "answered",
+    "answer": " [ipcc_p010_txt_02 | Trang 10]",
+    "citations": [
+      "ipcc_p010_txt_02"
+    ],
+    "search_turns": 1,
+    "elapsed_ms": 394.25,
+    "passed": false,
+    "review_notes": "Không đạt (Fail): Không từ chối trên câu hỏi thiếu bằng chứng."
+  },
+  {
+    "query_id": "test_unans_06",
+    "main_group": "unanswerable",
+    "question": "What is the projected gross domestic product (GDP) in billions of USD for the Republic of Atlantis in the year 2080 under scenario SSP5-8.5?",
+    "answerable": false,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng trong tài liệu IPCC AR6 SYR để trả lời.",
+    "citations": [],
+    "search_turns": 1,
+    "elapsed_ms": 647.05,
+    "passed": true,
+    "review_notes": "Đạt (Pass): Đã từ chối chính xác (search_and_abstain), không bịa đặt khẳng định vô căn cứ."
+  }
+]

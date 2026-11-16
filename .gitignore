@@ -1,11 +1,17 @@
 .venv/
+venv/
+ENV/
 __pycache__/
-*.pyc
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.DS_Store
+Thumbs.db
 .env
 .env.*
 !.env.example
-.codex-log/
-
-# Local datasets and generated output; share permitted artifacts deliberately
-starter/data/
-starter/results/
+starter/data/raw_day6/
+day06_repo/

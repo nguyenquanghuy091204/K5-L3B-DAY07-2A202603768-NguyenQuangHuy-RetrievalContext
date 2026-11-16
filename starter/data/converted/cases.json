@@ -1,0 +1,352 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "question": "What are the five constant factors that govern the art of war?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "The five constant factors are: (1) The Moral Law; (2) Heaven; (3) Earth; (4) The Commander; (5) Method and discipline.",
+    "gold": [
+      {
+        "source_id": "art-of-war-1910",
+        "page": 4,
+        "evidence": "(1) The Moral Law; (2) Heaven; (3) Earth; (4) The Commander; (5) Method and discipline."
+      }
+    ]
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "question": "What virtues does the Commander stand for?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Wisdom, sincerity (sincerely), benevolence, courage, and strictness.",
+    "gold": [
+      {
+        "source_id": "art-of-war-1910",
+        "page": 5,
+        "evidence": "The Commander stands for the virtues of wisdom, sincerely, benevolence, courage and strict- ness."
+      }
+    ]
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "question": "How much does it cost per day in silver to raise and maintain an army of 100,000 soldiers?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "One thousand ounces of silver per day.",
+    "gold": [
+      {
+        "source_id": "art-of-war-1910",
+        "page": 8,
+        "evidence": "the total of a thousand ounces of silver per day. Such is the cost of raising an army of 100,000 men."
+      }
+    ]
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "question": "How does one cartload of captured enemy provisions compare to supplies brought from one's own home store?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "One cartload of the enemy's provisions is equivalent to twenty of one's own.",
+    "gold": [
+      {
+        "source_id": "art-of-war-1910",
+        "page": 10,
+        "evidence": "One cartload of the enemy’s provisions is equivalent to twenty of one’s own"
+      }
+    ]
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "question": "What does supreme excellence consist in, rather than fighting and conquering in all your battles?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Supreme excellence consists in breaking the enemy's resistance without fighting.",
+    "gold": [
+      {
+        "source_id": "art-of-war-1910",
+        "page": 11,
+        "evidence": "supreme excellence consists in breaking the enemy’s resistance without fighting."
+      }
+    ]
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "question": "In what order of priority are the four forms of generalship ranked, from highest to worst policy?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Highest is to balk the enemy's plans; next best is to prevent the junction of the enemy's forces; next is to attack the enemy's army in the field; and the worst policy of all is to besiege walled cities.",
+    "gold": [
+      {
+        "source_id": "art-of-war-1910",
+        "page": 11,
+        "evidence": "Thus the highest form of generalship is to balk the enemy’s plans; the next best is to prevent the junction of the enemy’s forces; the next in order is to attack the enemy’s army in the field; and the worst policy of all is to besiege walled cities."
+      }
+    ]
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "question": "What happens in battle depending on whether you know the enemy and know yourself?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "If you know the enemy and know yourself, you need not fear the result of a hundred battles. If you know yourself but not the enemy, for every victory gained you will also suffer a defeat. If you know neither, you will succumb in every battle.",
+    "gold": [
+      {
+        "source_id": "art-of-war-1910",
+        "page": 14,
+        "evidence": "If you know the enemy and know yourself, you need not fear the result of a hun- dred battles. If you know yourself but not the enemy, for every victory gained you will also suffer a defeat."
+      }
+    ]
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "question": "What do standing on the defensive versus attacking indicate about an army's strength?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Standing on the defensive indicates insufficient strength; attacking indicates a superabundance of strength.",
+    "gold": [
+      {
+        "source_id": "art-of-war-1910",
+        "page": 15,
+        "evidence": "Standing on the defensive indicates insufficient strength; attacking, a superabundance of strength."
+      }
+    ]
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "question": "How are energy and decision compared to a crossbow?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Energy is likened to the bending of a crossbow, and decision to the releasing of a trigger.",
+    "gold": [
+      {
+        "source_id": "art-of-war-1910",
+        "page": 20,
+        "evidence": "Energy may be likened to the bending of a cross- bow; decision, to the releasing of a trigger."
+      }
+    ]
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "question": "If you force your army to march fifty LI to outmaneuver the enemy, what will be the consequence?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "You will lose the leader of your first division, and only half your force will reach the goal.",
+    "gold": [
+      {
+        "source_id": "art-of-war-1910",
+        "page": 29,
+        "evidence": "If you march fifty LI in order to outmaneuver the enemy, you will lose the leader of your first division, and only half your force will reach the goal."
+      }
+    ]
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "question": "When an invading force is crossing a river in its onward march, how should you respond instead of meeting it in mid-stream?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Do not advance to meet it in mid-stream; let half the army get across and then deliver your attack.",
+    "gold": [
+      {
+        "source_id": "art-of-war-1910",
+        "page": 36,
+        "evidence": "When an invading force crosses a river in its onward march, do not advance to meet it in mid-stream. It will be best to let half the army get across, and then deliver your attack."
+      }
+    ]
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "question": "What are the five ways of attacking with fire?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "First, to burn soldiers in their camp; second, to burn stores; third, to burn baggage trains; fourth, to burn arsenals and magazines; fifth, to hurl dropping fire amongst the enemy.",
+    "gold": [
+      {
+        "source_id": "art-of-war-1910",
+        "page": 59,
+        "evidence": "The first is to burn soldiers in their camp; the sec- ond is to burn stores; the third is to burn baggage trains; the fourth is to burn arsenals and magazines; the fifth is to hurl dropping fire amongst the enemy."
+      }
+    ]
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "question": "In the chapter 'Maneuvering', why does the general Receive commands from the sovereign and what must he do before pitching his camp?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Having collected an army and concentrated his forces, he must blend and harmonize the different elements thereof before pitching his camp.",
+    "gold": [
+      {
+        "source_id": "art-of-war-1910",
+        "page": 28,
+        "evidence": "Having collected an army and concentrated his forces, he must blend and harmonize the different ele- ments thereof before pitching his camp."
+      }
+    ],
+    "filter": {
+      "section": "Maneuvering"
+    }
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "question": "According to the chapter 'Terrain', what happens when common soldiers are too strong and officers too weak, versus when officers are too strong and common soldiers too weak?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "When common soldiers are too strong and officers too weak, the result is insubordination. When officers are too strong and common soldiers too weak, the result is collapse.",
+    "gold": [
+      {
+        "source_id": "art-of-war-1910",
+        "page": 45,
+        "evidence": "When the common soldiers are too strong and their officers too weak, the result is insubordination. When the officers are too strong and the common soldiers too weak, the result is collapse."
+      }
+    ],
+    "filter": {
+      "section": "Terrain"
+    }
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "question": "Specifically within the chapter 'The Nine Situations', what are the nine varieties of ground recognized by the art of war?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "(1) Dispersive ground; (2) facile ground; (3) contentious ground; (4) open ground; (5) ground of intersecting highways; (6) serious ground; (7) difficult ground; (8) hemmed-in ground; (9) desperate ground.",
+    "gold": [
+      {
+        "source_id": "art-of-war-1910",
+        "page": 49,
+        "evidence": "(1) Dispersive ground; (2) facile ground; (3) contentious ground; (4) open ground; (5) ground of intersecting highways; (6) serious ground; (7) difficult ground; (8) hemmed-in ground; (9) desperate ground."
+      }
+    ],
+    "filter": {
+      "section": "The Nine Situations"
+    }
+  },
+  {
+    "id": "q16",
+    "split": "test",
+    "question": "What are the three ways in which a ruler can bring misfortune upon his army?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "(1) Commanding the army to advance or retreat, being ignorant of the fact that it cannot obey (hobbling the army); (2) Attempting to govern an army in the same way as he administers a kingdom; (3) Employing the officers of his army without discrimination.",
+    "gold": [
+      {
+        "source_id": "art-of-war-1910",
+        "page": 13,
+        "evidence": "12. There are three ways in which a ruler can bring misfortune upon his army:—"
+      }
+    ]
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "question": "How are military tactics similar to the natural flow of water?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Water in its natural course runs away from high places and hastens downwards; so in war, the way is to avoid what is strong and to strike at what is weak, shaping its course according to the nature of the ground and the foe.",
+    "gold": [
+      {
+        "source_id": "art-of-war-1910",
+        "page": 26,
+        "evidence": "Military tactics are like unto water; for water in its natural course runs away from high places and hastens downwards."
+      }
+    ]
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "question": "What do high columns of dust, low wide-spread dust, and branching dust each indicate about enemy movements?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Dust rising in a high column indicates chariots advancing; low dust spread over a wide area betokens infantry approaching; dust branching out in different directions shows parties have been sent to collect firewood.",
+    "gold": [
+      {
+        "source_id": "art-of-war-1910",
+        "page": 39,
+        "evidence": "When there is dust rising in a high column, it is the sign of chariots advancing; when the dust is low, but spread over a wide area, it betokens the approach of infantry."
+      }
+    ]
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "question": "What is the 'shuai-jan' in the Chung mountains and how does it respond when struck?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "The shuai-jan is a snake found in the Chung mountains. Strike at its head, and you will be attacked by its tail; strike at its tail, and you will be attacked by its head; strike at its middle, and you will be attacked by head and tail both.",
+    "gold": [
+      {
+        "source_id": "art-of-war-1910",
+        "page": 53,
+        "evidence": "Now the shuai-jan is a snake that is found in the ChUng mountains. Strike at its head, and you will be attacked by its tail; strike at its tail, and you will be attacked by its head; strike at its middle, and you will be attacked by head and tail both."
+      }
+    ]
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "question": "In the chapter 'The Use of Spies', what are the five classes of spies and how are doomed spies defined?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "The five classes are local spies, inward spies, converted spies, doomed spies, and surviving spies. Doomed spies are those doing certain things openly for purposes of deception and allowing our spies to know of them and report them to the enemy.",
+    "gold": [
+      {
+        "source_id": "art-of-war-1910",
+        "page": 63,
+        "evidence": "(1) Local spies; (2) inward spies; (3) converted spies; (4) doomed spies; (5) surviving spies."
+      }
+    ],
+    "filter": {
+      "section": "The Use of Spies"
+    }
+  },
+  {
+    "id": "q21_unans_dev",
+    "split": "dev",
+    "question": "According to Sun Tzu in the chapter 'The Attack by Fire', what is the exact ratio of sulfur, saltpeter, and charcoal required to mix gunpowder for siege cannons?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Checked all 62 content pages (158 chunks), especially Chapter XII 'The Attack by Fire' (pages 59-61). The text only describes five incendiary methods using dry wood, reeds, and dropping fire; gunpowder chemicals (sulfur, saltpeter, charcoal) and cannons do not exist anywhere in the treatise.",
+    "filter": {
+      "section": "The Attack by Fire"
+    }
+  },
+  {
+    "id": "q22_unans_dev",
+    "split": "dev",
+    "question": "In the chapter 'Waging War', how many bronze coins per month is each conscripted foot soldier paid as a personal salary?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Checked all chunks in Chapter II 'Waging War' (pages 8-10) and the full corpus. Page 8 states the aggregate daily cost of raising 100,000 men (1,000 ounces of silver per day) and page 10 mentions rewarding soldiers who capture 10+ chariots, but individual monthly salaries in bronze coins are never mentioned.",
+    "filter": {
+      "section": "Waging War"
+    }
+  },
+  {
+    "id": "q23_unans_test",
+    "split": "test",
+    "question": "According to the treatise, how many oarsmen and boarding marines are assigned to a standard three-decked naval warship during a sea blockade?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Searched the entire 62-page treatise for naval terms ('warship', 'oarsmen', 'marines', 'naval', 'sea', 'blockade', 'ship', 'boat'). Aside from crossing rivers in Chapter IX (page 36) and a metaphor of a boat in Chapter XI (page 54), there is zero mention of naval warships or crew complements."
+  },
+  {
+    "id": "q24_unans_test",
+    "split": "test",
+    "question": "In which specific historical year and battle did Sun Tzu personally command the Wu army to capture the Chu capital of Ying?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Checked all 62 valid content pages (pages 4-65). While Chapter XI (page 53) mentions the mutual animosity of the states of Wu and Yueh as an illustration, the treatise contains only military doctrine and never states historical dates or Sun Tzu's personal campaign capturing Ying."
+  }
+]

@@ -1,0 +1,41 @@
+{
+  "split": "dev",
+  "cases": 17,
+  "provider_errors": 0,
+  "tool_use": {
+    "n": 17,
+    "N": 17
+  },
+  "grounded_answer": {
+    "0": 3,
+    "1": 0,
+    "2": 12,
+    "N": 15,
+    "mean": 1.6
+  },
+  "citation_validity": {
+    "n": 12,
+    "N": 12
+  },
+  "answer_citation_coverage": {
+    "n": 12,
+    "N": 12
+  },
+  "abstention": {
+    "n": 2,
+    "N": 2
+  },
+  "false_abstention": {
+    "n": 3,
+    "N": 15
+  },
+  "config": "agent_dev_dense_day6",
+  "median_ms": 172.49,
+  "total_ms": 2982.64,
+  "avg_search_turns": 1.29,
+  "search_turns_distribution": {
+    "1": 12,
+    "2": 5
+  },
+  "cost_usd": 0.0
+}

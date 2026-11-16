@@ -1,0 +1,15 @@
+{
+  "strategy": "method3_hybrid_rrf_b800",
+  "split": "dev",
+  "n": 15,
+  "hit1": 15,
+  "hit1_ratio": "15/15 (100.00%)",
+  "hit3": 15,
+  "hit3_ratio": "15/15 (100.00%)",
+  "context_hit": 15,
+  "context_hit_ratio": "15/15 (100.00%)",
+  "avg_context_chars": 589.9,
+  "median_ms": 27.78,
+  "total_ms": 411.14,
+  "service_cost_usd": 0.0
+}

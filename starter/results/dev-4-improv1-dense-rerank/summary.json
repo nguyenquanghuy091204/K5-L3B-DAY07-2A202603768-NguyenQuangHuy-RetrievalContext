@@ -1,0 +1,15 @@
+{
+  "strategy": "improv1_dense_rerank_b800",
+  "split": "dev",
+  "n": 15,
+  "hit1": 15,
+  "hit1_ratio": "15/15 (100.00%)",
+  "hit3": 15,
+  "hit3_ratio": "15/15 (100.00%)",
+  "context_hit": 15,
+  "context_hit_ratio": "15/15 (100.00%)",
+  "avg_context_chars": 589.9,
+  "median_ms": 541.03,
+  "total_ms": 8724.39,
+  "service_cost_usd": 0.0
+}

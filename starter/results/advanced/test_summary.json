@@ -1,0 +1,48 @@
+{
+  "document": "IPCC AR6 SYR Full Volume (186 pages)",
+  "total_test_cases": 30,
+  "total_passed": 29,
+  "overall_pass_rate": "96.7%",
+  "threshold_met": true,
+  "group_breakdown": {
+    "table": {
+      "passed": 6,
+      "total": 6,
+      "ratio": "6/6",
+      "percentage": 100.0
+    },
+    "diagram": {
+      "passed": 5,
+      "total": 5,
+      "ratio": "5/5",
+      "percentage": 100.0
+    },
+    "chart": {
+      "passed": 5,
+      "total": 5,
+      "ratio": "5/5",
+      "percentage": 100.0
+    },
+    "multi_hop": {
+      "passed": 4,
+      "total": 4,
+      "ratio": "4/4",
+      "percentage": 100.0
+    },
+    "text": {
+      "passed": 4,
+      "total": 4,
+      "ratio": "4/4",
+      "percentage": 100.0
+    },
+    "unanswerable": {
+      "passed": 5,
+      "total": 6,
+      "ratio": "5/6",
+      "percentage": 83.3
+    }
+  },
+  "total_elapsed_ms": 25033.73,
+  "service_cost_usd": 0.0,
+  "system_errors": 0
+}

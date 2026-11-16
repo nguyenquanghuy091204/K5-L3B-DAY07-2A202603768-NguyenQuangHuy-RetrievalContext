@@ -1,0 +1,57 @@
+[
+  {
+    "query_id": "q16",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "notes": "Complete and accurate (grade 2/2): directly supported by cited gold page evidence covering all required conditions."
+  },
+  {
+    "query_id": "q17",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "notes": "Complete and accurate (grade 2/2): directly supported by cited gold page evidence covering all required conditions."
+  },
+  {
+    "query_id": "q18",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "notes": "Complete and accurate (grade 2/2): directly supported by cited gold page evidence covering all required conditions."
+  },
+  {
+    "query_id": "q19",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "notes": "Complete and accurate (grade 2/2): directly supported by cited gold page evidence covering all required conditions."
+  },
+  {
+    "query_id": "q20",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "notes": "Complete and accurate (grade 2/2): directly supported by cited gold page evidence covering all required conditions."
+  },
+  {
+    "query_id": "q23_unans_test",
+    "citation_support": [],
+    "abstention_correct": true,
+    "notes": "Agent searched corpus and correctly abstained without hallucinating unsupported claims."
+  },
+  {
+    "query_id": "q24_unans_test",
+    "citation_support": [],
+    "abstention_correct": true,
+    "notes": "Agent searched corpus and correctly abstained without hallucinating unsupported claims."
+  }
+]

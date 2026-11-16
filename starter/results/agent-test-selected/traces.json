@@ -1,0 +1,862 @@
+[
+  {
+    "query_id": "q16",
+    "split": "test",
+    "question": "What are the three ways in which a ruler can bring misfortune upon his army?",
+    "answerable": true,
+    "filter": null,
+    "config": "agent_test_selected_improv2",
+    "model": "local-neural:cross-encoder/ms-marco-MiniLM-L-6-v2+all-MiniLM-L6-v2",
+    "status": "answered",
+    "answer": "There are three ways in which a ruler can bring misfortune upon his army:— 13. (1) By commanding the army to advance or to retreat, being ignorant of the fact that it cannot obey. This is called hobbling the army. (2) By attempting to govern an army in the same way as he administers a kingdom, being ignorant of the conditions which obtain in an army. This causes restlessness in the soldier’s minds. 15. [art-of-war-1910_p013_para_000] Additionally: (3) By employing the officers of his army without discrimination, through ignorance of the military principle of adaptation to circumstances. This shakes the confidence of the soldiers. 16. But when the army is restless and distrustful, trouble is sure to come from the other feudal princes. This is simply bringing anarchy into the army, and flinging victory away. 17. Thus we may know that there are five essentials for victory: (1) He will win who knows when to fight and when not to fight. (2) He will win who knows how to handle both superior and inferior forces. [art-of-war-1910_p013_para_001]",
+    "citations": [
+      "art-of-war-1910_p013_para_000",
+      "art-of-war-1910_p013_para_001"
+    ],
+    "search_turns": 1,
+    "elapsed_ms": 839.33,
+    "cost_usd": 0.0,
+    "events": [
+      {
+        "event": "search",
+        "query": "What are the three ways in which a ruler can bring misfortune upon his army?",
+        "filter": null,
+        "results": [
+          {
+            "id": "art-of-war-1910_p013_para_000",
+            "source_id": "art-of-war-1910",
+            "source": "starter/data/art_of_war.pdf",
+            "page": 13,
+            "text": "12. There are three ways in which a ruler can bring misfortune upon his army:— 13. (1) By commanding the army to advance or to retreat, being ignorant of the fact that it cannot obey. This is called hobbling the army. 14. (2) By attempting to govern an army in the same way as he administers a kingdom, being ignorant of the conditions which obtain in an army. This causes rest- lessness in the soldier’s minds. 15.",
+            "metadata": {
+              "section": "Attack by Stratagem",
+              "is_content_page": true,
+              "is_empty": false,
+              "char_count": 1176
+            },
+            "score": 0.9942,
+            "strategy": "hybrid_rrf_rerank",
+            "rrf_score": 0.032787,
+            "ce_logit": 10.3836
+          },
+          {
+            "id": "art-of-war-1910_p013_para_001",
+            "source_id": "art-of-war-1910",
+            "source": "starter/data/art_of_war.pdf",
+            "page": 13,
+            "text": "(3) By employing the officers of his army without discrimination, through ignorance of the military prin- ciple of adaptation to circumstances. This shakes the confidence of the soldiers. 16. But when the army is restless and distrustful, trou- ble is sure to come from the other feudal princes. This is simply bringing anarchy into the army, and flinging victory away. 17. Thus we may know that there are five essentials for victory: (1) He will win who knows when to fight and when not to fight. (2) He will win who knows how to handle both superior and inferior forces.",
+            "metadata": {
+              "section": "Attack by Stratagem",
+              "is_content_page": true,
+              "is_empty": false,
+              "char_count": 1176
+            },
+            "rrf_score": 0.015873,
+            "ce_logit": -1.854,
+            "score": 0.55,
+            "strategy": "hybrid_rrf_rerank"
+          },
+          {
+            "id": "art-of-war-1910_p035_para_000",
+            "source_id": "art-of-war-1910",
+            "source": "starter/data/art_of_war.pdf",
+            "page": 35,
+            "text": "(2) cowardice, which leads to capture; (3) a hasty temper, which can be provoked by insults; (4) a delicacy of honor which is sensitive to shame; (5) over-solicitude for his men, which exposes him to worry and trouble. 13. These are the five besetting sins of a general, ruinous to the conduct of war. 14. When an army is overthrown and its leader slain, the cause will surely be found among these five dan- gerous faults. Let them be a subject of meditation. 32 /G53/G75/G6E/G20/G54/G7A/G75/G20/G6F/G6E/G20/G74/G68/G65/G20/G41/G72/G74/G20/G6F/G66/G20/G57/G61/G72",
+            "metadata": {
+              "section": "Variation in Tactics",
+              "is_content_page": true,
+              "is_empty": false,
+              "char_count": 563
+            },
+            "score": 0.3694,
+            "strategy": "hybrid_rrf_rerank",
+            "rrf_score": 0.030415,
+            "ce_logit": -2.485
+          }
+        ],
+        "context": "[art-of-war-1910_p013_para_000 | starter/data/art_of_war.pdf | page 13]\n12. There are three ways in which a ruler can bring misfortune upon his army:— 13. (1) By commanding the army to advance or to retreat, being ignorant of the fact that it cannot obey. This is called hobbling the army. 14. (2) By attempting to govern an army in the same way as he administers a kingdom, being ignorant of the conditions which obtain in an army. This causes rest- lessness in the soldier’s minds. 15.\n\n[art-of-war-1910_p013_para_001 | starter/data/art_of_war.pdf | page 13]\n(3) By employing the officers of his army without discrimination, through ignorance of the military prin- ciple of adaptation to circumstances. This shakes the confidence of the soldiers. 16. But when the army is restless and distrustful, trou- ble is sure to come from the other feudal princes. This is simply bringing anarchy into the army, and flinging victory away. 17. Thus we may know that there are five essentials for victory: (1) He will win who knows when to fight and when not to fight. (2) He will win who knows how to handle both superior and inferior forces.\n\n[art-of-war-1910_p035_para_000 | starter/data/art_of_war.pdf | page 35]\n(2) cowardice, which leads to capture; (3) a hasty temper, which can be provoked by insults; (4) a delicacy of honor which is sensitive to shame; (5) over-solicitude for his men, which exposes him to worry and trouble. 13. These are the five besetting sins of a general, ruinous to the conduct of war. 14. When an army is overthrown and its leader slain, the cause will surely be found among these five dan- gerous faults. Let them be a subject of meditation. 32 /G53/G75/G6E/G20/G54/G7A/G75/G20/G6F/G6E/G20/G74/G68/G65/G20/G41/G72/G74/G20/G6F/G66/G20/G57/G61/G72",
+        "context_ids": [
+          "art-of-war-1910_p013_para_000",
+          "art-of-war-1910_p013_para_001",
+          "art-of-war-1910_p035_para_000"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ]
+  },
+  {
+    "query_id": "q17",
+    "split": "test",
+    "question": "How are military tactics similar to the natural flow of water?",
+    "answerable": true,
+    "filter": null,
+    "config": "agent_test_selected_improv2",
+    "model": "local-neural:cross-encoder/ms-marco-MiniLM-L-6-v2+all-MiniLM-L6-v2",
+    "status": "answered",
+    "answer": "Water shapes its course according to the nature of the ground over which it flows; the soldier works out his victory in relation to the foe whom he is facing. Therefore, just as water retains no constant shape, so in warfare there are no constant conditions. He who can modify his tactics in relation to his opponent and thereby succeed in winning, may be called a heaven-born captain. [art-of-war-1910_p026_para_001] Additionally: 26. How victory may be produced for them out of the enemy’s own tactics—that is what the multitude cannot comprehend. 27. All men can see the tactics whereby I conquer, but what none can see is the strategy out of which victory is evolved. 28. Do not repeat the tactics which have gained you one victory, but let your methods be regulated by the infinite variety of circumstances. 29. Military tactics are like unto water; for water in its natural course runs away from high places and hastens downwards. 30. So in war, the way is to avoid what is strong and to strike at what is weak. [art-of-war-1910_p026_para_000]",
+    "citations": [
+      "art-of-war-1910_p026_para_001",
+      "art-of-war-1910_p026_para_000"
+    ],
+    "search_turns": 1,
+    "elapsed_ms": 716.63,
+    "cost_usd": 0.0,
+    "events": [
+      {
+        "event": "search",
+        "query": "How are military tactics similar to the natural flow of water?",
+        "filter": null,
+        "results": [
+          {
+            "id": "art-of-war-1910_p026_para_001",
+            "source_id": "art-of-war-1910",
+            "source": "starter/data/art_of_war.pdf",
+            "page": 26,
+            "text": "31. Water shapes its course according to the nature of the ground over which it flows; the soldier works out his victory in relation to the foe whom he is facing. 32. Therefore, just as water retains no constant shape, so in warfare there are no constant conditions. 33. He who can modify his tactics in relation to his opponent and thereby succeed in winning, may be called a heaven-born captain. 23 /G53/G75/G6E/G20/G54/G7A/G75/G20/G6F/G6E/G20/G74/G68/G65/G20/G41/G72/G74/G20/G6F/G66/G20/G57/G61/G72",
+            "metadata": {
+              "section": "Weak Points and Strong",
+              "is_content_page": true,
+              "is_empty": false,
+              "char_count": 1087
+            },
+            "score": 0.9364,
+            "strategy": "hybrid_rrf_rerank",
+            "rrf_score": 0.032018,
+            "ce_logit": 2.4889
+          },
+          {
+            "id": "art-of-war-1910_p026_para_000",
+            "source_id": "art-of-war-1910",
+            "source": "starter/data/art_of_war.pdf",
+            "page": 26,
+            "text": "26. How victory may be produced for them out of the enemy’s own tactics—that is what the multitude cannot comprehend. 27. All men can see the tactics whereby I conquer, but what none can see is the strategy out of which victory is evolved. 28. Do not repeat the tactics which have gained you one victory, but let your methods be regulated by the infinite variety of circumstances. 29. Military tactics are like unto water; for water in its natural course runs away from high places and hastens downwards. 30. So in war, the way is to avoid what is strong and to strike at what is weak.",
+            "metadata": {
+              "section": "Weak Points and Strong",
+              "is_content_page": true,
+              "is_empty": false,
+              "char_count": 1087
+            },
+            "score": 0.9036,
+            "strategy": "hybrid_rrf_rerank",
+            "rrf_score": 0.032018,
+            "ce_logit": 1.9271
+          },
+          {
+            "id": "art-of-war-1910_p018_para_002",
+            "source_id": "art-of-war-1910",
+            "source": "starter/data/art_of_war.pdf",
+            "page": 18,
+            "text": "6. Indirect tactics, efficiently applied, are inexhaustible as Heaven and Earth, unending as the flow of rivers and streams; like the sun and moon, they end but to begin anew; like the four seasons, they pass away to return once more. 15 /G53/G75/G6E/G20/G54/G7A/G75/G20/G6F/G6E/G20/G74/G68/G65/G20/G41/G72/G74/G20/G6F/G66/G20/G57/G61/G72",
+            "metadata": {
+              "section": "Energy",
+              "is_content_page": true,
+              "is_empty": false,
+              "char_count": 1103
+            },
+            "score": 0.534,
+            "strategy": "hybrid_rrf_rerank",
+            "rrf_score": 0.031054,
+            "ce_logit": -0.7543
+          }
+        ],
+        "context": "[art-of-war-1910_p026_para_001 | starter/data/art_of_war.pdf | page 26]\n31. Water shapes its course according to the nature of the ground over which it flows; the soldier works out his victory in relation to the foe whom he is facing. 32. Therefore, just as water retains no constant shape, so in warfare there are no constant conditions. 33. He who can modify his tactics in relation to his opponent and thereby succeed in winning, may be called a heaven-born captain. 23 /G53/G75/G6E/G20/G54/G7A/G75/G20/G6F/G6E/G20/G74/G68/G65/G20/G41/G72/G74/G20/G6F/G66/G20/G57/G61/G72\n\n[art-of-war-1910_p026_para_000 | starter/data/art_of_war.pdf | page 26]\n26. How victory may be produced for them out of the enemy’s own tactics—that is what the multitude cannot comprehend. 27. All men can see the tactics whereby I conquer, but what none can see is the strategy out of which victory is evolved. 28. Do not repeat the tactics which have gained you one victory, but let your methods be regulated by the infinite variety of circumstances. 29. Military tactics are like unto water; for water in its natural course runs away from high places and hastens downwards. 30. So in war, the way is to avoid what is strong and to strike at what is weak.\n\n[art-of-war-1910_p018_para_002 | starter/data/art_of_war.pdf | page 18]\n6. Indirect tactics, efficiently applied, are inexhaustible as Heaven and Earth, unending as the flow of rivers and streams; like the sun and moon, they end but to begin anew; like the four seasons, they pass away to return once more. 15 /G53/G75/G6E/G20/G54/G7A/G75/G20/G6F/G6E/G20/G74/G68/G65/G20/G41/G72/G74/G20/G6F/G66/G20/G57/G61/G72",
+        "context_ids": [
+          "art-of-war-1910_p026_para_001",
+          "art-of-war-1910_p026_para_000",
+          "art-of-war-1910_p018_para_002"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ]
+  },
+  {
+    "query_id": "q18",
+    "split": "test",
+    "question": "What do high columns of dust, low wide-spread dust, and branching dust each indicate about enemy movements?",
+    "answerable": true,
+    "filter": null,
+    "config": "agent_test_selected_improv2",
+    "model": "local-neural:cross-encoder/ms-marco-MiniLM-L-6-v2+all-MiniLM-L6-v2",
+    "status": "answered",
+    "answer": "When there is dust rising in a high column, it is the sign of chariots advancing; when the dust is low, but spread over a wide area, it betokens the approach of infantry. When it branches out in different directions, it shows that parties have been sent to collect firewood. A few clouds of dust moving to and fro signify that the army is encamping. [art-of-war-1910_p039_para_000]",
+    "citations": [
+      "art-of-war-1910_p039_para_000"
+    ],
+    "search_turns": 1,
+    "elapsed_ms": 930.09,
+    "cost_usd": 0.0,
+    "events": [
+      {
+        "event": "search",
+        "query": "What do high columns of dust, low wide-spread dust, and branching dust each indicate about enemy movements?",
+        "filter": null,
+        "results": [
+          {
+            "id": "art-of-war-1910_p039_para_000",
+            "source_id": "art-of-war-1910",
+            "source": "starter/data/art_of_war.pdf",
+            "page": 39,
+            "text": "22. The rising of birds in their flight is the sign of an ambuscade. Startled beasts indicate that a sudden attack is coming. 23. When there is dust rising in a high column, it is the sign of chariots advancing; when the dust is low, but spread over a wide area, it betokens the approach of infantry. When it branches out in different directions, it shows that parties have been sent to collect firewood. A few clouds of dust moving to and fro signify that the army is encamping.",
+            "metadata": {
+              "section": "The Army on the March",
+              "is_content_page": true,
+              "is_empty": false,
+              "char_count": 1148
+            },
+            "score": 0.9804,
+            "strategy": "hybrid_rrf_rerank",
+            "rrf_score": 0.032787,
+            "ce_logit": 3.8235
+          },
+          {
+            "id": "art-of-war-1910_p039_para_002",
+            "source_id": "art-of-war-1910",
+            "source": "starter/data/art_of_war.pdf",
+            "page": 39,
+            "text": "28. When some are seen advancing and some retreat- ing, it is a lure. 36 /G53/G75/G6E/G20/G54/G7A/G75/G20/G6F/G6E/G20/G74/G68/G65/G20/G41/G72/G74/G20/G6F/G66/G20/G57/G61/G72",
+            "metadata": {
+              "section": "The Army on the March",
+              "is_content_page": true,
+              "is_empty": false,
+              "char_count": 1148
+            },
+            "rrf_score": 0.008,
+            "ce_logit": -9.3675,
+            "score": 0.55,
+            "strategy": "hybrid_rrf_rerank"
+          },
+          {
+            "id": "art-of-war-1910_p039_para_001",
+            "source_id": "art-of-war-1910",
+            "source": "starter/data/art_of_war.pdf",
+            "page": 39,
+            "text": "24. Humble words and increased preparations are signs that the enemy is about to advance. Violent language and driving forward as if to the attack are signs that he will retreat. 25. When the light chariots come out first and take up a position on the wings, it is a sign that the enemy is forming for battle. 26. Peace proposals unaccompanied by a sworn covenant indicate a plot. 27. When there is much running about and the soldiers fall into rank, it means that the critical moment has come.",
+            "metadata": {
+              "section": "The Army on the March",
+              "is_content_page": true,
+              "is_empty": false,
+              "char_count": 1148
+            },
+            "score": 0.3245,
+            "strategy": "hybrid_rrf_rerank",
+            "rrf_score": 0.030835,
+            "ce_logit": -6.8486
+          }
+        ],
+        "context": "[art-of-war-1910_p039_para_000 | starter/data/art_of_war.pdf | page 39]\n22. The rising of birds in their flight is the sign of an ambuscade. Startled beasts indicate that a sudden attack is coming. 23. When there is dust rising in a high column, it is the sign of chariots advancing; when the dust is low, but spread over a wide area, it betokens the approach of infantry. When it branches out in different directions, it shows that parties have been sent to collect firewood. A few clouds of dust moving to and fro signify that the army is encamping.\n\n[art-of-war-1910_p039_para_002 | starter/data/art_of_war.pdf | page 39]\n28. When some are seen advancing and some retreat- ing, it is a lure. 36 /G53/G75/G6E/G20/G54/G7A/G75/G20/G6F/G6E/G20/G74/G68/G65/G20/G41/G72/G74/G20/G6F/G66/G20/G57/G61/G72\n\n[art-of-war-1910_p039_para_001 | starter/data/art_of_war.pdf | page 39]\n24. Humble words and increased preparations are signs that the enemy is about to advance. Violent language and driving forward as if to the attack are signs that he will retreat. 25. When the light chariots come out first and take up a position on the wings, it is a sign that the enemy is forming for battle. 26. Peace proposals unaccompanied by a sworn covenant indicate a plot. 27. When there is much running about and the soldiers fall into rank, it means that the critical moment has come.",
+        "context_ids": [
+          "art-of-war-1910_p039_para_000",
+          "art-of-war-1910_p039_para_002",
+          "art-of-war-1910_p039_para_001"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ]
+  },
+  {
+    "query_id": "q19",
+    "split": "test",
+    "question": "What is the 'shuai-jan' in the Chung mountains and how does it respond when struck?",
+    "answerable": true,
+    "filter": null,
+    "config": "agent_test_selected_improv2",
+    "model": "local-neural:cross-encoder/ms-marco-MiniLM-L-6-v2+all-MiniLM-L6-v2",
+    "status": "answered",
+    "answer": "Now the shuai-jan is a snake that is found in the ChUng mountains. Strike at its head, and you will be attacked by its tail; strike at its tail, and you will be attacked by its head; strike at its middle, and you will be attacked by head and tail both. [art-of-war-1910_p053_para_001]",
+    "citations": [
+      "art-of-war-1910_p053_para_001"
+    ],
+    "search_turns": 1,
+    "elapsed_ms": 1290.02,
+    "cost_usd": 0.0,
+    "events": [
+      {
+        "event": "search",
+        "query": "What is the 'shuai-jan' in the Chung mountains and how does it respond when struck?",
+        "filter": null,
+        "results": [
+          {
+            "id": "art-of-war-1910_p053_para_001",
+            "source_id": "art-of-war-1910",
+            "source": "starter/data/art_of_war.pdf",
+            "page": 53,
+            "text": "29. The skillful tactician may be likened to the shuai- jan. Now the shuai-jan is a snake that is found in the ChUng mountains. Strike at its head, and you will be attacked by its tail; strike at its tail, and you will be attacked by its head; strike at its middle, and you will be attacked by head and tail both.",
+            "metadata": {
+              "section": "The Nine Situations",
+              "is_content_page": true,
+              "is_empty": false,
+              "char_count": 1288
+            },
+            "score": 0.9929,
+            "strategy": "hybrid_rrf_rerank",
+            "rrf_score": 0.032787,
+            "ce_logit": 6.1748
+          },
+          {
+            "id": "art-of-war-1910_p053_para_000",
+            "source_id": "art-of-war-1910",
+            "source": "starter/data/art_of_war.pdf",
+            "page": 53,
+            "text": "lives are not unduly long, it is not because they are dis- inclined to longevity. 28. On the day they are ordered out to battle, your sol- diers may weep, those sitting up bedewing their gar- ments, and those lying down letting the tears run down their cheeks. But let them once be brought to bay, and they will display the courage of a Chu or a Kuei.",
+            "metadata": {
+              "section": "The Nine Situations",
+              "is_content_page": true,
+              "is_empty": false,
+              "char_count": 1288
+            },
+            "rrf_score": 0.008,
+            "ce_logit": -11.1009,
+            "score": 0.55,
+            "strategy": "hybrid_rrf_rerank"
+          },
+          {
+            "id": "art-of-war-1910_p053_para_002",
+            "source_id": "art-of-war-1910",
+            "source": "starter/data/art_of_war.pdf",
+            "page": 53,
+            "text": "30. Asked if an army can be made to imitate the shuai- jan, I should answer, Yes. For the men of Wu and the men of Yueh are enemies; yet if they are crossing a river in the same boat and are caught by a storm, they will come to each other’s assistance just as the left hand helps the right.",
+            "metadata": {
+              "section": "The Nine Situations",
+              "is_content_page": true,
+              "is_empty": false,
+              "char_count": 1288
+            },
+            "score": 0.466,
+            "strategy": "hybrid_rrf_rerank",
+            "rrf_score": 0.032258,
+            "ce_logit": -1.4128
+          }
+        ],
+        "context": "[art-of-war-1910_p053_para_001 | starter/data/art_of_war.pdf | page 53]\n29. The skillful tactician may be likened to the shuai- jan. Now the shuai-jan is a snake that is found in the ChUng mountains. Strike at its head, and you will be attacked by its tail; strike at its tail, and you will be attacked by its head; strike at its middle, and you will be attacked by head and tail both.\n\n[art-of-war-1910_p053_para_000 | starter/data/art_of_war.pdf | page 53]\nlives are not unduly long, it is not because they are dis- inclined to longevity. 28. On the day they are ordered out to battle, your sol- diers may weep, those sitting up bedewing their gar- ments, and those lying down letting the tears run down their cheeks. But let them once be brought to bay, and they will display the courage of a Chu or a Kuei.\n\n[art-of-war-1910_p053_para_002 | starter/data/art_of_war.pdf | page 53]\n30. Asked if an army can be made to imitate the shuai- jan, I should answer, Yes. For the men of Wu and the men of Yueh are enemies; yet if they are crossing a river in the same boat and are caught by a storm, they will come to each other’s assistance just as the left hand helps the right.",
+        "context_ids": [
+          "art-of-war-1910_p053_para_001",
+          "art-of-war-1910_p053_para_000",
+          "art-of-war-1910_p053_para_002"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ]
+  },
+  {
+    "query_id": "q20",
+    "split": "test",
+    "question": "In the chapter 'The Use of Spies', what are the five classes of spies and how are doomed spies defined?",
+    "answerable": true,
+    "filter": {
+      "section": "The Use of Spies"
+    },
+    "config": "agent_test_selected_improv2",
+    "model": "local-neural:cross-encoder/ms-marco-MiniLM-L-6-v2+all-MiniLM-L6-v2",
+    "status": "answered",
+    "answer": "Hence the use of spies, of whom there are five classes: (1) Local spies; (2) inward spies; (3) converted spies; (4) doomed spies; (5) surviving spies. When these five kinds of spy are all at work, none can discover the secret system. This is called “divine manipulation of the threads.” It is the sovereign’s most precious faculty. Having local spies means employing the services of the inhabitants of a district. Having inward spies, making use of officials of the enemy. [art-of-war-1910_p063_para_000] Additionally: 11. Having converted spies, getting hold of the enemy’s spies and using them for our own purposes. 12. Having doomed spies, doing certain things openly for purposes of deception, and allowing our spies to know of them and report them to the enemy. 13. Surviving spies, finally, are those who bring back news from the enemy’s camp. [art-of-war-1910_p063_para_001]",
+    "citations": [
+      "art-of-war-1910_p063_para_000",
+      "art-of-war-1910_p063_para_001"
+    ],
+    "search_turns": 1,
+    "elapsed_ms": 791.22,
+    "cost_usd": 0.0,
+    "events": [
+      {
+        "event": "search",
+        "query": "In the chapter 'The Use of Spies', what are the five classes of spies and how are doomed spies defined?",
+        "filter": {
+          "section": "The Use of Spies"
+        },
+        "results": [
+          {
+            "id": "art-of-war-1910_p063_para_000",
+            "source_id": "art-of-war-1910",
+            "source": "starter/data/art_of_war.pdf",
+            "page": 63,
+            "text": "6. Knowledge of the enemy’s dispositions can only be obtained from other men. 7. Hence the use of spies, of whom there are five class- es: (1) Local spies; (2) inward spies; (3) converted spies; (4) doomed spies; (5) surviving spies. 8. When these five kinds of spy are all at work, none can discover the secret system. This is called “divine manipulation of the threads.” It is the sovereign’s most precious faculty. 9. Having local spies means employing the services of the inhabitants of a district. 10. Having inward spies, making use of officials of the enemy.",
+            "metadata": {
+              "section": "The Use of Spies",
+              "is_content_page": true,
+              "is_empty": false,
+              "char_count": 1004
+            },
+            "score": 0.9927,
+            "strategy": "hybrid_rrf_rerank",
+            "rrf_score": 0.032787,
+            "ce_logit": 6.012
+          },
+          {
+            "id": "art-of-war-1910_p063_para_001",
+            "source_id": "art-of-war-1910",
+            "source": "starter/data/art_of_war.pdf",
+            "page": 63,
+            "text": "11. Having converted spies, getting hold of the enemy’s spies and using them for our own purposes. 12. Having doomed spies, doing certain things openly for purposes of deception, and allowing our spies to know of them and report them to the enemy. 13. Surviving spies, finally, are those who bring back news from the enemy’s camp. 60 /G53/G75/G6E/G20/G54/G7A/G75/G20/G6F/G6E/G20/G74/G68/G65/G20/G41/G72/G74/G20/G6F/G66/G20/G57/G61/G72",
+            "metadata": {
+              "section": "The Use of Spies",
+              "is_content_page": true,
+              "is_empty": false,
+              "char_count": 1004
+            },
+            "score": 0.9117,
+            "strategy": "hybrid_rrf_rerank",
+            "rrf_score": 0.032258,
+            "ce_logit": 2.0075
+          },
+          {
+            "id": "art-of-war-1910_p065_para_000",
+            "source_id": "art-of-war-1910",
+            "source": "starter/data/art_of_war.pdf",
+            "page": 65,
+            "text": "22. It is through the information brought by the con- verted spy that we are able to acquire and employ local and inward spies. 23. It is owing to his information, again, that we can cause the doomed spy to carry false tidings to the enemy. 24. Lastly, it is by his information that the surviving spy can be used on appointed occasions. 25. The end and aim of spying in all its five varieties is knowledge of the enemy; and this knowledge can only be derived, in the first instance, from the converted spy. Hence it is essential that the converted spy be treated with the utmost liberality.",
+            "metadata": {
+              "section": "The Use of Spies",
+              "is_content_page": true,
+              "is_empty": false,
+              "char_count": 1141
+            },
+            "score": 0.8735,
+            "strategy": "hybrid_rrf_rerank",
+            "rrf_score": 0.031498,
+            "ce_logit": 1.6218
+          }
+        ],
+        "context": "[art-of-war-1910_p063_para_000 | starter/data/art_of_war.pdf | page 63]\n6. Knowledge of the enemy’s dispositions can only be obtained from other men. 7. Hence the use of spies, of whom there are five class- es: (1) Local spies; (2) inward spies; (3) converted spies; (4) doomed spies; (5) surviving spies. 8. When these five kinds of spy are all at work, none can discover the secret system. This is called “divine manipulation of the threads.” It is the sovereign’s most precious faculty. 9. Having local spies means employing the services of the inhabitants of a district. 10. Having inward spies, making use of officials of the enemy.\n\n[art-of-war-1910_p063_para_001 | starter/data/art_of_war.pdf | page 63]\n11. Having converted spies, getting hold of the enemy’s spies and using them for our own purposes. 12. Having doomed spies, doing certain things openly for purposes of deception, and allowing our spies to know of them and report them to the enemy. 13. Surviving spies, finally, are those who bring back news from the enemy’s camp. 60 /G53/G75/G6E/G20/G54/G7A/G75/G20/G6F/G6E/G20/G74/G68/G65/G20/G41/G72/G74/G20/G6F/G66/G20/G57/G61/G72",
+        "context_ids": [
+          "art-of-war-1910_p063_para_000",
+          "art-of-war-1910_p063_para_001"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ]
+  },
+  {
+    "query_id": "q23_unans_test",
+    "split": "test",
+    "question": "According to the treatise, how many oarsmen and boarding marines are assigned to a standard three-decked naval warship during a sea blockade?",
+    "answerable": false,
+    "filter": null,
+    "config": "agent_test_selected_improv2",
+    "model": "local-neural:cross-encoder/ms-marco-MiniLM-L-6-v2+all-MiniLM-L6-v2",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "search_turns": 3,
+    "elapsed_ms": 2028.37,
+    "cost_usd": 0.0,
+    "events": [
+      {
+        "event": "search",
+        "query": "According to the treatise, how many oarsmen and boarding marines are assigned to a standard three-decked naval warship during a sea blockade?",
+        "filter": null,
+        "results": [
+          {
+            "id": "art-of-war-1910_p025_para_000",
+            "source_id": "art-of-war-1910",
+            "source": "starter/data/art_of_war.pdf",
+            "page": 25,
+            "text": "20. But if neither time nor place be known, then the left wing will be impotent to succor the right, the right equally impotent to succor the left, the van unable to relieve the rear, or the rear to support the van. How much more so if the furthest portions of the army are anything under a hundred LI apart, and even the near- est are separated by several LI! 21. Though according to my estimate the soldiers of Yueh exceed our own in number, that shall advantage them nothing in the matter of victory. I say then that victory can be achieved.",
+            "metadata": {
+              "section": "Weak Points and Strong",
+              "is_content_page": true,
+              "is_empty": false,
+              "char_count": 1300
+            },
+            "score": 0.3307,
+            "strategy": "hybrid_rrf_rerank",
+            "rrf_score": 0.031498,
+            "ce_logit": -10.7619
+          },
+          {
+            "id": "art-of-war-1910_p026_para_001",
+            "source_id": "art-of-war-1910",
+            "source": "starter/data/art_of_war.pdf",
+            "page": 26,
+            "text": "31. Water shapes its course according to the nature of the ground over which it flows; the soldier works out his victory in relation to the foe whom he is facing. 32. Therefore, just as water retains no constant shape, so in warfare there are no constant conditions. 33. He who can modify his tactics in relation to his opponent and thereby succeed in winning, may be called a heaven-born captain. 23 /G53/G75/G6E/G20/G54/G7A/G75/G20/G6F/G6E/G20/G74/G68/G65/G20/G41/G72/G74/G20/G6F/G66/G20/G57/G61/G72",
+            "metadata": {
+              "section": "Weak Points and Strong",
+              "is_content_page": true,
+              "is_empty": false,
+              "char_count": 1087
+            },
+            "score": 0.3189,
+            "strategy": "hybrid_rrf_rerank",
+            "rrf_score": 0.030366,
+            "ce_logit": -10.9153
+          },
+          {
+            "id": "art-of-war-1910_p007_para_001",
+            "source_id": "art-of-war-1910",
+            "source": "starter/data/art_of_war.pdf",
+            "page": 7,
+            "text": "26. Now the general who wins a battle makes many calculations in his temple ere the battle is fought. The general who loses a battle makes but few calcula- tions beforehand. Thus do many calculations lead to victory, and few calculations to defeat: how much more no calculation at all! It is by attention to this point that I can foresee who is likely to win or lose. 4 /G53/G75/G6E/G20/G54/G7A/G75/G20/G6F/G6E/G20/G74/G68/G65/G20/G41/G72/G74/G20/G6F/G66/G20/G57/G61/G72",
+            "metadata": {
+              "section": "Laying Plans",
+              "is_content_page": true,
+              "is_empty": false,
+              "char_count": 929
+            },
+            "score": 0.1721,
+            "strategy": "hybrid_rrf_rerank",
+            "rrf_score": 0.016393,
+            "ce_logit": -11.1719
+          }
+        ],
+        "context": "[art-of-war-1910_p025_para_000 | starter/data/art_of_war.pdf | page 25]\n20. But if neither time nor place be known, then the left wing will be impotent to succor the right, the right equally impotent to succor the left, the van unable to relieve the rear, or the rear to support the van. How much more so if the furthest portions of the army are anything under a hundred LI apart, and even the near- est are separated by several LI! 21. Though according to my estimate the soldiers of Yueh exceed our own in number, that shall advantage them nothing in the matter of victory. I say then that victory can be achieved.\n\n[art-of-war-1910_p026_para_001 | starter/data/art_of_war.pdf | page 26]\n31. Water shapes its course according to the nature of the ground over which it flows; the soldier works out his victory in relation to the foe whom he is facing. 32. Therefore, just as water retains no constant shape, so in warfare there are no constant conditions. 33. He who can modify his tactics in relation to his opponent and thereby succeed in winning, may be called a heaven-born captain. 23 /G53/G75/G6E/G20/G54/G7A/G75/G20/G6F/G6E/G20/G74/G68/G65/G20/G41/G72/G74/G20/G6F/G66/G20/G57/G61/G72\n\n[art-of-war-1910_p007_para_001 | starter/data/art_of_war.pdf | page 7]\n26. Now the general who wins a battle makes many calculations in his temple ere the battle is fought. The general who loses a battle makes but few calcula- tions beforehand. Thus do many calculations lead to victory, and few calculations to defeat: how much more no calculation at all! It is by attention to this point that I can foresee who is likely to win or lose. 4 /G53/G75/G6E/G20/G54/G7A/G75/G20/G6F/G6E/G20/G74/G68/G65/G20/G41/G72/G74/G20/G6F/G66/G20/G57/G61/G72",
+        "context_ids": [
+          "art-of-war-1910_p025_para_000",
+          "art-of-war-1910_p026_para_001",
+          "art-of-war-1910_p007_para_001"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "oarsmen boarding marines assigned standard three decked naval warship blockade many oarsmen boarding marines assigned",
+        "filter": null,
+        "results": [
+          {
+            "id": "art-of-war-1910_p042_para_000",
+            "source_id": "art-of-war-1910",
+            "source": "starter/data/art_of_war.pdf",
+            "page": 42,
+            "text": "44. If in training soldiers commands are habitually enforced, the army will be well-disciplined; if not, its discipline will be bad. 45. If a general shows confidence in his men but always insists on his orders being obeyed, the gain will be mutual. 39 /G53/G75/G6E/G20/G54/G7A/G75/G20/G6F/G6E/G20/G74/G68/G65/G20/G41/G72/G74/G20/G6F/G66/G20/G57/G61/G72",
+            "metadata": {
+              "section": "The Army on the March",
+              "is_content_page": true,
+              "is_empty": false,
+              "char_count": 353
+            },
+            "score": 0.1721,
+            "strategy": "hybrid_rrf_rerank",
+            "rrf_score": 0.016393,
+            "ce_logit": -11.2532
+          },
+          {
+            "id": "art-of-war-1910_p046_para_000",
+            "source_id": "art-of-war-1910",
+            "source": "starter/data/art_of_war.pdf",
+            "page": 46,
+            "text": "are no fixes duties assigned to officers and men, and the ranks are formed in a slovenly haphazard manner, the result is utter disorganization. 19. When a general, unable to estimate the enemy’s strength, allows an inferior force to engage a larger one, or hurls a weak detachment against a powerful one, and neglects to place picked soldiers in the front rank, the result must be rout. 20. These are six ways of courting defeat, which must be carefully noted by the general who has attained a responsible post.",
+            "metadata": {
+              "section": "Terrain",
+              "is_content_page": true,
+              "is_empty": false,
+              "char_count": 1235
+            },
+            "score": 0.1721,
+            "strategy": "hybrid_rrf_rerank",
+            "rrf_score": 0.016393,
+            "ce_logit": -10.9843
+          },
+          {
+            "id": "art-of-war-1910_p026_para_001",
+            "source_id": "art-of-war-1910",
+            "source": "starter/data/art_of_war.pdf",
+            "page": 26,
+            "text": "31. Water shapes its course according to the nature of the ground over which it flows; the soldier works out his victory in relation to the foe whom he is facing. 32. Therefore, just as water retains no constant shape, so in warfare there are no constant conditions. 33. He who can modify his tactics in relation to his opponent and thereby succeed in winning, may be called a heaven-born captain. 23 /G53/G75/G6E/G20/G54/G7A/G75/G20/G6F/G6E/G20/G74/G68/G65/G20/G41/G72/G74/G20/G6F/G66/G20/G57/G61/G72",
+            "metadata": {
+              "section": "Weak Points and Strong",
+              "is_content_page": true,
+              "is_empty": false,
+              "char_count": 1087
+            },
+            "score": 0.1694,
+            "strategy": "hybrid_rrf_rerank",
+            "rrf_score": 0.016129,
+            "ce_logit": -11.2702
+          }
+        ],
+        "context": "[art-of-war-1910_p025_para_000 | starter/data/art_of_war.pdf | page 25]\n20. But if neither time nor place be known, then the left wing will be impotent to succor the right, the right equally impotent to succor the left, the van unable to relieve the rear, or the rear to support the van. How much more so if the furthest portions of the army are anything under a hundred LI apart, and even the near- est are separated by several LI! 21. Though according to my estimate the soldiers of Yueh exceed our own in number, that shall advantage them nothing in the matter of victory. I say then that victory can be achieved.\n\n[art-of-war-1910_p026_para_001 | starter/data/art_of_war.pdf | page 26]\n31. Water shapes its course according to the nature of the ground over which it flows; the soldier works out his victory in relation to the foe whom he is facing. 32. Therefore, just as water retains no constant shape, so in warfare there are no constant conditions. 33. He who can modify his tactics in relation to his opponent and thereby succeed in winning, may be called a heaven-born captain. 23 /G53/G75/G6E/G20/G54/G7A/G75/G20/G6F/G6E/G20/G74/G68/G65/G20/G41/G72/G74/G20/G6F/G66/G20/G57/G61/G72\n\n[art-of-war-1910_p007_para_001 | starter/data/art_of_war.pdf | page 7]\n26. Now the general who wins a battle makes many calculations in his temple ere the battle is fought. The general who loses a battle makes but few calcula- tions beforehand. Thus do many calculations lead to victory, and few calculations to defeat: how much more no calculation at all! It is by attention to this point that I can foresee who is likely to win or lose. 4 /G53/G75/G6E/G20/G54/G7A/G75/G20/G6F/G6E/G20/G74/G68/G65/G20/G41/G72/G74/G20/G6F/G66/G20/G57/G61/G72",
+        "context_ids": [
+          "art-of-war-1910_p025_para_000",
+          "art-of-war-1910_p026_para_001",
+          "art-of-war-1910_p007_para_001"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "many oarsmen boarding marines assigned standard three decked naval warship blockade oarsme boardi marine assign standa warshi blocka",
+        "filter": null,
+        "results": [
+          {
+            "id": "art-of-war-1910_p011_para_001",
+            "source_id": "art-of-war-1910",
+            "source": "starter/data/art_of_war.pdf",
+            "page": 11,
+            "text": "3. Thus the highest form of generalship is to balk the enemy’s plans; the next best is to prevent the junction of the enemy’s forces; the next in order is to attack the enemy’s army in the field; and the worst policy of all is to besiege walled cities. 4. The rule is, not to besiege walled cities if it can pos- sibly be avoided. The preparation of mantlets, movable shelters, and various implements of war, will take up three whole months; and the piling up of mounds over against the walls will take three months more.",
+            "metadata": {
+              "section": "Attack by Stratagem",
+              "is_content_page": true,
+              "is_empty": false,
+              "char_count": 1338
+            },
+            "score": 0.3152,
+            "strategy": "hybrid_rrf_rerank",
+            "rrf_score": 0.030018,
+            "ce_logit": -11.2248
+          },
+          {
+            "id": "art-of-war-1910_p046_para_000",
+            "source_id": "art-of-war-1910",
+            "source": "starter/data/art_of_war.pdf",
+            "page": 46,
+            "text": "are no fixes duties assigned to officers and men, and the ranks are formed in a slovenly haphazard manner, the result is utter disorganization. 19. When a general, unable to estimate the enemy’s strength, allows an inferior force to engage a larger one, or hurls a weak detachment against a powerful one, and neglects to place picked soldiers in the front rank, the result must be rout. 20. These are six ways of courting defeat, which must be carefully noted by the general who has attained a responsible post.",
+            "metadata": {
+              "section": "Terrain",
+              "is_content_page": true,
+              "is_empty": false,
+              "char_count": 1235
+            },
+            "score": 0.3146,
+            "strategy": "hybrid_rrf_rerank",
+            "rrf_score": 0.029958,
+            "ce_logit": -10.9706
+          },
+          {
+            "id": "art-of-war-1910_p012_para_002",
+            "source_id": "art-of-war-1910",
+            "source": "starter/data/art_of_war.pdf",
+            "page": 12,
+            "text": "11. Now the general is the bulwark of the State; if the bulwark is complete at all points; the State will be strong; if the bulwark is defective, the State will be weak. 9 /G53/G75/G6E/G20/G54/G7A/G75/G20/G6F/G6E/G20/G74/G68/G65/G20/G41/G72/G74/G20/G6F/G66/G20/G57/G61/G72",
+            "metadata": {
+              "section": "Attack by Stratagem",
+              "is_content_page": true,
+              "is_empty": false,
+              "char_count": 1171
+            },
+            "score": 0.1721,
+            "strategy": "hybrid_rrf_rerank",
+            "rrf_score": 0.016393,
+            "ce_logit": -11.1151
+          }
+        ],
+        "context": "[art-of-war-1910_p025_para_000 | starter/data/art_of_war.pdf | page 25]\n20. But if neither time nor place be known, then the left wing will be impotent to succor the right, the right equally impotent to succor the left, the van unable to relieve the rear, or the rear to support the van. How much more so if the furthest portions of the army are anything under a hundred LI apart, and even the near- est are separated by several LI! 21. Though according to my estimate the soldiers of Yueh exceed our own in number, that shall advantage them nothing in the matter of victory. I say then that victory can be achieved.\n\n[art-of-war-1910_p026_para_001 | starter/data/art_of_war.pdf | page 26]\n31. Water shapes its course according to the nature of the ground over which it flows; the soldier works out his victory in relation to the foe whom he is facing. 32. Therefore, just as water retains no constant shape, so in warfare there are no constant conditions. 33. He who can modify his tactics in relation to his opponent and thereby succeed in winning, may be called a heaven-born captain. 23 /G53/G75/G6E/G20/G54/G7A/G75/G20/G6F/G6E/G20/G74/G68/G65/G20/G41/G72/G74/G20/G6F/G66/G20/G57/G61/G72\n\n[art-of-war-1910_p011_para_001 | starter/data/art_of_war.pdf | page 11]\n3. Thus the highest form of generalship is to balk the enemy’s plans; the next best is to prevent the junction of the enemy’s forces; the next in order is to attack the enemy’s army in the field; and the worst policy of all is to besiege walled cities. 4. The rule is, not to besiege walled cities if it can pos- sibly be avoided. The preparation of mantlets, movable shelters, and various implements of war, will take up three whole months; and the piling up of mounds over against the walls will take three months more.",
+        "context_ids": [
+          "art-of-war-1910_p025_para_000",
+          "art-of-war-1910_p026_para_001",
+          "art-of-war-1910_p011_para_001"
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ]
+  },
+  {
+    "query_id": "q24_unans_test",
+    "split": "test",
+    "question": "In which specific historical year and battle did Sun Tzu personally command the Wu army to capture the Chu capital of Ying?",
+    "answerable": false,
+    "filter": null,
+    "config": "agent_test_selected_improv2",
+    "model": "local-neural:cross-encoder/ms-marco-MiniLM-L-6-v2+all-MiniLM-L6-v2",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "search_turns": 3,
+    "elapsed_ms": 2094.59,
+    "cost_usd": 0.0,
+    "events": [
+      {
+        "event": "search",
+        "query": "In which specific historical year and battle did Sun Tzu personally command the Wu army to capture the Chu capital of Ying?",
+        "filter": null,
+        "results": [
+          {
+            "id": "art-of-war-1910_p011_para_000",
+            "source_id": "art-of-war-1910",
+            "source": "starter/data/art_of_war.pdf",
+            "page": 11,
+            "text": "III /G41/G74/G74/G61/G63/G6B/G20/G62/G79/G20/G53/G74/G72/G61/G74/G61/G67/G65/G6D 1. Sun Tzu said : In the practical art of war, the best thing of all is to take the enemy’s country whole and intact; to shatter and destroy it is not so good. So, too, it is better to recapture an army entire than to destroy it, to capture a regiment, a detachment or a company entire than to destroy them. 2. Hence to fight and conquer in all your battles is not supreme excellence; supreme excellence consists in breaking the enemy’s resistance without fighting.",
+            "metadata": {
+              "section": "Attack by Stratagem",
+              "is_content_page": true,
+              "is_empty": false,
+              "char_count": 1338
+            },
+            "score": 0.3379,
+            "strategy": "hybrid_rrf_rerank",
+            "rrf_score": 0.031545,
+            "ce_logit": -4.5684
+          },
+          {
+            "id": "art-of-war-1910_p028_para_000",
+            "source_id": "art-of-war-1910",
+            "source": "starter/data/art_of_war.pdf",
+            "page": 28,
+            "text": "VII /G4D/G61/G6E/G65/G75/G76/G65/G72/G69/G6E/G67 1. Sun Tzu said : In war, the general receives his com- mands from the sovereign. 2. Having collected an army and concentrated his forces, he must blend and harmonize the different ele- ments thereof before pitching his camp. 3. After that, comes tactical maneuvering, than which there is nothing more difficult. The difficulty of tactical maneuvering consists in turning the devious into the direct, and misfortune into gain.",
+            "metadata": {
+              "section": "Maneuvering",
+              "is_content_page": true,
+              "is_empty": false,
+              "char_count": 1113
+            },
+            "score": 0.337,
+            "strategy": "hybrid_rrf_rerank",
+            "rrf_score": 0.031746,
+            "ce_logit": -5.1813
+          },
+          {
+            "id": "art-of-war-1910_p018_para_000",
+            "source_id": "art-of-war-1910",
+            "source": "starter/data/art_of_war.pdf",
+            "page": 18,
+            "text": "V /G45/G6E/G65/G72/G67/G79 1. Sun Tzu said: The control of a large force is the same principle as the control of a few men: it is merely a question of dividing up their numbers. 2. Fighting with a large army under your command is nowise different from fighting with a small one: it is merely a question of instituting signs and signals. 3. To ensure that your whole host may withstand the brunt of the enemy’s attack and remain unshaken—this is effected by maneuvers direct and indirect.",
+            "metadata": {
+              "section": "Energy",
+              "is_content_page": true,
+              "is_empty": false,
+              "char_count": 1103
+            },
+            "score": 0.3347,
+            "strategy": "hybrid_rrf_rerank",
+            "rrf_score": 0.031754,
+            "ce_logit": -6.2034
+          }
+        ],
+        "context": "[art-of-war-1910_p011_para_000 | starter/data/art_of_war.pdf | page 11]\nIII /G41/G74/G74/G61/G63/G6B/G20/G62/G79/G20/G53/G74/G72/G61/G74/G61/G67/G65/G6D 1. Sun Tzu said : In the practical art of war, the best thing of all is to take the enemy’s country whole and intact; to shatter and destroy it is not so good. So, too, it is better to recapture an army entire than to destroy it, to capture a regiment, a detachment or a company entire than to destroy them. 2. Hence to fight and conquer in all your battles is not supreme excellence; supreme excellence consists in breaking the enemy’s resistance without fighting.\n\n[art-of-war-1910_p028_para_000 | starter/data/art_of_war.pdf | page 28]\nVII /G4D/G61/G6E/G65/G75/G76/G65/G72/G69/G6E/G67 1. Sun Tzu said : In war, the general receives his com- mands from the sovereign. 2. Having collected an army and concentrated his forces, he must blend and harmonize the different ele- ments thereof before pitching his camp. 3. After that, comes tactical maneuvering, than which there is nothing more difficult. The difficulty of tactical maneuvering consists in turning the devious into the direct, and misfortune into gain.\n\n[art-of-war-1910_p018_para_000 | starter/data/art_of_war.pdf | page 18]\nV /G45/G6E/G65/G72/G67/G79 1. Sun Tzu said: The control of a large force is the same principle as the control of a few men: it is merely a question of dividing up their numbers. 2. Fighting with a large army under your command is nowise different from fighting with a small one: it is merely a question of instituting signs and signals. 3. To ensure that your whole host may withstand the brunt of the enemy’s attack and remain unshaken—this is effected by maneuvers direct and indirect.",
+        "context_ids": [
+          "art-of-war-1910_p011_para_000",
+          "art-of-war-1910_p028_para_000",
+          "art-of-war-1910_p018_para_000"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "specific historical year personally capital ying specific historical year personally command",
+        "filter": null,
+        "results": [
+          {
+            "id": "art-of-war-1910_p064_para_001",
+            "source_id": "art-of-war-1910",
+            "source": "starter/data/art_of_war.pdf",
+            "page": 64,
+            "text": "19. If a secret piece of news is divulged by a spy before the time is ripe, he must be put to death together with the man to whom the secret was told. 20. Whether the object be to crush an army, to storm a city, or to assassinate an individual, it is always neces- sary to begin by finding out the names of the atten- dants, the aides-de-camp, and door-keepers and sen- tries of the general in command. Our spies must be commissioned to ascertain these.",
+            "metadata": {
+              "section": "The Use of Spies",
+              "is_content_page": true,
+              "is_empty": false,
+              "char_count": 1286
+            },
+            "score": 0.1721,
+            "strategy": "hybrid_rrf_rerank",
+            "rrf_score": 0.016393,
+            "ce_logit": -11.4677
+          },
+          {
+            "id": "art-of-war-1910_p065_para_001",
+            "source_id": "art-of-war-1910",
+            "source": "starter/data/art_of_war.pdf",
+            "page": 65,
+            "text": "26. Of old, the rise of the Yin dynasty was due to I Chih who had served under the Hsia. Likewise, the ris of the Chou dynasty was due to Lu Ya who had served under the Yin. 27. Hence it is only the enlightened ruler and the wise general who will use the highest intelligence of the army for purposes of spying and thereby they achieve great results. Spies are a most important element in water, because on them depends an army's ability to move. 62 /G53/G75/G6E/G20/G54/G7A/G75/G20/G6F/G6E/G20/G74/G68/G65/G20/G41/G72/G74/G20/G6F/G66/G20/G57/G61/G72",
+            "metadata": {
+              "section": "The Use of Spies",
+              "is_content_page": true,
+              "is_empty": false,
+              "char_count": 1141
+            },
+            "score": 0.1721,
+            "strategy": "hybrid_rrf_rerank",
+            "rrf_score": 0.016393,
+            "ce_logit": -11.4379
+          },
+          {
+            "id": "art-of-war-1910_p018_para_000",
+            "source_id": "art-of-war-1910",
+            "source": "starter/data/art_of_war.pdf",
+            "page": 18,
+            "text": "V /G45/G6E/G65/G72/G67/G79 1. Sun Tzu said: The control of a large force is the same principle as the control of a few men: it is merely a question of dividing up their numbers. 2. Fighting with a large army under your command is nowise different from fighting with a small one: it is merely a question of instituting signs and signals. 3. To ensure that your whole host may withstand the brunt of the enemy’s attack and remain unshaken—this is effected by maneuvers direct and indirect.",
+            "metadata": {
+              "section": "Energy",
+              "is_content_page": true,
+              "is_empty": false,
+              "char_count": 1103
+            },
+            "score": 0.1694,
+            "strategy": "hybrid_rrf_rerank",
+            "rrf_score": 0.016129,
+            "ce_logit": -11.4765
+          }
+        ],
+        "context": "[art-of-war-1910_p011_para_000 | starter/data/art_of_war.pdf | page 11]\nIII /G41/G74/G74/G61/G63/G6B/G20/G62/G79/G20/G53/G74/G72/G61/G74/G61/G67/G65/G6D 1. Sun Tzu said : In the practical art of war, the best thing of all is to take the enemy’s country whole and intact; to shatter and destroy it is not so good. So, too, it is better to recapture an army entire than to destroy it, to capture a regiment, a detachment or a company entire than to destroy them. 2. Hence to fight and conquer in all your battles is not supreme excellence; supreme excellence consists in breaking the enemy’s resistance without fighting.\n\n[art-of-war-1910_p028_para_000 | starter/data/art_of_war.pdf | page 28]\nVII /G4D/G61/G6E/G65/G75/G76/G65/G72/G69/G6E/G67 1. Sun Tzu said : In war, the general receives his com- mands from the sovereign. 2. Having collected an army and concentrated his forces, he must blend and harmonize the different ele- ments thereof before pitching his camp. 3. After that, comes tactical maneuvering, than which there is nothing more difficult. The difficulty of tactical maneuvering consists in turning the devious into the direct, and misfortune into gain.\n\n[art-of-war-1910_p018_para_000 | starter/data/art_of_war.pdf | page 18]\nV /G45/G6E/G65/G72/G67/G79 1. Sun Tzu said: The control of a large force is the same principle as the control of a few men: it is merely a question of dividing up their numbers. 2. Fighting with a large army under your command is nowise different from fighting with a small one: it is merely a question of instituting signs and signals. 3. To ensure that your whole host may withstand the brunt of the enemy’s attack and remain unshaken—this is effected by maneuvers direct and indirect.",
+        "context_ids": [
+          "art-of-war-1910_p011_para_000",
+          "art-of-war-1910_p028_para_000",
+          "art-of-war-1910_p018_para_000"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "specific historical year personally command capture capital ying specif histor person comman captur capita",
+        "filter": null,
+        "results": [
+          {
+            "id": "art-of-war-1910_p057_para_000",
+            "source_id": "art-of-war-1910",
+            "source": "starter/data/art_of_war.pdf",
+            "page": 57,
+            "text": "54. When a warlike prince attacks a powerful state, his generalship shows itself in preventing the concentra- tion of the enemy’s forces. He overawes his opponents, and their allies are prevented from joining against him. 55. Hence he does not strive to ally himself with all and sundry, nor does he foster the power of other states. He carries out his own secret designs, keeping his antago- nists in awe. Thus he is able to capture their cities and overthrow their kingdoms.",
+            "metadata": {
+              "section": "The Nine Situations",
+              "is_content_page": true,
+              "is_empty": false,
+              "char_count": 1292
+            },
+            "score": 0.3415,
+            "strategy": "hybrid_rrf_rerank",
+            "rrf_score": 0.032522,
+            "ce_logit": -11.3973
+          },
+          {
+            "id": "art-of-war-1910_p058_para_000",
+            "source_id": "art-of-war-1910",
+            "source": "starter/data/art_of_war.pdf",
+            "page": 58,
+            "text": "61. By persistently hanging on the enemy’s flank, we shall succeed in the long run in killing the commander- in-chief. 62. This is called ability to accomplish a thing by sheer cunning. 63. On the day that you take up your command, block the frontier passes, destroy the official tallies, and stop the passage of all emissaries. 64. Be stern in the council-chamber, so that you may control the situation. 65. If the enemy leaves a door open, you must rush in. 66. Forestall your opponent by seizing what he holds dear, and subtly contrive to time his arrival on the ground.",
+            "metadata": {
+              "section": "The Nine Situations",
+              "is_content_page": true,
+              "is_empty": false,
+              "char_count": 989
+            },
+            "score": 0.3185,
+            "strategy": "hybrid_rrf_rerank",
+            "rrf_score": 0.030331,
+            "ce_logit": -11.4314
+          },
+          {
+            "id": "art-of-war-1910_p030_para_001",
+            "source_id": "art-of-war-1910",
+            "source": "starter/data/art_of_war.pdf",
+            "page": 30,
+            "text": "20. When you plunder a countryside, let the spoil be divided amongst your men; when you capture new ter- ritory, cut it up into allotments for the benefit of the sol- diery. 21. Ponder and deliberate before you make a move. 22. He will conquer who has learnt the artifice of devi- ation. Such is the art of maneuvering. 23. The Book of Army Management says: On the field of battle, the spoken word does not carry far enough: hence the institution of gongs and drums. Nor can 27 /G53/G75/G6E/G20/G54/G7A/G75/G20/G6F/G6E/G20/G74/G68/G65/G20/G41/G72/G74/G20/G6F/G66/G20/G57/G61/G72",
+            "metadata": {
+              "section": "Maneuvering",
+              "is_content_page": true,
+              "is_empty": false,
+              "char_count": 1080
+            },
+            "score": 0.3183,
+            "strategy": "hybrid_rrf_rerank",
+            "rrf_score": 0.03031,
+            "ce_logit": -11.44
+          }
+        ],
+        "context": "[art-of-war-1910_p057_para_000 | starter/data/art_of_war.pdf | page 57]\n54. When a warlike prince attacks a powerful state, his generalship shows itself in preventing the concentra- tion of the enemy’s forces. He overawes his opponents, and their allies are prevented from joining against him. 55. Hence he does not strive to ally himself with all and sundry, nor does he foster the power of other states. He carries out his own secret designs, keeping his antago- nists in awe. Thus he is able to capture their cities and overthrow their kingdoms.\n\n[art-of-war-1910_p011_para_000 | starter/data/art_of_war.pdf | page 11]\nIII /G41/G74/G74/G61/G63/G6B/G20/G62/G79/G20/G53/G74/G72/G61/G74/G61/G67/G65/G6D 1. Sun Tzu said : In the practical art of war, the best thing of all is to take the enemy’s country whole and intact; to shatter and destroy it is not so good. So, too, it is better to recapture an army entire than to destroy it, to capture a regiment, a detachment or a company entire than to destroy them. 2. Hence to fight and conquer in all your battles is not supreme excellence; supreme excellence consists in breaking the enemy’s resistance without fighting.\n\n[art-of-war-1910_p028_para_000 | starter/data/art_of_war.pdf | page 28]\nVII /G4D/G61/G6E/G65/G75/G76/G65/G72/G69/G6E/G67 1. Sun Tzu said : In war, the general receives his com- mands from the sovereign. 2. Having collected an army and concentrated his forces, he must blend and harmonize the different ele- ments thereof before pitching his camp. 3. After that, comes tactical maneuvering, than which there is nothing more difficult. The difficulty of tactical maneuvering consists in turning the devious into the direct, and misfortune into gain.",
+        "context_ids": [
+          "art-of-war-1910_p057_para_000",
+          "art-of-war-1910_p011_para_000",
+          "art-of-war-1910_p028_para_000"
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ]
+  }
+]

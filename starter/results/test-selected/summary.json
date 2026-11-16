@@ -1,0 +1,15 @@
+{
+  "strategy": "selected_hybrid_rerank_b1800",
+  "split": "test",
+  "n": 5,
+  "hit1": 4,
+  "hit1_ratio": "4/5 (80.00%)",
+  "hit3": 5,
+  "hit3_ratio": "5/5 (100.00%)",
+  "context_hit": 5,
+  "context_hit_ratio": "5/5 (100.00%)",
+  "avg_context_chars": 1419.8,
+  "median_ms": 593.6,
+  "total_ms": 2865.69,
+  "service_cost_usd": 0.0
+}

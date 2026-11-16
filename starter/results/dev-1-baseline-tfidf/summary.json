@@ -1,0 +1,15 @@
+{
+  "strategy": "baseline_tfidf_b800",
+  "split": "dev",
+  "n": 15,
+  "hit1": 14,
+  "hit1_ratio": "14/15 (93.33%)",
+  "hit3": 15,
+  "hit3_ratio": "15/15 (100.00%)",
+  "context_hit": 14,
+  "context_hit_ratio": "14/15 (93.33%)",
+  "avg_context_chars": 599.2,
+  "median_ms": 0.41,
+  "total_ms": 6.54,
+  "service_cost_usd": 0.0
+}
