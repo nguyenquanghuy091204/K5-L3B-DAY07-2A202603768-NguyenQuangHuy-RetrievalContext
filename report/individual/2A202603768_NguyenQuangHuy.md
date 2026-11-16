@@ -167,7 +167,7 @@
 | **Multi-hop** | 4 / 4 | 100.0% | Kết hợp chính xác 2 bước tìm kiếm qua 2 trang khác nhau (ví dụ: liên kết bảng ngân sách carbon trang 98 với biểu đồ phát thải trang 73; sơ đồ SPM.1 trang 23 với biểu đồ kịch bản trang 34). |
 | **Text** | 4 / 4 | 100.0% | Tổng hợp đúng các điều kiện ràng buộc về tài chính khí hậu, giải pháp năng lượng tái tạo và rủi ro đa tầng từ các đoạn văn bản chuyên ngành. |
 | **Thiếu bằng chứng** | 5 / 6 | 83.3% | Từ chối chính xác 5/6 câu hỏi ngoài phạm vi tài liệu (dự báo năm 2150, năng lượng nhiệt hạch thương mại, ngân sách vũ trụ...). Bị lỗi 1 câu (`test_unans_05`). |
-| **Toàn bộ** | **29 / 30** | **96.7%** | **VƯỢT NGƯỠNG YÊU CẦU (≥ 90%)** để nhận trọn vẹn **15 điểm thưởng bonus**. |
+| **Toàn bộ** | **29 / 30** | **96.7%** | |
 
 - **Trace, nhãn và evidence từng câu; thời gian, chi phí, lỗi hệ thống**:
   - **Chi tiết thực thi**: Lưu đầy đủ tại [starter/results/advanced/test_traces.json](../../starter/results/advanced/test_traces.json) (chi tiết query, tool calls, context, câu trả lời, trích dẫn) và [starter/results/advanced/test_reviews.json](../../starter/results/advanced/test_reviews.json) (đối chiếu evidence và chấm đạt/không đạt từng câu).
